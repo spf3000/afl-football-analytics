@@ -31,15 +31,17 @@ def parse_date(date_str, current_season):
 def parse_match_results_file(file_path, current_season):
     """
     Parse a single .txt file for a given season
-    Your existing parsing logic, wrapped in a function
+    Handles empty crowd column (COVID 2020)
     """
 
     rows = []
     current_round = None
     pending_match = None
 
-    # Read from Volume (convert to /dbfs/ path for file reading)
-    dbfs_path = file_path.replace("/Volumes/", "/dbfs/Volumes/")
+    # Handle file path (you said /dbfs not needed)
+    dbfs_path = (
+        file_path  # Or file_path.replace('/Volumes/', '/dbfs/Volumes/') if needed
+    )
 
     print(f"  Reading: {dbfs_path}")
 
@@ -63,47 +65,78 @@ def parse_match_results_file(file_path, current_season):
             if "BYE" in line:
                 continue
 
-            # Detect a match line
-            # Split by multiple spaces or tabs
-            tokens = re.split(r"\s{2,}|\t+", line.strip())
+            # Split by tabs (your data is tab-delimited)
+            tokens = line.split("\t")
 
-            if len(tokens) >= 5:
+            # Clean up empty strings from double tabs
+            tokens = [
+                t.strip() for t in tokens if t.strip() or t == ""
+            ]  # Keep empty strings to maintain position
+
+            # Match line should have at least 5 tokens (Date, Home v Away, Venue, Crowd, Result)
+            # But crowd might be empty, so we need flexible parsing
+
+            # Strategy: Look for the pattern "XX-YY" to find the result column
+            result_idx = None
+            for i, token in enumerate(tokens):
+                if re.match(r"^\d+-\d+$", token):  # Matches "105-81"
+                    result_idx = i
+                    break
+
+            if result_idx is not None and result_idx >= 3:
                 # Flush previous pending match (if any)
                 if pending_match:
                     rows.append(pending_match)
                     pending_match = None
 
-                date_str = tokens[0]
-                home_away = tokens[1]
-                venue = tokens[2]
-                crowd = tokens[3]
-                result = tokens[4]
+                # Parse based on position of result column
+                date_str = tokens[0] if len(tokens) > 0 else None
+                home_away = tokens[1] if len(tokens) > 1 else None
+                venue = tokens[2] if len(tokens) > 2 else None
 
-                # Split "Sydney v Melbourne"
-                if " v " in home_away:
-                    home_team, away_team = home_away.split(" v ", 1)
-                else:
-                    # Malformed, skip
+                # Crowd is between venue and result
+                crowd_str = (
+                    tokens[result_idx - 1]
+                    if result_idx > 3
+                    else tokens[3]
+                    if len(tokens) > 3
+                    else None
+                )
+
+                result = tokens[result_idx]
+
+                # Everything after result is stats
+                stats_tokens = (
+                    tokens[result_idx + 1 :] if result_idx + 1 < len(tokens) else []
+                )
+
+                # Skip if we don't have the basics
+                if not home_away or " v " not in home_away:
                     continue
 
-                # Parse crowd to int
-                try:
-                    crowd_val = int(crowd.replace(",", ""))
-                except:
-                    crowd_val = None
+                # Split "Richmond v Carlton"
+                home_team, away_team = home_away.split(" v ", 1)
+
+                # Parse crowd to int (handle empty/missing)
+                crowd_val = None
+                if crowd_str and crowd_str.strip():
+                    try:
+                        crowd_val = int(crowd_str.strip().replace(",", ""))
+                    except:
+                        pass
 
                 # Parse date
                 date_val = parse_date(date_str, current_season)
 
-                # Parse result (e.g., "86-64" → home_score=86, away_score=64)
+                # Parse result (e.g., "105-81" → home_score=105, away_score=81)
                 home_score = None
                 away_score = None
-                if "-" in result:
+                if result and "-" in result:
                     score_parts = result.split("-")
                     if len(score_parts) == 2:
                         try:
-                            home_score = int(score_parts[0])
-                            away_score = int(score_parts[1])
+                            home_score = int(score_parts[0].strip())
+                            away_score = int(score_parts[1].strip())
                         except:
                             pass
 
@@ -113,17 +146,17 @@ def parse_match_results_file(file_path, current_season):
                     "date": date_val,
                     "home_team": home_team.strip(),
                     "away_team": away_team.strip(),
-                    "venue": venue.strip(),
+                    "venue": venue.strip() if venue else None,
                     "crowd": crowd_val,
                     "home_score": home_score,
                     "away_score": away_score,
                     "result_raw": result,
-                    "stats": [],
+                    "stats": stats_tokens,  # First stat from same line
                 }
 
             else:
-                # Not a match header — must be a stat line
-                # e.g., "J. Viney 30" or "C. Oliver 30"
+                # Not a match header — must be a stat line (Goals on next line)
+                # e.g., "J. Martin 4"
                 if pending_match:
                     pending_match["stats"].append(line)
 
