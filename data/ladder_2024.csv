@@ -1,0 +1,441 @@
+Round,Position,Team,Played,Premiership_Points,Percentage
+1,1,Gold Coast,1,4,165.0
+1,2,GWS,1,4,139.0
+1,3,Sydney,1,4,134.4
+1,4,Carlton,1,4,101.2
+1,5,Brisbane,1,0,98.8
+1,6,Melbourne,1,0,74.4
+1,7,Collingwood,1,0,71.9
+1,8,Richmond,1,0,60.6
+2,1,GWS,2,8,143.3
+2,2,Sydney,2,8,141.4
+2,3,Gold Coast,2,8,139.5
+2,4,Carlton,2,8,103.6
+2,5,Port Adelaide,1,4,171.4
+2,6,Fremantle,1,4,132.9
+2,7,Essendon,1,4,128.9
+2,8,Melbourne,2,4,115.3
+2,9,Geelong,1,4,111.8
+2,10,Adelaide,1,0,90.0
+2,11,St Kilda,1,0,89.5
+2,12,Brisbane,2,0,86.6
+2,13,Hawthorn,1,0,77.6
+2,14,Richmond,2,0,76.2
+2,15,Collingwood,2,0,69.9
+2,16,North Melbourne,1,0,67.8
+2,17,Western Bulldogs,1,0,58.7
+2,18,West Coast,1,0,58.3
+3,1,GWS,3,12,165.7
+3,2,Sydney,3,12,136.3
+3,3,Port Adelaide,2,8,149.4
+3,4,Melbourne,3,8,141.5
+3,5,Fremantle,2,8,133.6
+3,6,Geelong,2,8,118.6
+3,7,Carlton,2,8,103.6
+3,8,Gold Coast,3,8,98.7
+3,9,St Kilda,2,4,104.5
+3,10,Western Bulldogs,2,4,101.7
+3,11,Essendon,2,4,97.2
+3,12,Brisbane,2,0,86.6
+3,13,Adelaide,2,0,84.0
+3,14,Richmond,3,0,75.9
+3,15,Collingwood,3,0,74.2
+3,16,North Melbourne,2,0,70.9
+3,17,Hawthorn,2,0,60.5
+3,18,West Coast,2,0,49.6
+4,1,GWS,3,12,165.7
+4,2,Fremantle,3,12,146.7
+4,3,Melbourne,4,12,130.7
+4,4,Geelong,3,12,129.3
+4,5,Sydney,4,12,125.3
+4,6,Carlton,3,12,125.1
+4,7,Western Bulldogs,3,8,138.3
+4,8,Port Adelaide,3,8,128.3
+4,9,Essendon,3,8,99.3
+4,10,Gold Coast,3,8,98.7
+4,11,St Kilda,3,4,101.3
+4,12,Collingwood,4,4,84.3
+4,13,Richmond,4,4,82.0
+4,14,Brisbane,3,0,83.8
+4,15,Adelaide,3,0,73.3
+4,16,North Melbourne,3,0,66.4
+4,17,Hawthorn,3,0,62.4
+4,18,West Coast,3,0,42.8
+5,1,GWS,4,16,155.4
+5,2,Melbourne,5,16,129.4
+5,3,Sydney,5,16,126.9
+5,4,Carlton,4,16,123.2
+5,5,Geelong,4,16,121.9
+5,6,Port Adelaide,4,12,147.3
+5,7,Fremantle,4,12,129.2
+5,8,Western Bulldogs,4,8,124.9
+5,9,St Kilda,4,8,103.5
+5,10,Gold Coast,4,8,91.0
+5,11,Collingwood,5,8,87.9
+5,12,Essendon,4,8,81.9
+5,13,Brisbane,4,4,108.3
+5,14,Richmond,5,4,83.1
+5,15,Adelaide,4,0,75.2
+5,16,Hawthorn,4,0,68.7
+5,17,North Melbourne,4,0,59.5
+5,18,West Coast,4,0,50.5
+6,1,GWS,5,20,144.0
+6,2,Geelong,5,20,138.4
+6,3,Port Adelaide,5,16,139.9
+6,4,Sydney,5,16,126.9
+6,5,Melbourne,6,16,118.5
+6,6,Carlton,5,16,117.1
+6,7,Fremantle,5,12,122.3
+6,8,Gold Coast,5,12,105.5
+6,9,Essendon,5,12,90.8
+6,10,Brisbane,5,8,112.9
+6,11,Western Bulldogs,5,8,111.6
+6,12,St Kilda,5,8,102.5
+6,13,Collingwood,5,8,87.9
+6,14,Adelaide,5,4,81.8
+6,15,Richmond,6,4,79.5
+6,16,West Coast,5,4,65.0
+6,17,Hawthorn,5,0,64.8
+6,18,North Melbourne,5,0,56.5
+7,1,Geelong,6,24,141.3
+7,2,Sydney,6,20,135.3
+7,3,GWS,6,20,129.7
+7,4,Carlton,6,20,117.5
+7,5,Port Adelaide,6,16,121.2
+7,6,Melbourne,6,16,118.5
+7,7,Essendon,6,16,92.7
+7,8,Western Bulldogs,6,12,123.0
+7,9,Fremantle,6,12,108.0
+7,10,Collingwood,6,12,97.6
+7,11,Gold Coast,6,12,93.9
+7,12,Brisbane,6,8,105.0
+7,13,St Kilda,6,8,89.6
+7,14,West Coast,6,8,75.5
+7,15,Adelaide,6,4,84.1
+7,16,Richmond,6,4,79.5
+7,17,Hawthorn,6,4,77.1
+7,18,North Melbourne,6,0,57.0
+8,1,Geelong,7,28,135.4
+8,2,Sydney,7,24,147.7
+8,3,GWS,7,24,136.3
+8,4,Melbourne,7,20,126.1
+8,5,Port Adelaide,7,20,120.3
+8,6,Carlton,7,20,112.1
+8,7,Essendon,7,18,93.7
+8,8,Fremantle,7,16,111.7
+8,9,Gold Coast,7,16,101.0
+8,10,Collingwood,7,14,97.9
+8,11,Western Bulldogs,7,12,114.7
+8,12,Adelaide,7,8,96.6
+8,13,Brisbane,7,8,94.2
+8,14,St Kilda,7,8,89.3
+8,15,West Coast,7,8,74.1
+8,16,Richmond,7,4,75.5
+8,17,Hawthorn,7,4,69.9
+8,18,North Melbourne,7,0,57.3
+9,1,Sydney,8,28,147.0
+9,2,Geelong,8,28,129.5
+9,3,GWS,8,24,126.3
+9,4,Melbourne,8,24,124.3
+9,5,Essendon,8,22,95.2
+9,6,Fremantle,8,20,120.6
+9,7,Port Adelaide,8,20,113.1
+9,8,Carlton,8,20,109.8
+9,9,Collingwood,8,18,99.0
+9,10,Gold Coast,8,16,95.8
+9,11,Western Bulldogs,8,12,111.5
+9,12,Adelaide,8,12,101.8
+9,13,Brisbane,8,12,100.3
+9,14,St Kilda,8,12,96.4
+9,15,West Coast,8,8,75.9
+9,16,Hawthorn,8,8,74.4
+9,17,Richmond,8,4,71.7
+9,18,North Melbourne,8,0,57.9
+10,1,Sydney,9,32,151.9
+10,2,Geelong,9,28,124.3
+10,3,Essendon,9,26,98.3
+10,4,Melbourne,9,24,121.1
+10,5,GWS,9,24,120.7
+10,6,Port Adelaide,9,24,112.2
+10,7,Carlton,9,24,109.0
+10,8,Collingwood,9,22,108.0
+10,9,Fremantle,9,20,110.1
+10,10,Gold Coast,9,20,105.6
+10,11,Western Bulldogs,9,16,123.9
+10,12,Adelaide,9,14,101.6
+10,13,Brisbane,9,14,100.3
+10,14,St Kilda,9,12,96.0
+10,15,Hawthorn,9,12,76.6
+10,16,West Coast,9,8,71.2
+10,17,Richmond,9,4,65.6
+10,18,North Melbourne,9,0,56.3
+11,1,Sydney,10,36,154.7
+11,2,Essendon,10,30,103.3
+11,3,Geelong,10,28,112.1
+11,4,Port Adelaide,10,28,111.1
+11,5,Collingwood,10,26,107.8
+11,6,GWS,10,24,115.5
+11,7,Melbourne,10,24,113.1
+11,8,Gold Coast,10,24,112.7
+11,9,Fremantle,10,24,111.8
+11,10,Carlton,10,24,102.1
+11,11,Western Bulldogs,10,20,126.1
+11,12,Brisbane,10,18,116.6
+11,13,Adelaide,10,14,100.9
+11,14,St Kilda,10,12,94.1
+11,15,Hawthorn,10,12,78.6
+11,16,West Coast,10,12,77.1
+11,17,Richmond,10,4,59.6
+11,18,North Melbourne,10,0,56.8
+12,1,Sydney,11,40,150.1
+12,2,Essendon,11,34,104.4
+12,3,Port Adelaide,11,32,117.4
+12,4,Melbourne,11,28,116.9
+12,5,GWS,11,28,114.6
+12,6,Geelong,11,28,110.7
+12,7,Collingwood,11,28,107.1
+12,8,Carlton,11,28,104.9
+12,9,Fremantle,11,26,110.6
+12,10,Gold Coast,11,24,108.2
+12,11,Western Bulldogs,11,20,121.3
+12,12,Adelaide,11,18,113.0
+12,13,Brisbane,11,18,111.6
+12,14,Hawthorn,11,16,82.8
+12,15,St Kilda,11,12,90.4
+12,16,West Coast,11,12,70.8
+12,17,Richmond,11,4,61.6
+12,18,North Melbourne,11,0,55.9
+13,1,Sydney,11,40,150.1
+13,2,Essendon,12,34,102.8
+13,3,Geelong,12,32,112.9
+13,4,Port Adelaide,12,32,111.7
+13,5,Carlton,12,32,108.0
+13,6,Fremantle,12,30,121.4
+13,7,GWS,11,28,114.6
+13,8,Gold Coast,12,28,108.6
+13,9,Collingwood,12,28,104.6
+13,10,Melbourne,12,28,104.3
+13,11,Western Bulldogs,12,24,121.3
+13,12,Hawthorn,12,20,86.7
+13,13,Brisbane,11,18,111.6
+13,14,Adelaide,12,18,108.6
+13,15,St Kilda,12,16,92.6
+13,16,West Coast,12,12,71.7
+13,17,Richmond,12,4,62.2
+13,18,North Melbourne,11,0,55.9
+14,1,Sydney,12,44,148.8
+14,2,Carlton,13,36,109.8
+14,3,Essendon,13,34,100.2
+14,4,Port Adelaide,12,32,111.7
+14,5,Geelong,13,32,108.9
+14,6,Collingwood,13,32,108.0
+14,7,Fremantle,12,30,121.4
+14,8,GWS,12,28,112.7
+14,9,Gold Coast,13,28,107.9
+14,10,Melbourne,13,28,100.1
+14,11,Western Bulldogs,13,24,114.9
+14,12,Hawthorn,13,24,88.1
+14,13,Brisbane,12,22,115.5
+14,14,St Kilda,13,20,93.3
+14,15,Adelaide,13,18,107.1
+14,16,West Coast,13,12,72.6
+14,17,Richmond,13,8,64.9
+14,18,North Melbourne,12,4,58.6
+15,1,Sydney,13,48,149.8
+15,2,Carlton,13,36,109.8
+15,3,Collingwood,14,36,107.3
+15,4,Essendon,13,34,100.2
+15,5,GWS,13,32,114.2
+15,6,Geelong,13,32,108.9
+15,7,Port Adelaide,13,32,108.8
+15,8,Fremantle,13,30,111.1
+15,9,Western Bulldogs,14,28,119.7
+15,10,Gold Coast,13,28,107.9
+15,11,Melbourne,13,28,100.1
+15,12,Hawthorn,14,28,92.7
+15,13,Brisbane,13,26,115.8
+15,14,St Kilda,14,20,92.2
+15,15,Adelaide,14,18,102.6
+15,16,West Coast,13,12,72.6
+15,17,Richmond,14,8,63.9
+15,18,North Melbourne,13,4,61.9
+16,1,Sydney,14,52,148.8
+16,2,Carlton,14,40,114.5
+16,3,Essendon,14,38,102.7
+16,4,Collingwood,14,36,107.3
+16,5,Fremantle,14,34,112.3
+16,6,GWS,14,32,110.5
+16,7,Geelong,14,32,102.9
+16,8,Port Adelaide,14,32,101.0
+16,9,Melbourne,14,32,100.4
+16,10,Brisbane,14,30,122.1
+16,11,Western Bulldogs,14,28,119.7
+16,12,Gold Coast,14,28,105.5
+16,13,Hawthorn,14,28,92.7
+16,14,St Kilda,14,20,92.2
+16,15,Adelaide,14,18,102.6
+16,16,West Coast,14,12,72.9
+16,17,Richmond,14,8,63.9
+16,18,North Melbourne,14,4,63.4
+17,1,Sydney,15,52,144.2
+17,2,Carlton,15,44,118.5
+17,3,Fremantle,15,38,111.3
+17,4,Essendon,15,38,99.0
+17,5,Geelong,15,36,106.2
+17,6,Collingwood,15,36,105.8
+17,7,Port Adelaide,15,36,101.1
+17,8,Brisbane,15,34,121.0
+17,9,Western Bulldogs,15,32,120.2
+17,10,GWS,15,32,108.4
+17,11,Gold Coast,15,32,106.0
+17,12,Melbourne,15,32,99.9
+17,13,Hawthorn,15,32,97.9
+17,14,Adelaide,15,22,103.8
+17,15,St Kilda,15,20,92.5
+17,16,West Coast,15,12,70.4
+17,17,Richmond,15,8,63.0
+17,18,North Melbourne,15,4,64.1
+18,1,Sydney,16,52,140.8
+18,2,Carlton,16,44,116.1
+18,3,Fremantle,16,42,115.1
+18,4,Essendon,16,42,99.9
+18,5,Geelong,16,40,109.7
+18,6,Port Adelaide,16,40,104.8
+18,7,Brisbane,16,38,120.4
+18,8,GWS,16,36,108.6
+18,9,Collingwood,16,36,104.5
+18,10,Melbourne,16,36,104.4
+18,11,Western Bulldogs,16,32,114.8
+18,12,Gold Coast,16,32,105.3
+18,13,Hawthorn,16,32,94.2
+18,14,St Kilda,16,24,93.1
+18,15,Adelaide,16,22,102.6
+18,16,West Coast,16,12,69.1
+18,17,North Melbourne,16,8,66.1
+18,18,Richmond,16,8,62.3
+19,1,Sydney,17,56,145.3
+19,2,Carlton,17,44,114.1
+19,3,Geelong,17,44,110.6
+19,4,Brisbane,17,42,120.0
+19,5,Fremantle,17,42,113.1
+19,6,Essendon,17,42,98.8
+19,7,GWS,17,40,109.8
+19,8,Melbourne,17,40,105.5
+19,9,Port Adelaide,17,40,103.4
+19,10,Western Bulldogs,17,36,114.9
+19,11,Gold Coast,17,36,106.0
+19,12,Collingwood,17,36,102.9
+19,13,Hawthorn,17,36,95.4
+19,14,Adelaide,17,26,105.0
+19,15,St Kilda,17,24,91.1
+19,16,West Coast,17,12,70.3
+19,17,North Melbourne,17,8,64.3
+19,18,Richmond,17,8,63.2
+20,1,Sydney,18,56,142.4
+20,2,Carlton,18,48,114.5
+20,3,Brisbane,18,46,119.0
+20,4,Fremantle,18,46,116.2
+20,5,GWS,18,44,112.2
+20,6,Geelong,18,44,106.8
+20,7,Port Adelaide,18,44,106.0
+20,8,Essendon,18,42,98.7
+20,9,Western Bulldogs,18,40,117.7
+20,10,Melbourne,18,40,101.4
+20,11,Hawthorn,18,40,100.1
+20,12,Gold Coast,18,36,103.0
+20,13,Collingwood,18,36,98.4
+20,14,Adelaide,18,30,104.7
+20,15,St Kilda,18,28,96.6
+20,16,West Coast,18,12,68.1
+20,17,North Melbourne,18,8,65.3
+20,18,Richmond,18,8,63.3
+21,1,Sydney,19,56,136.9
+21,2,Brisbane,19,50,120.1
+21,3,Fremantle,19,50,117.8
+21,4,Carlton,19,48,112.9
+21,5,GWS,19,48,111.6
+21,6,Geelong,19,48,109.1
+21,7,Port Adelaide,19,48,106.7
+21,8,Western Bulldogs,19,44,119.8
+21,9,Hawthorn,19,44,104.5
+21,10,Essendon,19,42,95.6
+21,11,Melbourne,19,40,101.2
+21,12,Collingwood,19,40,100.1
+21,13,Gold Coast,19,36,101.1
+21,14,St Kilda,19,32,100.5
+21,15,Adelaide,19,30,100.1
+21,16,West Coast,19,12,68.1
+21,17,North Melbourne,19,8,65.1
+21,18,Richmond,19,8,63.7
+22,1,Sydney,20,56,126.1
+22,2,Brisbane,20,54,125.1
+22,3,Port Adelaide,20,52,113.6
+22,4,GWS,20,52,111.2
+22,5,Geelong,20,52,108.9
+22,6,Fremantle,20,50,116.7
+22,7,Western Bulldogs,20,48,122.4
+22,8,Carlton,20,48,112.1
+22,9,Essendon,20,46,95.9
+22,10,Hawthorn,20,44,104.1
+22,11,Collingwood,20,44,100.2
+22,12,Melbourne,20,40,97.9
+22,13,Gold Coast,20,36,100.4
+22,14,St Kilda,20,32,94.9
+22,15,Adelaide,20,30,99.8
+22,16,West Coast,20,16,70.0
+22,17,North Melbourne,20,12,67.0
+22,18,Richmond,20,8,64.7
+23,1,Sydney,21,60,124.9
+23,2,Port Adelaide,21,56,113.3
+23,3,GWS,21,56,111.8
+23,4,Geelong,21,56,109.2
+23,5,Brisbane,21,54,122.7
+23,6,Fremantle,21,50,115.2
+23,7,Western Bulldogs,21,48,118.5
+23,8,Hawthorn,21,48,108.5
+23,9,Carlton,21,48,107.4
+23,10,Essendon,21,46,96.0
+23,11,Collingwood,21,44,100.1
+23,12,Gold Coast,21,40,100.5
+23,13,Melbourne,21,40,97.9
+23,14,St Kilda,21,36,98.1
+23,15,Adelaide,21,34,102.1
+23,16,West Coast,21,20,71.7
+23,17,North Melbourne,21,12,68.3
+23,18,Richmond,21,8,64.1
+24,1,Sydney,22,64,126.3
+24,2,Port Adelaide,22,60,114.2
+24,3,GWS,22,60,111.7
+24,4,Geelong,22,56,107.7
+24,5,Brisbane,22,54,121.6
+24,6,Western Bulldogs,22,52,123.8
+24,7,Hawthorn,22,52,111.8
+24,8,Carlton,22,52,110.7
+24,9,Fremantle,22,50,113.7
+24,10,Collingwood,22,48,100.1
+24,11,Essendon,22,46,94.2
+24,12,Melbourne,22,44,101.1
+24,13,St Kilda,22,40,99.3
+24,14,Gold Coast,22,40,97.5
+24,15,Adelaide,22,34,100.8
+24,16,West Coast,22,20,70.0
+24,17,North Melbourne,22,12,66.1
+24,18,Richmond,22,8,63.4
+25,1,Sydney,23,68,126.7
+25,2,Port Adelaide,23,64,114.8
+25,3,Geelong,23,60,112.2
+25,4,GWS,23,60,109.1
+25,5,Brisbane,23,58,121.9
+25,6,Western Bulldogs,23,56,125.1
+25,7,Hawthorn,23,56,118.5
+25,8,Carlton,23,52,110.2
+25,9,Collingwood,23,52,102.5
+25,10,Fremantle,23,50,111.9
+25,11,Essendon,23,46,93.5
+25,12,St Kilda,23,44,99.4
+25,13,Gold Coast,23,44,99.1
+25,14,Melbourne,23,44,98.5
+25,15,Adelaide,23,34,99.1
+25,16,West Coast,23,20,68.1
+25,17,North Melbourne,23,12,63.5
+25,18,Richmond,23,8,63.7

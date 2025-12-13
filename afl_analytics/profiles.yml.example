@@ -1,0 +1,29 @@
+# Databricks Connection Profile
+# IMPORTANT: This file contains credentials and should NOT be committed to Git
+# Save this as ~/.dbt/profiles.yml (in your home directory)
+
+afl_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: databricks
+      catalog: afl_analytics_dev                    # Your Databricks catalog name
+      schema: default                               # Default schema
+      host: your-workspace.cloud.databricks.com     # Your Databricks workspace URL
+      http_path: /sql/1.0/warehouses/xxxxx          # Your SQL warehouse path
+      token: "{{ env_var('DATABRICKS_TOKEN') }}"    # Use environment variable for security
+      threads: 4                                    # Parallel execution threads
+
+# How to get these values:
+# 1. host: Your Databricks workspace URL (without https://)
+# 2. http_path: 
+#    - Go to SQL Warehouses in Databricks
+#    - Click your warehouse → Connection Details
+#    - Copy the "HTTP Path"
+# 3. token:
+#    - Go to User Settings → Access Tokens
+#    - Generate new token
+#    - Set environment variable: export DATABRICKS_TOKEN='your-token-here'
+#
+# Save this file to: ~/.dbt/profiles.yml
+# Then dbt will automatically find it

@@ -1,0 +1,5 @@
+# Source Definitions
+# This tells dbt where your raw data lives in Databricks
+
+version: 2
+# volume: /Volumes/afl_analytics_dev/raw/afl_raw_files

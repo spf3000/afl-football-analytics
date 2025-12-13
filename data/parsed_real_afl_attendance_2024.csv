@@ -1,0 +1,217 @@
+season,round,date,home_team,away_team,venue,crowd,result,disposals/goals,scraped_at
+2024,0,2024-03-07,Sydney,Melbourne,SCG,40012,86-64,C. Oliver 30; B. Fritsch 4,2025-11-16 16:12:37.652455
+2024,0,2024-03-08,Brisbane,Carlton,Gabba,33367,85-86,C. Curnow 4,2025-11-16 16:12:37.652455
+2024,0,2024-03-09,Gold Coast,Richmond,People First Stadium,22086,99-60,B. King 5,2025-11-16 16:12:37.652455
+2024,0,2024-03-09,GWS,Collingwood,ENGIE Stadium,21235,114-82,C. Brown 5,2025-11-16 16:12:37.652455
+2024,1,2024-03-14,Carlton,Richmond,MCG,83881,86-81,H. McKay 3; N. Balta 3,2025-11-16 16:12:37.652455
+2024,1,2024-03-15,Collingwood,Sydney,MCG,78933,69-102,L. McDonald 4,2025-11-16 16:12:37.652455
+2024,1,2024-03-16,Essendon,Hawthorn,MCG,73805,107-83,J. Stringer 4,2025-11-16 16:12:37.652455
+2024,1,2024-03-16,GWS,North Melbourne,ENGIE Stadium,8034,121-82,J. Hogan 6,2025-11-16 16:12:37.652455
+2024,1,2024-03-16,Gold Coast,Adelaide,People First Stadium,11466,60-54,S. Flanders 35; J. Rachele 3,2025-11-16 16:12:37.652455
+2024,1,2024-03-16,Geelong,St Kilda,GMHBA Stadium,39352,76-68,O. Dempsey 3; T. Membrey 3,2025-11-16 16:12:37.652455
+2024,1,2024-03-17,Melbourne,Western Bulldogs,MCG,44100,109-64,K. Chandler 3; J. Van Rooyen 3,2025-11-16 16:12:37.652455
+2024,1,2024-03-17,Port Adelaide,West Coast,Adelaide Oval,34078,120-70,C. Rozee 27; C. Dixon 3; J. Petruccelle 3,2025-11-16 16:12:37.652455
+2024,1,2024-03-17,Fremantle,Brisbane,Optus Stadium,40604,93-70,J. Amiss 4,2025-11-16 16:12:37.652455
+2024,2,2024-03-21,St Kilda,Collingwood,MCG,69517,94-79,J. Higgins 4,2025-11-16 16:12:37.652455
+2024,2,2024-03-22,Adelaide,Geelong,Adelaide Oval,44758,77-96,T. Hawkins 4,2025-11-16 16:12:37.652455
+2024,2,2024-03-23,North Melbourne,Fremantle,Marvel Stadium,17589,76-102,H. Sheezel 35; -,2025-11-16 16:12:37.652455
+2024,2,2024-03-23,Hawthorn,Melbourne,MCG,43960,38-93,B. Fritsch 5,2025-11-16 16:12:37.652455
+2024,2,2024-03-23,Sydney,Essendon,SCG,34954,131-101,I. Heeney 32; T. Papley 4,2025-11-16 16:12:37.652455
+2024,2,2024-03-24,Western Bulldogs,Gold Coast,Mars Stadium,9752,115-67,C. Weightman 6,2025-11-16 16:12:37.652455
+2024,2,2024-03-24,West Coast,GWS,Optus Stadium,42401,43-108,A. Cadman 3,2025-11-16 16:12:37.652455
+2024,2,2024-03-24,Richmond,Port Adelaide,MCG,30254,92-122,T. Marshall 4,2025-11-16 16:12:37.652455
+2024,3,2024-03-28,Brisbane,Collingwood,Gabba,34022,72-92,J. Elliott 4,2025-11-16 16:12:37.652455
+2024,3,2024-03-29,North Melbourne,Carlton,Marvel Stadium,47565,81-137,H. McKay 5,2025-11-16 16:12:37.652455
+2024,3,2024-03-29,Fremantle,Adelaide,Optus Stadium,51037,69-34,M. Walters 2; M. Taberner 2; J. Amiss 2,2025-11-16 16:12:37.652455
+2024,3,2024-03-30,Essendon,St Kilda,Marvel Stadium,44412,71-67,J. Stringer 3; K. Langford 3; J. Higgins 3,2025-11-16 16:12:37.652455
+2024,3,2024-03-30,Port Adelaide,Melbourne,Adelaide Oval,38105,89-96,B. Brown 3,2025-11-16 16:12:37.652455
+2024,3,2024-03-31,Western Bulldogs,West Coast,Marvel Stadium,22991,106-30,M. Bontempelli 3,2025-11-16 16:12:37.652455
+2024,3,2024-03-31,Richmond,Sydney,MCG,45112,82-77,T. Lynch 3; L. McDonald 3,2025-11-16 16:12:37.652455
+2024,3,2024-04-01,Hawthorn,Geelong,MCG,67020,70-106,T. Hawkins 4; O. Henry 4,2025-11-16 16:12:37.652455
+2024,4,2024-04-04,Adelaide,Melbourne,Adelaide Oval,48020,63-78,B. Fritsch 3,2025-11-16 16:12:37.652455
+2024,4,2024-04-05,Brisbane,North Melbourne,Norwood Oval,9037,112-42,J. Daniher 5,2025-11-16 16:12:37.652455
+2024,4,2024-04-05,Port Adelaide,Essendon,Adelaide Oval,47461,111-42,C. Rozee 36; -,2025-11-16 16:12:37.652455
+2024,4,2024-04-06,West Coast,Sydney,Adelaide Hills,9225,78-104,-,2025-11-16 16:12:37.652455
+2024,4,2024-04-06,Fremantle,Carlton,Adelaide Oval,45970,63-73,C. Curnow 3,2025-11-16 16:12:37.652455
+2024,4,2024-04-06,Western Bulldogs,Geelong,Adelaide Oval,45970,91-95,T. Stengle 4,2025-11-16 16:12:37.652455
+2024,4,2024-04-07,Gold Coast,GWS,Adelaide Hills,9337,89-117,T. Greene 5,2025-11-16 16:12:37.652455
+2024,4,2024-04-07,Richmond,St Kilda,Norwood Oval,9425,60-67,S. Bolton 4,2025-11-16 16:12:37.652455
+2024,4,2024-04-07,Collingwood,Hawthorn,Adelaide Oval,43198,77-72,B. Hardwick 4,2025-11-16 16:12:37.652455
+2024,5,2024-04-11,Melbourne,Brisbane,MCG,43098,60-82,C. Cameron 3,2025-11-16 16:12:37.652455
+2024,5,2024-04-12,Western Bulldogs,Essendon,Marvel Stadium,50144,67-96,K. Langford 3; J. Ugle-Hagan 3,2025-11-16 16:12:37.652455
+2024,5,2024-04-13,GWS,St Kilda,Manuka Oval,12448,80-79,-,2025-11-16 16:12:37.652455
+2024,5,2024-04-13,Carlton,Adelaide,Marvel Stadium,46283,98-100,T. Walker 4; C. Curnow 4,2025-11-16 16:12:37.652455
+2024,5,2024-04-13,Port Adelaide,Fremantle,Adelaide Oval,35658,66-63,J. Treacy 3,2025-11-16 16:12:37.652455
+2024,5,2024-04-13,Gold Coast,Hawthorn,People First Stadium,13900,109-56,B. King 4,2025-11-16 16:12:37.652455
+2024,5,2024-04-14,Geelong,North Melbourne,GMHBA Stadium,31194,139-64,J. Cameron 6,2025-11-16 16:12:37.652455
+2024,5,2024-04-14,West Coast,Richmond,Optus Stadium,47665,109-70,J. Waterman 6,2025-11-16 16:12:37.652455
+2024,6,2024-04-18,St Kilda,Western Bulldogs,Marvel Stadium,26719,64-124,A. Naughton 6,2025-11-16 16:12:37.652455
+2024,6,2024-04-19,Adelaide,Essendon,Adelaide Oval,46700,75-78,J. Soligo 31; -,2025-11-16 16:12:37.652455
+2024,6,2024-04-20,Collingwood,Port Adelaide,MCG,65834,123-81,P. Lipinski 4,2025-11-16 16:12:37.652455
+2024,6,2024-04-20,Carlton,GWS,Marvel Stadium,40474,117-98,-,2025-11-16 16:12:37.652455
+2024,6,2024-04-20,West Coast,Fremantle,Optus Stadium,54473,105-68,A. Brayshaw 27; C. Serong 27; J. Waterman 5,2025-11-16 16:12:37.652455
+2024,6,2024-04-20,Brisbane,Geelong,Gabba,30429,37-63,T. Stengle 2; O. Henry 2; D. Zorko 2,2025-11-16 16:12:37.652455
+2024,6,2024-04-21,Sydney,Gold Coast,SCG,35649,110-57,J. Amartey 4,2025-11-16 16:12:37.652455
+2024,6,2024-04-21,North Melbourne,Hawthorn,Marvel Stadium,30648,68-113,J. Newcombe 32; D. Moore 4,2025-11-16 16:12:37.652455
+2024,7,2024-04-24,Richmond,Melbourne,MCG,72840,42-85,D. Turner 3,2025-11-16 16:12:37.652455
+2024,7,2024-04-25,Essendon,Collingwood,MCG,93644,85-85,A. McGrath 31; K. Langford 4,2025-11-16 16:12:37.652455
+2024,7,2024-04-25,GWS,Brisbane,Manuka Oval,13080,113-59,C. Brown 3; J. Riccardi 3,2025-11-16 16:12:37.652455
+2024,7,2024-04-26,Port Adelaide,St Kilda,Adelaide Oval,40306,82-72,C. Dixon 4,2025-11-16 16:12:37.652455
+2024,7,2024-04-27,North Melbourne,Adelaide,Ninja Stadium,5365,81-138,I. Rankine 4,2025-11-16 16:12:37.652455
+2024,7,2024-04-27,Geelong,Carlton,MCG,87775,118-105,J. Cameron 5,2025-11-16 16:12:37.652455
+2024,7,2024-04-27,Fremantle,Western Bulldogs,Optus Stadium,45931,95-71,C. Serong 37; S. Darcy 3; B. Banfield 3; J. Treacy 3,2025-11-16 16:12:37.652455
+2024,7,2024-04-28,Gold Coast,West Coast,People First Stadium,11440,112-75,J. Waterman 4,2025-11-16 16:12:37.652455
+2024,7,2024-04-28,Hawthorn,Sydney,MCG,38052,42-118,I. Heeney 3; L. McDonald 3,2025-11-16 16:12:37.652455
+2024,8,2024-05-02,Adelaide,Port Adelaide,Adelaide Oval,52106,78-48,I. Rankine 3,2025-11-16 16:12:37.652455
+2024,8,2024-05-03,Carlton,Collingwood,MCG,88362,79-85,H. McKay 4,2025-11-16 16:12:37.652455
+2024,8,2024-05-04,Sydney,GWS,SCG,40337,98-69,W. Hayward 4,2025-11-16 16:12:37.652455
+2024,8,2024-05-04,St Kilda,North Melbourne,Marvel Stadium,27009,103-65,C. Zurhaar 3; D. Wilson 3,2025-11-16 16:12:37.652455
+2024,8,2024-05-04,West Coast,Essendon,Optus Stadium,51751,71-77,-,2025-11-16 16:12:37.652455
+2024,8,2024-05-04,Melbourne,Geelong,MCG,51795,74-66,C. Oliver 31; O. Henry 3; B. Fritsch 3,2025-11-16 16:12:37.652455
+2024,8,2024-05-05,Richmond,Fremantle,MCG,32252,49-103,J. Treacy 4,2025-11-16 16:12:37.652455
+2024,8,2024-05-05,Western Bulldogs,Hawthorn,Marvel Stadium,29555,91-98,C. MacDonald 3,2025-11-16 16:12:37.652455
+2024,8,2024-05-05,Brisbane,Gold Coast,Gabba,30285,79-45,B. King 3,2025-11-16 16:12:37.652455
+2024,9,2024-05-09,Carlton,Melbourne,MCG,58472,77-76,C. Petracca 5,2025-11-16 16:12:37.652455
+2024,9,2024-05-10,Fremantle,Sydney,Optus Stadium,46198,39-87,W. Hayward 4,2025-11-16 16:12:37.652455
+2024,9,2024-05-10,Geelong,Port Adelaide,GMHBA Stadium,29942,95-101,T. Stengle 4; W. Rioli 4,2025-11-16 16:12:37.652455
+2024,9,2024-05-11,Hawthorn,St Kilda,UTAS Stadium,15112,58-53,J. Newcombe 31; -,2025-11-16 16:12:37.652455
+2024,9,2024-05-11,Essendon,GWS,Marvel Stadium,37295,82-62,K. Langford 4,2025-11-16 16:12:37.652455
+2024,9,2024-05-11,Gold Coast,North Melbourne,TIO Stadium,7036,120-52,B. King 3,2025-11-16 16:12:37.652455
+2024,9,2024-05-11,Richmond,Western Bulldogs,MCG,38007,42-133,J. Harmes 4; A. Naughton 4; S. Darcy 4,2025-11-16 16:12:37.652455
+2024,9,2024-05-12,Collingwood,West Coast,Marvel Stadium,37433,103-37,F. Macrae 3; R. McInnes 3,2025-11-16 16:12:37.652455
+2024,9,2024-05-12,Adelaide,Brisbane,Adelaide Oval,40278,90-90,D. Fogarty 4; C. Ah Chee 4,2025-11-16 16:12:37.652455
+2024,10,2024-05-16,Gold Coast,Geelong,TIO Stadium,12112,164-100,J. Lukosius 5; B. Humphrey 5,2025-11-16 16:12:37.652455
+2024,10,2024-05-17,Sydney,Carlton,SCG,44047,117-65,I. Heeney 3; C. Warner 3,2025-11-16 16:12:37.652455
+2024,10,2024-05-18,Collingwood,Adelaide,MCG,63925,78-74,-,2025-11-16 16:12:37.652455
+2024,10,2024-05-18,GWS,Western Bulldogs,ENGIE Stadium,7747,43-70,T. Greene 3; J. Hogan 3,2025-11-16 16:12:37.652455
+2024,10,2024-05-18,Brisbane,Richmond,Gabba,27200,163-44,C. Cameron 5; K. Lohmann 5,2025-11-16 16:12:37.652455
+2024,10,2024-05-18,St Kilda,Fremantle,Marvel Stadium,19265,55-72,M. Owens 3,2025-11-16 16:12:37.652455
+2024,10,2024-05-19,Essendon,North Melbourne,Marvel Stadium,43125,106-66,P. Wright 4,2025-11-16 16:12:37.652455
+2024,10,2024-05-19,Port Adelaide,Hawthorn,Adelaide Oval,36190,80-79,B. Hardwick 5,2025-11-16 16:12:37.652455
+2024,10,2024-05-19,West Coast,Melbourne,Optus Stadium,43408,105-70,J. Waterman 5,2025-11-16 16:12:37.652455
+2024,11,2024-05-23,Western Bulldogs,Sydney,Marvel Stadium,27377,88-102,C. Warner 4,2025-11-16 16:12:37.652455
+2024,11,2024-05-24,Fremantle,Collingwood,Optus Stadium,54035,75-75,J. Clark 35; H. Harrison 3; B. Banfield 3,2025-11-16 16:12:37.652455
+2024,11,2024-05-25,North Melbourne,Port Adelaide,Ninja Stadium,4705,48-107,T. Marshall 5,2025-11-16 16:12:37.652455
+2024,11,2024-05-25,Carlton,Gold Coast,Marvel Stadium,39597,102-73,Z. Williams 4; C. Curnow 4,2025-11-16 16:12:37.652455
+2024,11,2024-05-25,Geelong,GWS,GMHBA Stadium,30821,74-78,J. Riccardi 4,2025-11-16 16:12:37.652455
+2024,11,2024-05-25,Richmond,Essendon,MCG,79359,74-86,J. Ridley 31; J. Stringer 4,2025-11-16 16:12:37.652455
+2024,11,2024-05-26,Hawthorn,Brisbane,Marvel Stadium,29664,100-75,L. Neale 29; J. Gunston 4,2025-11-16 16:12:37.652455
+2024,11,2024-05-26,Melbourne,St Kilda,MCG,37403,100-62,J. Van Rooyen 3; M. King 3,2025-11-16 16:12:37.652455
+2024,11,2024-05-26,Adelaide,West Coast,Adelaide Oval,40965,137-38,C. Jones 3,2025-11-16 16:12:37.652455
+2024,12,2024-05-30,Port Adelaide,Carlton,Adelaide Oval,40532,71-107,M. Georgiades 4,2025-11-16 16:12:37.652455
+2024,12,2024-05-31,Collingwood,Western Bulldogs,Marvel Stadium,43298,82-100,L. Schultz 3; S. Darcy 3,2025-11-16 16:12:37.652455
+2024,12,2024-06-01,Hawthorn,Adelaide,MCG,36086,107-80,D. Moore 5,2025-11-16 16:12:37.652455
+2024,12,2024-06-01,West Coast,St Kilda,Optus Stadium,47526,68-82,M. Wood 4,2025-11-16 16:12:37.652455
+2024,12,2024-06-01,Geelong,Richmond,GMHBA Stadium,31054,99-69,O. Dempsey 3,2025-11-16 16:12:37.652455
+2024,12,2024-06-02,Melbourne,Fremantle,TIO Traeger Park,6109,49-141,J. Amiss 4,2025-11-16 16:12:37.652455
+2024,12,2024-06-02,Gold Coast,Essendon,People First Stadium,21759,91-80,N. Anderson 33; S. Flanders 33; B. Long 4; B. King 4,2025-11-16 16:12:37.652455
+2024,13,2024-06-06,Adelaide,Richmond,Adelaide Oval,37342,71-79,D. Fogarty 3; N. Cumberland 3,2025-11-16 16:12:37.652455
+2024,13,2024-06-07,Western Bulldogs,Brisbane,Marvel Stadium,31280,71-114,E. Hipwood 6,2025-11-16 16:12:37.652455
+2024,13,2024-06-08,Hawthorn,GWS,UTAS Stadium,11568,85-79,X. O'Halloran 4,2025-11-16 16:12:37.652455
+2024,13,2024-06-08,West Coast,North Melbourne,Optus Stadium,43276,65-74,N. Larkey 5,2025-11-16 16:12:37.652455
+2024,13,2024-06-08,St Kilda,Gold Coast,Marvel Stadium,17992,51-48,D. Butler 3,2025-11-16 16:12:37.652455
+2024,13,2024-06-09,Sydney,Geelong,SCG,44714,112-82,T. Papley 4,2025-11-16 16:12:37.652455
+2024,13,2024-06-09,Essendon,Carlton,MCG,88510,70-96,E. Hollands 3,2025-11-16 16:12:37.652455
+2024,13,2024-06-10,Collingwood,Melbourne,MCG,84659,89-51,N. Kreuger 3; H. Harrison 3; J. Van Rooyen 3,2025-11-16 16:12:37.652455
+2024,14,2024-06-14,Brisbane,St Kilda,Gabba,27445,126-106,J. Higgins 5; J. Daniher 5,2025-11-16 16:12:37.652455
+2024,14,2024-06-15,Western Bulldogs,Fremantle,Marvel Stadium,21796,149-82,B. Dale 30; L. Bramble 30; R. West 4,2025-11-16 16:12:37.652455
+2024,14,2024-06-15,Richmond,Hawthorn,MCG,92311,49-97,T. Taranto 33; M. Chol 4,2025-11-16 16:12:37.652455
+2024,14,2024-06-15,Adelaide,Sydney,Adelaide Oval,41535,67-109,J. Amartey 9,2025-11-16 16:12:37.652455
+2024,14,2024-06-16,North Melbourne,Collingwood,Marvel Stadium,38311,118-119,B. Hill 5,2025-11-16 16:12:37.652455
+2024,14,2024-06-16,GWS,Port Adelaide,ENGIE Stadium,8914,73-51,M. Georgiades 3,2025-11-16 16:12:37.652455
+2024,15,2024-06-21,Carlton,Geelong,MCG,75218,138-75,C. Curnow 5,2025-11-16 16:12:37.652455
+2024,15,2024-06-22,Port Adelaide,Brisbane,Adelaide Oval,32862,73-152,E. Hipwood 5,2025-11-16 16:12:37.652455
+2024,15,2024-06-22,GWS,Sydney,ENGIE Stadium,19751,75-102,-,2025-11-16 16:12:37.652455
+2024,15,2024-06-22,Melbourne,North Melbourne,MCG,28774,70-67,C. Zurhaar 4,2025-11-16 16:12:37.652455
+2024,15,2024-06-23,Essendon,West Coast,Marvel Stadium,40840,122-92,S. Durham 29; J. Stringer 5,2025-11-16 16:12:37.652455
+2024,15,2024-06-23,Fremantle,Gold Coast,Optus Stadium,40637,85-65,S. Flanders 33; H. Young 3; S. Day 3,2025-11-16 16:12:37.652455
+2024,16,2024-06-28,Brisbane,Melbourne,Gabba,29617,86-81,K. Pickett 5,2025-11-16 16:12:37.652455
+2024,16,2024-06-29,Sydney,Fremantle,SCG,35477,98-99,S. Sturt 3; J. Amiss 3; W. Hayward 3,2025-11-16 16:12:37.652455
+2024,16,2024-06-29,North Melbourne,Western Bulldogs,Marvel Stadium,27005,60-77,C. Weightman 3,2025-11-16 16:12:37.652455
+2024,16,2024-06-29,Gold Coast,Collingwood,People First Stadium,23029,101-90,B. King 4,2025-11-16 16:12:37.652455
+2024,16,2024-06-29,Adelaide,GWS,Adelaide Oval,29802,94-78,D. Fogarty 3; T. Greene 3,2025-11-16 16:12:37.652455
+2024,16,2024-06-29,Geelong,Essendon,MCG,54698,105-60,T. Stengle 3,2025-11-16 16:12:37.652455
+2024,16,2024-06-30,St Kilda,Port Adelaide,Marvel Stadium,18052,60-62,R. Marshall 3,2025-11-16 16:12:37.652455
+2024,16,2024-06-30,West Coast,Hawthorn,Optus Stadium,49454,33-94,-,2025-11-16 16:12:37.652455
+2024,16,2024-06-30,Richmond,Carlton,MCG,58298,70-131,O. Fantasia 4,2025-11-16 16:12:37.652455
+2024,17,2024-07-05,Collingwood,Essendon,MCG,81711,80-92,J. Crisp 3,2025-11-16 16:12:37.652455
+2024,17,2024-07-06,Port Adelaide,Western Bulldogs,Adelaide Oval,31590,102-54,M. Georgiades 5,2025-11-16 16:12:37.652455
+2024,17,2024-07-06,North Melbourne,Gold Coast,Marvel Stadium,17781,87-83,N. Larkey 3,2025-11-16 16:12:37.652455
+2024,17,2024-07-06,Geelong,Hawthorn,GMHBA Stadium,33188,110-59,J. Worpel 26; D. Moore 26; J. Cameron 4; B. Close 4,2025-11-16 16:12:37.652455
+2024,17,2024-07-06,Fremantle,Richmond,Optus Stadium,42690,105-54,J. Treacy 5,2025-11-16 16:12:37.652455
+2024,17,2024-07-06,GWS,Carlton,ENGIE Stadium,11730,116-104,T. Green 33; H. McKay 5; J. Hogan 5,2025-11-16 16:12:37.652455
+2024,17,2024-07-07,Melbourne,West Coast,MCG,32000,112-58,J. Van Rooyen 4; O. Allen 4,2025-11-16 16:12:37.652455
+2024,17,2024-07-07,St Kilda,Sydney,Marvel Stadium,30267,84-82,,2025-11-16 16:12:37.652455
+2024,17,2024-07-07,Brisbane,Adelaide,Gabba,30183,97-86,B. Keays 4,2025-11-16 16:12:37.652455
+2024,18,2024-07-12,Collingwood,Geelong,MCG,73435,71-91,J. Cameron 3,2025-11-16 16:12:37.652455
+2024,18,2024-07-13,Hawthorn,Fremantle,UTAS Stadium,11146,87-74,W. Day 24; J. Sicily 3,2025-11-16 16:12:37.652455
+2024,18,2024-07-13,Sydney,North Melbourne,SCG,34663,138-59,T. Papley 4; L. McDonald 4,2025-11-16 16:12:37.652455
+2024,18,2024-07-13,Western Bulldogs,Carlton,Marvel Stadium,45387,100-86,R. West 4; J. Ugle-Hagan 4,2025-11-16 16:12:37.652455
+2024,18,2024-07-13,Adelaide,St Kilda,Adelaide Oval,34549,71-39,-,2025-11-16 16:12:37.652455
+2024,18,2024-07-13,Melbourne,Essendon,MCG,52866,84-67,N. Martin 4,2025-11-16 16:12:37.652455
+2024,18,2024-07-14,Gold Coast,Port Adelaide,People First Stadium,14526,96-82,-,2025-11-16 16:12:37.652455
+2024,18,2024-07-14,West Coast,Brisbane,Optus Stadium,41489,93-106,O. Allen 3,2025-11-16 16:12:37.652455
+2024,18,2024-07-14,Richmond,GWS,MCG,19040,84-108,T. Greene 4; J. Hogan 4,2025-11-16 16:12:37.652455
+2024,19,2024-07-19,Essendon,Adelaide,Marvel Stadium,36020,113-115,B. Keays 5,2025-11-16 16:12:37.652455
+2024,19,2024-07-20,St Kilda,West Coast,Marvel Stadium,18251,113-41,T. Membrey 5,2025-11-16 16:12:37.652455
+2024,19,2024-07-20,GWS,Gold Coast,ENGIE Stadium,8013,89-50,J. Hogan 4,2025-11-16 16:12:37.652455
+2024,19,2024-07-20,Hawthorn,Collingwood,MCG,74171,133-67,L. Breust 4; C. MacDonald 4,2025-11-16 16:12:37.652455
+2024,19,2024-07-20,Port Adelaide,Richmond,Adelaide Oval,27704,116-75,C. Dixon 4,2025-11-16 16:12:37.652455
+2024,19,2024-07-20,Geelong,Western Bulldogs,GMHBA Stadium,27967,48-95,J. Ugle-Hagan 4,2025-11-16 16:12:37.652455
+2024,19,2024-07-21,Brisbane,Sydney,Gabba,33924,79-77,J. Daniher 3; H. McCluggage 3,2025-11-16 16:12:37.652455
+2024,19,2024-07-21,Fremantle,Melbourne,Optus Stadium,42215,116-66,M. Walters 4; J. Amiss 4,2025-11-16 16:12:37.652455
+2024,19,2024-07-21,Carlton,North Melbourne,Marvel Stadium,40014,107-88,C. Curnow 4,2025-11-16 16:12:37.652455
+2024,20,2024-07-26,Carlton,Port Adelaide,Marvel Stadium,40500,65-79,C. Curnow 3; M. Georgiades 3,2025-11-16 16:12:37.652455
+2024,20,2024-07-27,North Melbourne,Geelong,Ninja Stadium,10045,66-106,T. Stengle 3; O. Dempsey 3; N. Larkey 3,2025-11-16 16:12:37.652455
+2024,20,2024-07-27,St Kilda,Essendon,Marvel Stadium,39761,108-55,J. Steele 3; C. Sharman 3; A. Caminiti 3,2025-11-16 16:12:37.652455
+2024,20,2024-07-27,Gold Coast,Brisbane,People First Stadium,21043,65-93,-,2025-11-16 16:12:37.652455
+2024,20,2024-07-27,Fremantle,West Coast,Optus Stadium,56536,110-75,-,2025-11-16 16:12:37.652455
+2024,20,2024-07-27,Melbourne,GWS,MCG,16246,83-85,J. Hogan 4,2025-11-16 16:12:37.652455
+2024,20,2024-07-28,Collingwood,Richmond,MCG,58342,93-67,D. McStay 3; T. Brown 3,2025-11-16 16:12:37.652455
+2024,20,2024-07-28,Sydney,Western Bulldogs,SCG,36028,48-87,J. Ugle-Hagan 4,2025-11-16 16:12:37.652455
+2024,20,2024-07-28,Adelaide,Hawthorn,Adelaide Oval,41823,58-124,T. Walker 3,2025-11-16 16:12:37.652455
+2024,21,2024-08-02,West Coast,Gold Coast,Optus Stadium,38671,97-87,J. Waterman 4,2025-11-16 16:12:37.652455
+2024,21,2024-08-02,Western Bulldogs,Melbourne,Marvel Stadium,33000,110-59,-,2025-11-16 16:12:37.652455
+2024,21,2024-08-03,North Melbourne,Richmond,Marvel Stadium,35861,90-77,N. Larkey 5,2025-11-16 16:12:37.652455
+2024,21,2024-08-03,Geelong,Adelaide,GMHBA Stadium,28939,90-85,J. Cameron 6,2025-11-16 16:12:37.652455
+2024,21,2024-08-03,Port Adelaide,Sydney,Adelaide Oval,37501,148-36,W. Rioli 4; M. Georgiades 4,2025-11-16 16:12:37.652455
+2024,21,2024-08-03,Collingwood,Carlton,MCG,86879,84-81,-,2025-11-16 16:12:37.652455
+2024,21,2024-08-04,GWS,Hawthorn,Manuka Oval,13268,84-82,J. Hogan 5,2025-11-16 16:12:37.652455
+2024,21,2024-08-04,Essendon,Fremantle,MCG,34381,90-89,J. Stringer 4; J. Amiss 4,2025-11-16 16:12:37.652455
+2024,21,2024-08-04,St Kilda,Brisbane,Marvel Stadium,23053,39-124,J. Daniher 4,2025-11-16 16:12:37.652455
+2024,22,2024-08-09,Sydney,Collingwood,SCG,37854,89-86,W. Hayward 3,2025-11-16 16:12:37.652455
+2024,22,2024-08-10,North Melbourne,West Coast,Ninja Stadium,6619,97-102,O. Allen 5,2025-11-16 16:12:37.652455
+2024,22,2024-08-10,Brisbane,GWS,Gabba,31364,64-82,J. Hogan 3; A. Cadman 3,2025-11-16 16:12:37.652455
+2024,22,2024-08-10,Fremantle,Geelong,Optus Stadium,50600,62-73,C. Serong 3,2025-11-16 16:12:37.652455
+2024,22,2024-08-10,Melbourne,Port Adelaide,MCG,17867,51-53,K. Pickett 4,2025-11-16 16:12:37.652455
+2024,22,2024-08-10,Essendon,Gold Coast,Marvel Stadium,29401,86-87,M. Andrew 4,2025-11-16 16:12:37.652455
+2024,22,2024-08-11,Carlton,Hawthorn,MCG,84773,38-112,J. Gunston 3; J. Weddle 3; C. Dear 3,2025-11-16 16:12:37.652455
+2024,22,2024-08-11,Richmond,St Kilda,Marvel Stadium,21375,51-99,T. Membrey 3; R. Marshall 3,2025-11-16 16:12:37.652455
+2024,22,2024-08-11,Adelaide,Western Bulldogs,Adelaide Oval,39177,111-72,D. Fogarty 5,2025-11-16 16:12:37.652455
+2024,23,2024-08-16,Essendon,Sydney,Marvel Stadium,33830,59-98,-,2025-11-16 16:12:37.652455
+2024,23,2024-08-17,GWS,Fremantle,ENGIE Stadium,10801,101-92,J. Hogan 6,2025-11-16 16:12:37.652455
+2024,23,2024-08-17,Gold Coast,Melbourne,People First Stadium,13026,63-117,D. Turner 4,2025-11-16 16:12:37.652455
+2024,23,2024-08-17,Collingwood,Brisbane,MCG,61218,79-78,J. Daniher 4,2025-11-16 16:12:37.652455
+2024,23,2024-08-17,Port Adelaide,Adelaide,Adelaide Oval,52459,80-58,-,2025-11-16 16:12:37.652455
+2024,23,2024-08-17,St Kilda,Geelong,Marvel Stadium,31945,107-89,J. Cameron 3; J. Higgins 3,2025-11-16 16:12:37.652455
+2024,23,2024-08-18,Western Bulldogs,North Melbourne,Marvel Stadium,33182,138-42,S. Darcy 7,2025-11-16 16:12:37.652455
+2024,23,2024-08-18,West Coast,Carlton,Optus Stadium,48455,34-99,G. Hewett 35; B. Kemp 4,2025-11-16 16:12:37.652455
+2024,23,2024-08-18,Hawthorn,Richmond,MCG,58231,131-68,J. Gunston 5,2025-11-16 16:12:37.652455
+2024,24,2024-08-23,Melbourne,Collingwood,MCG,53957,57-103,N. Daicos 40; -,2025-11-16 16:12:37.652455
+2024,24,2024-08-24,Hawthorn,North Melbourne,UTAS Stadium,11392,170-46,D. Moore 4,2025-11-16 16:12:37.652455
+2024,24,2024-08-24,Geelong,West Coast,GMHBA Stadium,32545,168-75,J. Cameron 9,2025-11-16 16:12:37.652455
+2024,24,2024-08-24,Richmond,Gold Coast,MCG,34557,66-94,B. Long 3,2025-11-16 16:12:37.652455
+2024,24,2024-08-24,Brisbane,Essendon,Gabba,31663,87-67,K. Langford 3; C. Cameron 3; K. Lohmann 3,2025-11-16 16:12:37.652455
+2024,24,2024-08-24,Sydney,Adelaide,SCG,36491,121-90,-,2025-11-16 16:12:37.652455
+2024,24,2024-08-25,Western Bulldogs,GWS,Mars Stadium,10224,98-61,-,2025-11-16 16:12:37.652455
+2024,24,2024-08-25,Carlton,St Kilda,Marvel Stadium,43843,74-76,-,2025-11-16 16:12:37.652455
+2024,24,2024-08-25,Fremantle,Port Adelaide,Optus Stadium,45322,67-87,W. Rioli 3; Qualifying Final,2025-11-16 16:12:37.652455
+2024,24,2024-09-05,Port Adelaide,Geelong,Adelaide Oval,50342,54-138,J. Cameron 4; T. Stengle 4; Elimination Final,2025-11-16 16:12:37.652455
+2024,24,2024-09-06,Western Bulldogs,Hawthorn,MCG,97828,62-99,N. Watson 4; Qualifying Final,2025-11-16 16:12:37.652455
+2024,24,2024-09-07,Sydney,GWS,SCG,43189,88-82,T. Green 32; I. Heeney 3; J. Hogan 3; A. Cadman 3; Elimination Final,2025-11-16 16:12:37.652455
+2024,24,2024-09-07,Brisbane,Carlton,Gabba,35660,99-71,H. McKay 3; C. Rayner 3; Semi Final,2025-11-16 16:12:37.652455
+2024,24,2024-09-13,Port Adelaide,Hawthorn,Adelaide Oval,51012,75-72,N. Watson 3; M. Georgiades 3,2025-11-16 16:12:37.652455
+2024,24,2024-09-14,GWS,Brisbane,ENGIE Stadium,18357,100-105,J. Hogan 5; Preliminary Final,2025-11-16 16:12:37.652455
+2024,24,2024-09-20,Sydney,Port Adelaide,SCG,44053,95-59,T. Papley 3; J. Amartey 3,2025-11-16 16:12:37.652455
+2024,24,2024-09-21,Geelong,Brisbane,MCG,93066,85-95,O. Henry 4; Grand Final,2025-11-16 16:12:37.652455
+2024,24,2024-09-28,Sydney,Brisbane,MCG,100013,60-120,C. Ah Chee 4; K. Lohmann 4,2025-11-16 16:12:37.652455

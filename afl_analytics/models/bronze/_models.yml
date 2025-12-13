@@ -1,0 +1,62 @@
+# Model Documentation and Tests
+version: 2
+
+models:
+  - name: stg_match_results
+    description: >
+      Bronze layer staging table for AFL match results.
+      Raw data with basic type casting and quality filters.
+      Idempotent - safe to rerun.
+    
+    columns:
+      - name: match_id
+        description: "Unique identifier for the match"
+        tests:
+          - not_null
+      
+      - name: match_date
+        description: "Date the match was played"
+        tests:
+          - not_null
+      
+      - name: home_team
+        description: "Home team name (raw from source)"
+        tests:
+          - not_null
+      
+      - name: away_team
+        description: "Away team name (raw from source)"
+        tests:
+          - not_null
+      
+      - name: home_score
+        description: "Home team final score"
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 300
+              severity: warn  # Warn if out of range, don't fail
+      
+      - name: away_score
+        description: "Away team final score"
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 300
+              severity: warn
+      
+      - name: season
+        description: "Season year"
+        tests:
+          - not_null
+      
+      - name: _loaded_at
+        description: "Timestamp when this data was loaded to Bronze"
+      
+      - name: _source_system
+        description: "System that provided this data"
+
+# How to run tests:
+# dbt test --select stg_match_results

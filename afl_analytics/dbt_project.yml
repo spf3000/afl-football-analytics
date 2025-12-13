@@ -1,0 +1,31 @@
+# dbt Project Configuration
+# This is the main config file for your AFL analytics dbt project
+
+name: 'afl_analytics'
+version: '1.0.0'
+config-version: 2
+
+# This tells dbt which connection profile to use (defined in profiles.yml)
+profile: 'afl_analytics'
+
+# Folder locations
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+
+# Where dbt puts compiled SQL and logs
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+# Model configurations
+models:
+  afl_analytics:
+    # Bronze layer - raw data ingestion
+    bronze:
+      +materialized: table        # Create as Delta tables
+      +file_format: delta         # Use Delta Lake format
+      +schema: bronze             # Create in 'bronze' schema
+      +tags: ['bronze', 'raw']    # Tag for easy filtering
