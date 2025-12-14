@@ -1,32 +1,47 @@
 -- Bronze Layer: Match Results
--- Pure function: raw file → typed, timestamped table
--- Idempotent: Can run multiple times safely
+-- Reads from Python-parsed table (raw.match_results_parsed)
+-- Adds dbt metadata and light transformations
 
 {{ config(
     materialized='table',
     tags=['bronze', 'match_data']
 ) }}
 
-WITH all_files_raw AS (
-    SELECT *
-    FROM read_files(
-        '/Volumes/afl_analytics_dev/raw/afl_raw_files/real_afl_attendance_*.txt',
-        format => 'text',
-        header => false
-    )
-),
+SELECT
+    -- dbt metadata
+    current_timestamp() AS _dbt_loaded_at,
+    '_python_parser' AS _source_system,
 
-cleaned AS (
-    SELECT
-        current_timestamp() as _loaded_at,
-        '_volume_files' as _source_system,
-        
-        -- Extract year from filename if needed
-        CAST(REGEXP_EXTRACT(_metadata.file_path, 'real_afl_attendance_(\\d{4})', 1) AS INT) as season,
-        
-        -- Your cleaning logic here
-        
-    FROM all_files_raw
-)
+    -- From parsed table (Python script already cleaned)
+    season,
+    round,
+    date AS date,
+    home_team,
+    away_team,
+    venue,
+    crowd,
+    home_score,
+    away_score,
 
-SELECT * FROM cleaned
+    -- Derived fields
+    home_score - away_score AS margin,
+    CASE
+        WHEN home_score > away_score THEN 'home_win'
+        WHEN away_score > home_score THEN 'away_win'
+        ELSE 'draw'
+    END AS result,
+
+    -- Raw fields for reference
+    result_raw,
+    disposals_goals,
+    scraped_at AS _python_scraped_at
+
+FROM {{ source('raw', 'match_results_parsed') }}
+
+-- Basic quality filters
+WHERE
+    date IS NOT NULL
+    AND home_team IS NOT NULL
+    AND away_team IS NOT NULL
+    AND home_score IS NOT NULL
+    AND away_score IS NOT NULL

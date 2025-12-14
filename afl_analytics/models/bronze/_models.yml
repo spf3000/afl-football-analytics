@@ -5,29 +5,45 @@ models:
   - name: stg_match_results
     description: >
       Bronze layer staging table for AFL match results.
-      Raw data with basic type casting and quality filters.
-      Idempotent - safe to rerun.
+      Source: Python-parsed raw.match_results_parsed table.
+      Adds dbt metadata and calculated fields (margin, result).
     
     columns:
-      - name: match_id
-        description: "Unique identifier for the match"
+      - name: _dbt_loaded_at
+        description: "Timestamp when dbt model ran"
         tests:
           - not_null
       
-      - name: match_date
+      - name: season
+        description: "Season year"
+        tests:
+          - not_null
+      
+      - name: round
+        description: "Round number"
+        tests:
+          - not_null
+      
+      - name: date
         description: "Date the match was played"
         tests:
           - not_null
       
       - name: home_team
-        description: "Home team name (raw from source)"
+        description: "Home team name"
         tests:
           - not_null
       
       - name: away_team
-        description: "Away team name (raw from source)"
+        description: "Away team name"
         tests:
           - not_null
+      
+      - name: venue
+        description: "Match venue"
+      
+      - name: crowd
+        description: "Attendance (NULL for 2020 COVID year)"
       
       - name: home_score
         description: "Home team final score"
@@ -36,7 +52,7 @@ models:
           - dbt_utils.accepted_range:
               min_value: 0
               max_value: 300
-              severity: warn  # Warn if out of range, don't fail
+              severity: warn
       
       - name: away_score
         description: "Away team final score"
@@ -47,16 +63,23 @@ models:
               max_value: 300
               severity: warn
       
-      - name: season
-        description: "Season year"
+      - name: margin
+        description: "Score differential (home_score - away_score). Positive = home win, negative = away win"
         tests:
           - not_null
       
-      - name: _loaded_at
-        description: "Timestamp when this data was loaded to Bronze"
+      - name: result
+        description: "Match result: home_win, away_win, or draw"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['home_win', 'away_win', 'draw']
       
-      - name: _source_system
-        description: "System that provided this data"
-
-# How to run tests:
-# dbt test --select stg_match_results
+      - name: result_raw
+        description: "Raw result string from source (e.g., '105-81')"
+      
+      - name: disposals_goals
+        description: "Player statistics combined from source file"
+      
+      - name: _python_scraped_at
+        description: "Timestamp when Python parsing script ran"

@@ -2,4 +2,13 @@
 # This tells dbt where your raw data lives in Databricks
 
 version: 2
-# volume: /Volumes/afl_analytics_dev/raw/afl_raw_files
+
+sources:
+  - name: raw
+    description: "Raw AFL data parsed by Python script"
+    database: afl_analytics_dev
+    schema: raw
+    
+    tables:
+      - name: match_results_parsed
+        description: "Match results parsed from .txt files by Python script. Created by scripts/parse_all_match_results.py"    
