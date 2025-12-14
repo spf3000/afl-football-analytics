@@ -1,0 +1,441 @@
+# AFL Football Analytics - Data Pipeline
+
+A modern data engineering project for AFL match analysis, built with dbt, Databricks, and functional programming principles.
+
+## 🎯 Project Goals
+
+- **Learning**: Master Databricks and dbt while building a real data pipeline
+- **Certification**: Pass Databricks Data Engineer Associate certification (3-4 months)
+- **Long-term**: Become a Databricks specialist with deep technical knowledge
+- **Analytics**: Build advanced AFL analytics (Elo ratings, predictions, Brownlow predictor)
+- **FP Principles**: Apply functional programming patterns (idempotency, composition, purity)
+
+## 📁 Project Structure
+
+```
+afl-football-analytics/
+├── afl_analytics/              # dbt project (data pipeline)
+│   ├── dbt_project.yml         # Main dbt config
+│   ├── models/
+│   │   ├── bronze/             # Raw → typed tables
+│   │   ├── silver/             # Cleaned & core entities (future)
+│   │   └── gold/               # Analytics & aggregations (future)
+│   ├── tests/                  # Custom data tests
+│   ├── macros/                 # Reusable SQL functions
+│   └── docs/                   # Project documentation
+│
+├── scripts/                    # Python preprocessing scripts
+│   └── parse_all_match_results.py  # Parse .txt files → raw table
+│
+├── notebooks/                  # Analysis notebooks
+│   ├── crowd_analysis.ipynb    # (your existing work)
+│   └── match_winner.ipynb
+│
+├── data/                       # Local data (for reference)
+│   └── (your CSV files)
+│
+├── README.md                   # This file
+└── COMMANDS_REFERENCE.md       # Quick command reference
+```
+
+## 🏗️ Architecture
+
+### Medallion Architecture (Bronze → Silver → Gold)
+
+```
+Raw .txt Files (Volume)
+    ↓
+Python Parser (scripts/parse_all_match_results.py)
+    ↓
+raw.match_results_parsed (Raw table)
+    ↓
+dbt Bronze Model (models/bronze/stg_match_results.sql)
+    ↓
+bronze.stg_match_results (Typed, tested, documented)
+    ↓
+[Future: Silver models - dim_teams, dim_venues, fct_matches]
+    ↓
+[Future: Gold models - Elo, predictions, aggregations]
+```
+
+### Functional Programming Principles
+
+**Idempotency:**
+- Python parser: Same .txt files → same parsed table (can rerun safely)
+- dbt models: Same input → same output (can rerun safely)
+- No side effects, no hidden state
+
+**Composition:**
+- Bronze models compose into Silver models
+- Silver models compose into Gold models
+- Small, single-purpose transformations
+
+**Purity:**
+- Each dbt model is a pure function: `output = f(inputs)`
+- Deterministic transformations
+- Easy to test and reason about
+
+**Immutability:**
+- Bronze layer stays raw
+- Transformations create new tables, never UPDATE in place
+- Version history preserved
+
+## 🚀 Current Pipeline Status
+
+### ✅ Completed
+
+**Bronze Layer:**
+- [x] Raw .txt files uploaded to Databricks Volume
+- [x] Python parser handles messy text format
+- [x] `raw.match_results_parsed` table created (2020-2024)
+- [x] dbt Bronze model creates `bronze.stg_match_results`
+- [x] Data quality tests passing
+- [x] Documentation generated
+
+**Data Available:**
+- Match results (2020-2024): ~1000+ matches
+- Teams, venues, scores, crowds (NULL for 2020 COVID year)
+- Calculated fields: margin, result
+
+### 🔨 In Progress / Next Steps
+
+**Silver Layer (Next):**
+- [ ] `dim_teams` - Team dimension table
+- [ ] `dim_venues` - Venue dimension table
+- [ ] `fct_matches` - Fact table (matches with all joins)
+- [ ] Standardize team/venue names
+- [ ] Add team metadata (colors, nicknames)
+
+**Gold Layer (Future):**
+- [ ] Elo rating system
+- [ ] Match prediction model
+- [ ] Brownlow predictor
+- [ ] Crowd analysis aggregations
+- [ ] Game style clustering ("game on our terms")
+- [ ] Turnover analysis by game time
+
+**Other:**
+- [ ] Migrate existing notebooks to use Bronze tables
+- [ ] Add crowd data as separate source
+- [ ] Add ladder stats as separate source
+
+## 🔧 Tech Stack
+
+- **Data Platform**: Databricks (Unity Catalog, Volumes, SQL Warehouses)
+- **Transformation**: dbt (SQL-based transformations)
+- **Language**: Python (preprocessing), SQL (transformations)
+- **Package Management**: uv (Python), dbt (SQL packages)
+- **Version Control**: Git + GitHub
+- **Storage Format**: Delta Lake (ACID transactions, time travel)
+- **Testing**: dbt tests (data quality), dbt_utils package
+
+## 📊 Data Sources
+
+### Match Results (.txt files)
+- **Source**: Copy/paste from AFL websites
+- **Format**: Tab-delimited text files (messy!)
+- **Years**: 2020-2024 (one file per year)
+- **Location**: `/Volumes/afl_analytics_dev/raw/afl_raw_files/`
+- **Parser**: `scripts/parse_all_match_results.py`
+- **Challenges**: 
+  - Empty crowd column for 2020 (COVID)
+  - Multiple lines per match
+  - Inconsistent spacing
+  - BYE rows to filter
+
+### Future Data Sources
+- Crowd analysis data
+- Ladder statistics (scraped)
+- Player statistics (if available)
+
+## 🏃 Quick Start
+
+### Prerequisites
+- Databricks workspace access
+- Python 3.11+
+- uv package manager
+- Git
+
+### Initial Setup
+
+1. **Clone Repository:**
+   ```bash
+   git clone <your-repo-url>
+   cd afl-football-analytics
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   uv sync
+   ```
+
+3. **Configure Databricks Connection:**
+   ```bash
+   cp afl_analytics/profiles.yml.example ~/.dbt/profiles.yml
+   # Edit ~/.dbt/profiles.yml with your Databricks credentials
+   export DATABRICKS_TOKEN='your-token-here'
+   ```
+
+4. **Create Databricks Resources:**
+   ```sql
+   -- In Databricks SQL Editor
+   CREATE CATALOG IF NOT EXISTS afl_analytics_dev;
+   CREATE SCHEMA IF NOT EXISTS afl_analytics_dev.raw;
+   CREATE SCHEMA IF NOT EXISTS afl_analytics_dev.bronze;
+   CREATE SCHEMA IF NOT EXISTS afl_analytics_dev.silver;
+   CREATE SCHEMA IF NOT EXISTS afl_analytics_dev.gold;
+   CREATE VOLUME IF NOT EXISTS afl_analytics_dev.raw.afl_raw_files;
+   ```
+
+5. **Upload Raw Data:**
+   - Navigate to Catalog → `afl_analytics_dev` → `raw` → `Volumes` → `afl_raw_files`
+   - Upload your .txt files: `real_afl_attendance_YYYY.txt`
+
+6. **Run Parser Script:**
+   ```bash
+   # In Databricks notebook or Repos
+   # Open: scripts/parse_all_match_results.py
+   # Click "Run All"
+   ```
+
+7. **Run dbt:**
+   ```bash
+   cd afl_analytics
+   uv run dbt deps    # Install packages (first time only)
+   uv run dbt run     # Create Bronze tables
+   uv run dbt test    # Run data quality tests
+   ```
+
+### Daily Workflow
+
+```bash
+# When you get new data (e.g., 2025 season)
+
+# 1. Upload new .txt file to Volume (via Databricks UI)
+
+# 2. Update parser script
+# Edit scripts/parse_all_match_results.py:
+YEARS = [2020, 2021, 2022, 2023, 2024, 2025]  # Add 2025
+
+# 3. Run parser in Databricks
+# Creates/updates raw.match_results_parsed
+
+# 4. Run dbt
+cd afl_analytics
+uv run dbt run --select stg_match_results --full-refresh
+uv run dbt test --select stg_match_results
+
+# 5. Use in notebooks!
+```
+
+## 📚 Documentation
+
+### Generate dbt Docs
+```bash
+cd afl_analytics
+uv run dbt docs generate
+uv run dbt docs serve  # Opens browser at http://localhost:8080
+```
+
+**What you'll see:**
+- Data lineage diagram (visual flow of transformations)
+- Column-level documentation
+- Test results
+- SQL code for each model
+- Source → Model → Usage relationships
+
+### Key Documentation Files
+- `README.md` (this file) - Project overview
+- `COMMANDS_REFERENCE.md` - Quick command reference
+- `afl_analytics/models/bronze/_models.yml` - Column documentation
+- `docs/football-databricks-learning-roadmap.md` - Learning timeline
+- `docs/football-dbt-project-structure.md` - Detailed architecture
+
+## 🧪 Testing
+
+### Run All Tests
+```bash
+cd afl_analytics
+uv run dbt test
+```
+
+### Run Tests for Specific Model
+```bash
+uv run dbt test --select stg_match_results
+```
+
+### What Tests Check
+- **not_null**: Critical columns have no NULLs
+- **accepted_range**: Scores between 0-300
+- **accepted_values**: Result is home_win/away_win/draw
+- Custom tests in `tests/` directory
+
+## 🔍 Exploration & Analysis
+
+### Using Bronze Data in Notebooks
+
+```python
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.getOrCreate()
+
+# Read from Bronze
+matches = spark.table("afl_analytics_dev.bronze.stg_match_results")
+
+# Analyze
+matches.groupBy("season").count().show()
+matches.filter("season == 2024").show()
+
+# Your analysis here!
+```
+
+### Query in Databricks SQL
+
+```sql
+-- Average scores by season
+SELECT 
+    season,
+    AVG(home_score) as avg_home_score,
+    AVG(away_score) as avg_away_score,
+    AVG(margin) as avg_margin
+FROM afl_analytics_dev.bronze.stg_match_results
+GROUP BY season
+ORDER BY season;
+
+-- Biggest wins by margin
+SELECT season, round, home_team, away_team, margin
+FROM afl_analytics_dev.bronze.stg_match_results
+ORDER BY ABS(margin) DESC
+LIMIT 10;
+```
+
+## 📖 Learning Resources
+
+### Databricks Certification Prep
+- Databricks Academy (free courses)
+- Practice exam (before attempting)
+- Focus areas: Delta Lake, Spark SQL, performance tuning
+- Timeline: 3-4 months to Associate certification
+
+### FP + Data Engineering
+- Medallion architecture = function composition
+- dbt models = pure functions
+- Delta Lake = immutable event log
+- Idempotent transformations = safe reruns
+
+### Reference Documentation
+- `/docs/` folder contains detailed guides
+- dbt docs: `dbt docs serve`
+- Databricks docs: https://docs.databricks.com
+
+## 🐛 Troubleshooting
+
+### Common Issues
+
+**"dbt command not found"**
+```bash
+# Use uv run prefix
+uv run dbt --version
+
+# Or activate environment first
+uv sync
+source .venv/bin/activate
+dbt --version
+```
+
+**"Source 'match_results_parsed' not found"**
+```bash
+# Make sure parser script ran successfully
+# Check in Databricks SQL:
+SHOW TABLES IN afl_analytics_dev.raw;
+SELECT COUNT(*) FROM afl_analytics_dev.raw.match_results_parsed;
+```
+
+**"Column not found" errors in dbt**
+- Check `_sources.yml` matches actual table schema
+- Run: `DESCRIBE afl_analytics_dev.raw.match_results_parsed`
+- Update SQL to match actual columns
+
+**Tests failing**
+```bash
+# See which tests failed
+uv run dbt test --select stg_match_results
+
+# Check the data
+SELECT * FROM afl_analytics_dev.bronze.stg_match_results
+WHERE home_score IS NULL;  -- Find the problem rows
+```
+
+## 🎯 Project Milestones
+
+### Completed ✅
+- [x] Project structure set up
+- [x] Git repository initialized
+- [x] Databricks connection configured
+- [x] Raw data uploaded to Volume
+- [x] Python parser working
+- [x] Bronze layer complete
+- [x] dbt tests passing
+- [x] Documentation generated
+
+### Next 2 Weeks 🔨
+- [ ] Build Silver layer (dim_teams, dim_venues, fct_matches)
+- [ ] Migrate one existing notebook to use Bronze tables
+- [ ] Start Elo rating calculation in Gold layer
+
+### Next Month 📅
+- [ ] Complete Gold layer (Elo, predictions, aggregations)
+- [ ] All notebooks migrated to use dbt tables
+- [ ] Start Databricks certification study
+
+### 3-4 Months 🎓
+- [ ] Pass Databricks Data Engineer Associate certification
+- [ ] Advanced analytics complete (Brownlow, game clustering)
+- [ ] Blog posts on FP + data engineering
+
+## 🤝 Contributing / Development
+
+### Making Changes
+
+1. **Edit locally in Git repo**
+2. **Commit changes**
+   ```bash
+   git add .
+   git commit -m "Add feature X"
+   git push
+   ```
+3. **Sync in Databricks Repos**
+   - Go to Repos → Your repo
+   - Click Git → Pull
+4. **Test changes**
+   ```bash
+   uv run dbt run
+   uv run dbt test
+   ```
+
+### Code Style
+
+- SQL: Lowercase keywords, clear indentation
+- Python: Follow PEP 8, use type hints
+- dbt: One model per file, clear naming
+- Tests: Add tests for all new models
+- Documentation: Update _models.yml for new columns
+
+## 📞 Contact / Questions
+
+- **Project Owner**: Alan (that's you!)
+- **Repository**: [Your GitHub URL]
+- **Databricks Workspace**: [Your workspace URL]
+
+## 📝 Notes
+
+- 2020 season has NULL crowds (COVID)
+- Parser script handles messy .txt format
+- dbt runs can be scheduled in Databricks Jobs (future)
+- Delta Lake provides time travel: `SELECT * FROM table VERSION AS OF 1`
+- All transformations are idempotent - safe to rerun anytime
+
+---
+
+**Last Updated**: December 2024
+**Status**: Bronze layer complete, Silver layer next
+**Learning Focus**: Databricks certification prep + FP principles
