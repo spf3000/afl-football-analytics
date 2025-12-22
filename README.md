@@ -25,7 +25,7 @@ afl-football-analytics/
 │   └── docs/                   # Project documentation
 │
 ├── scripts/                    # Python preprocessing scripts
-│   └── parse_all_match_results.py  # Parse .txt files → raw table
+│   └── stg_match_results.py  # Parse .txt files → raw table
 │
 ├── notebooks/                  # Analysis notebooks
 │   ├── crowd_analysis.ipynb    # (your existing work)
@@ -45,7 +45,7 @@ afl-football-analytics/
 ```
 Raw .txt Files (Volume)
     ↓
-Python Parser (scripts/parse_all_match_results.py)
+Python Parser (scripts/stg_match_results.py)
     ↓
 raw.match_results_parsed (Raw table)
     ↓
@@ -61,21 +61,25 @@ bronze.stg_match_results (Typed, tested, documented)
 ### Functional Programming Principles
 
 **Idempotency:**
+
 - Python parser: Same .txt files → same parsed table (can rerun safely)
 - dbt models: Same input → same output (can rerun safely)
 - No side effects, no hidden state
 
 **Composition:**
+
 - Bronze models compose into Silver models
 - Silver models compose into Gold models
 - Small, single-purpose transformations
 
 **Purity:**
+
 - Each dbt model is a pure function: `output = f(inputs)`
 - Deterministic transformations
 - Easy to test and reason about
 
 **Immutability:**
+
 - Bronze layer stays raw
 - Transformations create new tables, never UPDATE in place
 - Version history preserved
@@ -85,6 +89,7 @@ bronze.stg_match_results (Typed, tested, documented)
 ### ✅ Completed
 
 **Bronze Layer:**
+
 - [x] Raw .txt files uploaded to Databricks Volume
 - [x] Python parser handles messy text format
 - [x] `raw.match_results_parsed` table created (2020-2024)
@@ -93,6 +98,7 @@ bronze.stg_match_results (Typed, tested, documented)
 - [x] Documentation generated
 
 **Data Available:**
+
 - Match results (2020-2024): ~1000+ matches
 - Teams, venues, scores, crowds (NULL for 2020 COVID year)
 - Calculated fields: margin, result
@@ -100,6 +106,7 @@ bronze.stg_match_results (Typed, tested, documented)
 ### 🔨 In Progress / Next Steps
 
 **Silver Layer (Next):**
+
 - [ ] `dim_teams` - Team dimension table
 - [ ] `dim_venues` - Venue dimension table
 - [ ] `fct_matches` - Fact table (matches with all joins)
@@ -107,6 +114,7 @@ bronze.stg_match_results (Typed, tested, documented)
 - [ ] Add team metadata (colors, nicknames)
 
 **Gold Layer (Future):**
+
 - [ ] Elo rating system
 - [ ] Match prediction model
 - [ ] Brownlow predictor
@@ -115,6 +123,7 @@ bronze.stg_match_results (Typed, tested, documented)
 - [ ] Turnover analysis by game time
 
 **Other:**
+
 - [ ] Migrate existing notebooks to use Bronze tables
 - [ ] Add crowd data as separate source
 - [ ] Add ladder stats as separate source
@@ -132,18 +141,20 @@ bronze.stg_match_results (Typed, tested, documented)
 ## 📊 Data Sources
 
 ### Match Results (.txt files)
+
 - **Source**: Copy/paste from AFL websites
 - **Format**: Tab-delimited text files (messy!)
 - **Years**: 2020-2024 (one file per year)
 - **Location**: `/Volumes/afl_analytics_dev/raw/afl_raw_files/`
-- **Parser**: `scripts/parse_all_match_results.py`
-- **Challenges**: 
+- **Parser**: `scripts/stg_match_results.py`
+- **Challenges**:
   - Empty crowd column for 2020 (COVID)
   - Multiple lines per match
   - Inconsistent spacing
   - BYE rows to filter
 
 ### Future Data Sources
+
 - Crowd analysis data
 - Ladder statistics (scraped)
 - Player statistics (if available)
@@ -151,6 +162,7 @@ bronze.stg_match_results (Typed, tested, documented)
 ## 🏃 Quick Start
 
 ### Prerequisites
+
 - Databricks workspace access
 - Python 3.11+
 - uv package manager
@@ -159,17 +171,20 @@ bronze.stg_match_results (Typed, tested, documented)
 ### Initial Setup
 
 1. **Clone Repository:**
+
    ```bash
    git clone <your-repo-url>
    cd afl-football-analytics
    ```
 
 2. **Install Dependencies:**
+
    ```bash
    uv sync
    ```
 
 3. **Configure Databricks Connection:**
+
    ```bash
    cp afl_analytics/profiles.yml.example ~/.dbt/profiles.yml
    # Edit ~/.dbt/profiles.yml with your Databricks credentials
@@ -177,6 +192,7 @@ bronze.stg_match_results (Typed, tested, documented)
    ```
 
 4. **Create Databricks Resources:**
+
    ```sql
    -- In Databricks SQL Editor
    CREATE CATALOG IF NOT EXISTS afl_analytics_dev;
@@ -192,13 +208,15 @@ bronze.stg_match_results (Typed, tested, documented)
    - Upload your .txt files: `real_afl_attendance_YYYY.txt`
 
 6. **Run Parser Script:**
+
    ```bash
    # In Databricks notebook or Repos
-   # Open: scripts/parse_all_match_results.py
+   # Open: scripts/stg_match_results.py
    # Click "Run All"
    ```
 
 7. **Run dbt:**
+
    ```bash
    cd afl_analytics
    uv run dbt deps    # Install packages (first time only)
@@ -214,7 +232,7 @@ bronze.stg_match_results (Typed, tested, documented)
 # 1. Upload new .txt file to Volume (via Databricks UI)
 
 # 2. Update parser script
-# Edit scripts/parse_all_match_results.py:
+# Edit scripts/stg_match_results.py:
 YEARS = [2020, 2021, 2022, 2023, 2024, 2025]  # Add 2025
 
 # 3. Run parser in Databricks
@@ -231,6 +249,7 @@ uv run dbt test --select stg_match_results
 ## 📚 Documentation
 
 ### Generate dbt Docs
+
 ```bash
 cd afl_analytics
 uv run dbt docs generate
@@ -238,6 +257,7 @@ uv run dbt docs serve  # Opens browser at http://localhost:8080
 ```
 
 **What you'll see:**
+
 - Data lineage diagram (visual flow of transformations)
 - Column-level documentation
 - Test results
@@ -245,6 +265,7 @@ uv run dbt docs serve  # Opens browser at http://localhost:8080
 - Source → Model → Usage relationships
 
 ### Key Documentation Files
+
 - `README.md` (this file) - Project overview
 - `COMMANDS_REFERENCE.md` - Quick command reference
 - `afl_analytics/models/bronze/_models.yml` - Column documentation
@@ -254,17 +275,20 @@ uv run dbt docs serve  # Opens browser at http://localhost:8080
 ## 🧪 Testing
 
 ### Run All Tests
+
 ```bash
 cd afl_analytics
 uv run dbt test
 ```
 
 ### Run Tests for Specific Model
+
 ```bash
 uv run dbt test --select stg_match_results
 ```
 
 ### What Tests Check
+
 - **not_null**: Critical columns have no NULLs
 - **accepted_range**: Scores between 0-300
 - **accepted_values**: Result is home_win/away_win/draw
@@ -311,27 +335,31 @@ LIMIT 10;
 ## 📖 Learning Resources
 
 ### Databricks Certification Prep
+
 - Databricks Academy (free courses)
 - Practice exam (before attempting)
 - Focus areas: Delta Lake, Spark SQL, performance tuning
 - Timeline: 3-4 months to Associate certification
 
 ### FP + Data Engineering
+
 - Medallion architecture = function composition
 - dbt models = pure functions
 - Delta Lake = immutable event log
 - Idempotent transformations = safe reruns
 
 ### Reference Documentation
+
 - `/docs/` folder contains detailed guides
 - dbt docs: `dbt docs serve`
-- Databricks docs: https://docs.databricks.com
+- Databricks docs: <https://docs.databricks.com>
 
 ## 🐛 Troubleshooting
 
 ### Common Issues
 
 **"dbt command not found"**
+
 ```bash
 # Use uv run prefix
 uv run dbt --version
@@ -343,6 +371,7 @@ dbt --version
 ```
 
 **"Source 'match_results_parsed' not found"**
+
 ```bash
 # Make sure parser script ran successfully
 # Check in Databricks SQL:
@@ -351,11 +380,13 @@ SELECT COUNT(*) FROM afl_analytics_dev.raw.match_results_parsed;
 ```
 
 **"Column not found" errors in dbt**
+
 - Check `_sources.yml` matches actual table schema
 - Run: `DESCRIBE afl_analytics_dev.raw.match_results_parsed`
 - Update SQL to match actual columns
 
 **Tests failing**
+
 ```bash
 # See which tests failed
 uv run dbt test --select stg_match_results
@@ -368,6 +399,7 @@ WHERE home_score IS NULL;  -- Find the problem rows
 ## 🎯 Project Milestones
 
 ### Completed ✅
+
 - [x] Project structure set up
 - [x] Git repository initialized
 - [x] Databricks connection configured
@@ -378,16 +410,19 @@ WHERE home_score IS NULL;  -- Find the problem rows
 - [x] Documentation generated
 
 ### Next 2 Weeks 🔨
+
 - [ ] Build Silver layer (dim_teams, dim_venues, fct_matches)
 - [ ] Migrate one existing notebook to use Bronze tables
 - [ ] Start Elo rating calculation in Gold layer
 
 ### Next Month 📅
+
 - [ ] Complete Gold layer (Elo, predictions, aggregations)
 - [ ] All notebooks migrated to use dbt tables
 - [ ] Start Databricks certification study
 
 ### 3-4 Months 🎓
+
 - [ ] Pass Databricks Data Engineer Associate certification
 - [ ] Advanced analytics complete (Brownlow, game clustering)
 - [ ] Blog posts on FP + data engineering
@@ -398,15 +433,18 @@ WHERE home_score IS NULL;  -- Find the problem rows
 
 1. **Edit locally in Git repo**
 2. **Commit changes**
+
    ```bash
    git add .
    git commit -m "Add feature X"
    git push
    ```
+
 3. **Sync in Databricks Repos**
    - Go to Repos → Your repo
    - Click Git → Pull
 4. **Test changes**
+
    ```bash
    uv run dbt run
    uv run dbt test
