@@ -14,7 +14,7 @@ spark = SparkSession.builder.getOrCreate()
 # Configuration
 VOLUME_PATH = "/Volumes/afl_analytics_dev/raw/afl_raw_files"
 OUTPUT_TABLE = "afl_analytics_dev.raw.match_results_parsed"
-YEARS = [2020, 2021, 2022, 2023, 2024]
+YEARS = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
 
 
 def parse_date(date_str, current_season):
