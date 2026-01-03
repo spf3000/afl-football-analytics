@@ -29,3 +29,6 @@ models:
       +file_format: delta         # Use Delta Lake format
       +schema: bronze             # Create in 'bronze' schema
       +tags: ['bronze', 'raw']    # Tag for easy filtering
+    silver:
+      +schema: silver
+      +tags: ['silver','cleaned']
