@@ -60,7 +60,7 @@ datasets/
 
 # Logs
 *.log
-logs/
+*logs/
 
 # Environment variables
 .env
@@ -72,3 +72,8 @@ logs/
 *.temp
 temp/
 tmp/
+
+# dbt
+*target/
+*dbt_packages/
+dbt.log
