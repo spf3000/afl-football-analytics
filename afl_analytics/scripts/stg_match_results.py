@@ -23,7 +23,7 @@ def parse_date(date_str, current_season):
         return None
     try:
         dt = dateparser.parse(date_str, fuzzy=True)
-        return dt.replace(year=current_season).date()
+        return dt.replace(year=current_season)  # Return full datetime, not just date
     except:
         return None
 
@@ -143,7 +143,7 @@ def parse_match_results_file(file_path, current_season):
                 pending_match = {
                     "season": current_season,
                     "round": current_round,
-                    "date": date_val,
+                    "match_datetime": date_val,
                     "home_team": home_team.strip(),
                     "away_team": away_team.strip(),
                     "venue": venue.strip() if venue else None,
@@ -171,7 +171,7 @@ def parse_match_results_file(file_path, current_season):
             {
                 "season": r["season"],
                 "round": r["round"],
-                "date": r["date"],
+                "match_datetime": r["match_datetime"],
                 "home_team": r["home_team"],
                 "away_team": r["away_team"],
                 "venue": r["venue"],
@@ -243,8 +243,8 @@ else:
         SELECT 
             season, 
             COUNT(*) as matches,
-            MIN(date) as first_match,
-            MAX(date) as last_match
+            MIN(match_datetime) as first_match,
+            MAX(match_datetime) as last_match
         FROM {OUTPUT_TABLE} 
         GROUP BY season 
         ORDER BY season

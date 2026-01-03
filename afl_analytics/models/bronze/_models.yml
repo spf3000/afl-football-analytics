@@ -24,8 +24,8 @@ models:
         tests:
           - not_null
       
-      - name: date
-        description: "Date the match was played"
+      - name: match_datetime
+        description: "Date and time the match was played"
         tests:
           - not_null
       

@@ -15,7 +15,7 @@ SELECT
     -- From parsed table (Python script already cleaned)
     season,
     round,
-    date AS date,
+    match_datetime,
     home_team,
     away_team,
     venue,
@@ -40,7 +40,7 @@ FROM {{ source('raw', 'match_results_parsed') }}
 
 -- Basic quality filters
 WHERE
-    date IS NOT NULL
+    match_datetime IS NOT NULL
     AND home_team IS NOT NULL
     AND away_team IS NOT NULL
     AND home_score IS NOT NULL
