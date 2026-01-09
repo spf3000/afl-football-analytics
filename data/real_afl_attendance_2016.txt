@@ -1,0 +1,603 @@
+Round 1
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Thu 24 Mar 7:20pm 	Richmond v Carlton 	MCG 	75706 	92-83 	K. Simpson 31
+	M. Wright 3
+T. Vickery 3
+ Sat 26 Mar 1:40pm 	Melbourne v GWS 	MCG 	28505 	80-78 	J. Viney 32
+	J. Hogan 3
+ Sat 26 Mar 3:35pm 	Gold Coast v Essendon 	People First Stadium 	16239 	121-60 	A. Hall 36
+	T. Lynch 4
+ Sat 26 Mar 7:25pm 	Sydney v Collingwood 	Accor Stadium 	33857 	133-53 	L. Parker 40
+	L. Franklin 4
+ Sat 26 Mar 7:25pm 	North Melbourne v Adelaide 	Marvel Stadium 	25485 	107-97 	S. Thompson 30
+	J. Jenkins 5
+ Sun 27 Mar 1:10pm 	Western Bulldogs v Fremantle 	Marvel Stadium 	27832 	103-38 	J. Johannisen 35
+S. Biggs 35
+	J. Stringer 5
+ Sun 27 Mar 2:50pm 	Port Adelaide v St Kilda 	Adelaide Oval 	43807 	133-100 	S. Gray 37
+	R. Gray 4
+ Sun 27 Mar 4:40pm 	West Coast v Brisbane 	Domain Stadium 	35201 	166-102 	M. Priddis 43
+	J. Kennedy 8
+ Mon 28 Mar 3:20pm 	Geelong v Hawthorn 	MCG 	74218 	116-86 	P. Dangerfield 43
+	-
+Round 2
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 1 Apr 7:50pm 	Collingwood v Richmond 	MCG 	72761 	87-86 	T. Cotchin 38
+	A. Fasolo 6
+ Sat 2 Apr 1:15pm 	Adelaide v Port Adelaide 	Adelaide Oval 	51585 	144-86 	R. Gray 37
+	T. Lynch 6
+ Sat 2 Apr 2:10pm 	Essendon v Melbourne 	MCG 	50424 	80-67 	D. Zaharakis 34
+	B. Kennedy 3
+ Sat 2 Apr 3:35pm 	Brisbane v North Melbourne 	Gabba 	18021 	83-117 	B. Harvey 24
+P. Hanley 24
+D. Zorko 24
+	J. Waite 5
+ Sat 2 Apr 4:40pm 	Fremantle v Gold Coast 	Domain Stadium 	34208 	100-126 	N. Fyfe 34
+	T. Lynch 5
+ Sat 2 Apr 7:25pm 	St Kilda v Western Bulldogs 	Marvel Stadium 	37353 	36-93 	L. Hunter 35
+	T. Boyd 3
+ Sun 3 Apr 1:10pm 	GWS v Geelong 	Manuka Oval 	13656 	89-76 	T. Greene 34
+	T. Hawkins 3
+ Sun 3 Apr 3:20pm 	Hawthorn v West Coast 	MCG 	42977 	99-53 	J. Gibson 44
+	C. Rioli 4
+J. Sicily 4
+ Sun 3 Apr 4:40pm 	Carlton v Sydney 	Marvel Stadium 	33146 	71-131 	T. Mitchell 34
+	L. Franklin 4
+K. Tippett 4
+Round 3
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 8 Apr 7:20pm 	Port Adelaide v Essendon 	Adelaide Oval 	44601 	112-51 	R. Gray 30
+	A. Young 3
+C. Dixon 3
+ Sat 9 Apr 1:45pm 	St Kilda v Collingwood 	MCG 	50903 	119-90 	L. Montagna 40
+	J. Steven 3
+M. Weller 3
+ Sat 9 Apr 2:10pm 	Richmond v Adelaide 	Marvel Stadium 	29951 	92-128 	B. Ellis 39
+	-
+ Sat 9 Apr 4:35pm 	Sydney v GWS 	SCG 	37045 	93-68 	D. Hannebery 31
+	L. Franklin 4
+ Sat 9 Apr 5:40pm 	West Coast v Fremantle 	Domain Stadium 	40555 	92-59 	A. Gaff 32
+	J. Darling 3
+M. Pavlich 3
+ Sat 9 Apr 7:25pm 	Gold Coast v Carlton 	People First Stadium 	13885 	95-41 	A. Hall 40
+	T. Lynch 4
+ Sun 10 Apr 1:10pm 	North Melbourne v Melbourne 	Ninja Stadium 	12607 	136-131 	B. Vince 32
+	B. Harvey 6
+ Sun 10 Apr 3:20pm 	Western Bulldogs v Hawthorn 	Marvel Stadium 	46808 	90-93 	L. Dahlhaus 33
+	J. Sicily 3
+C. Rioli 3
+ Sun 10 Apr 4:40pm 	Geelong v Brisbane 	GMHBA Stadium 	23320 	125-56 	J. Selwood 34
+	T. Hawkins 4
+Round 4
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 15 Apr 6:10pm 	West Coast v Richmond 	Domain Stadium 	38860 	125-57 	A. Gaff 33
+	J. Darling 4
+J. Riewoldt 4
+ Sat 16 Apr 1:45pm 	Essendon v Geelong 	MCG 	42723 	42-72 	D. Zaharakis 34
+	S. Motlop 2
+ Sat 16 Apr 2:10pm 	Hawthorn v St Kilda 	UTAS Stadium 	17052 	87-84 	S. Mitchell 44
+	-
+ Sat 16 Apr 4:35pm 	Brisbane v Gold Coast 	Gabba 	20041 	107-94 	P. Hanley 28
+	T. Lynch 5
+ Sat 16 Apr 7:10pm 	Adelaide v Sydney 	Adelaide Oval 	51330 	113-103 	D. Hannebery 38
+	L. Franklin 4
+I. Heeney 4
+E. Betts 4
+ Sat 16 Apr 7:25pm 	Carlton v Western Bulldogs 	Marvel Stadium 	27622 	49-85 	L. Hunter 33
+	M. Bontempelli 3
+ Sun 17 Apr 1:10pm 	GWS v Port Adelaide 	Manuka Oval 	10028 	151-65 	S. Coniglio 34
+	R. Lobb 4
+ Sun 17 Apr 3:20pm 	Collingwood v Melbourne 	MCG 	47558 	67-102 	J. Viney 31
+A. Treloar 31
+	J. Watts 4
+ Sun 17 Apr 4:40pm 	North Melbourne v Fremantle 	Marvel Stadium 	23393 	132-101 	L. Neale 35
+	J. Waite 4
+N. Fyfe 4
+Round 5
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 22 Apr 7:50pm 	Hawthorn v Adelaide 	MCG 	45781 	112-109 	S. Thompson 33
+	P. Puopolo 5
+ Sat 23 Apr 1:45pm 	Sydney v West Coast 	SCG 	35427 	88-49 	A. Gaff 32
+	-
+ Sat 23 Apr 4:35pm 	Gold Coast v North Melbourne 	People First Stadium 	13351 	81-119 	A. Hall 32
+	B. Brown 4
+T. Lynch 4
+ Sat 23 Apr 7:15pm 	Port Adelaide v Geelong 	Adelaide Oval 	44937 	59-107 	P. Dangerfield 29
+M. Duncan 29
+	D. Menzel 3
+C. Dixon 3
+ Sat 23 Apr 7:25pm 	Western Bulldogs v Brisbane 	Marvel Stadium 	25097 	120-67 	K. Stevens 34
+	J. Stringer 3
+ Sun 24 Apr 1:10pm 	St Kilda v GWS 	Marvel Stadium 	21052 	79-126 	S. Coniglio 32
+	J. Cameron 5
+ Sun 24 Apr 2:15pm 	Fremantle v Carlton 	Domain Stadium 	34796 	68-72 	L. Neale 35
+	D. Thomas 3
+ Sun 24 Apr 7:10pm 	Melbourne v Richmond 	MCG 	59968 	129-96 	J. Viney 37
+	J. Garlett 4
+ Mon 25 Apr 3:20pm 	Collingwood v Essendon 	MCG 	85082 	142-73 	T. Adams 36
+	S. Sidebottom 4
+A. Fasolo 4
+Round 6
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 29 Apr 7:50pm 	North Melbourne v Western Bulldogs 	Marvel Stadium 	47622 	61-45 	L. Hunter 44
+	J. Waite 4
+ Sat 30 Apr 1:40pm 	Adelaide v Fremantle 	Adelaide Oval 	47423 	97-64 	L. Neale 40
+	E. Betts 4
+ Sat 30 Apr 1:45pm 	Melbourne v St Kilda 	Marvel Stadium 	27260 	96-135 	N. Jones 31
+	J. Hogan 7
+ Sat 30 Apr 4:35pm 	GWS v Hawthorn 	ENGIE Stadium 	13766 	158-83 	D. Shiel 34
+	J. Gunston 5
+S. Johnson 5
+ Sat 30 Apr 7:25pm 	Richmond v Port Adelaide 	MCG 	27077 	59-94 	B. Houli 34
+	J. Impey 3
+J. Riewoldt 3
+ Sat 30 Apr 7:25pm 	Geelong v Gold Coast 	GMHBA Stadium 	23007 	168-48 	J. Selwood 32
+	T. Hawkins 4
+S. Kersten 4
+ Sun 1 May 1:10pm 	Brisbane v Sydney 	Gabba 	14646 	94-97 	D. Hannebery 33
+D. Zorko 33
+	L. Franklin 5
+ Sun 1 May 2:40pm 	West Coast v Collingwood 	Domain Stadium 	37931 	124-62 	A. Treloar 32
+	M. Lecras 3
+J. Kennedy 3
+J. Cripps 3
+ Sun 1 May 3:20pm 	Carlton v Essendon 	MCG 	43827 	72-57 	B. Gibbs 32
+	M. Brown 2
+D. Parish 2
+M. Wright 2
+Round 7
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 6 May 7:50pm 	Richmond v Hawthorn 	MCG 	49678 	90-136 	J. Lewis 28
+B. Hartung 28
+D. Martin 28
+	L. Breust 6
+ Sat 7 May 1:45pm 	Collingwood v Carlton 	MCG 	60222 	84-99 	S. Pendlebury 34
+	A. Fasolo 4
+ Sat 7 May 2:10pm 	Geelong v West Coast 	GMHBA Stadium 	25429 	123-79 	A. Gaff 36
+	S. Motlop 4
+ Sat 7 May 4:35pm 	Sydney v Essendon 	Accor Stadium 	29527 	135-54 	J. Kennedy 40
+	L. Franklin 6
+ Sat 7 May 5:10pm 	Gold Coast v Melbourne 	People First Stadium 	12780 	87-160 	N. Jones 33
+	T. Lynch 4
+ Sat 7 May 6:10pm 	Fremantle v GWS 	Domain Stadium 	28201 	77-95 	L. Neale 33
+	C. Mayne 3
+ Sat 7 May 7:40pm 	Western Bulldogs v Adelaide 	Marvel Stadium 	26984 	123-108 	L. Dahlhaus 31
+	J. Jenkins 8
+ Sun 8 May 3:20pm 	St Kilda v North Melbourne 	Marvel Stadium 	27254 	75-82 	L. Montagna 34
+	N. Riewoldt 3
+T. Membrey 3
+ Sun 8 May 4:10pm 	Port Adelaide v Brisbane 	Adelaide Oval 	32399 	136-59 	T. Boak 31
+	C. Dixon 5
+Round 8
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 13 May 7:20pm 	Adelaide v Geelong 	Adelaide Oval 	53141 	72-98 	C. Guthrie 36
+	S. Motlop 4
+ Sat 14 May 1:45pm 	Essendon v North Melbourne 	Marvel Stadium 	30321 	60-74 	B. Goddard 38
+	-
+ Sat 14 May 2:10pm 	Hawthorn v Fremantle 	UTAS Stadium 	12012 	116-75 	L. Neale 38
+	L. Breust 3
+J. Gunston 3
+ Sat 14 May 4:35pm 	GWS v Gold Coast 	ENGIE Stadium 	8308 	149-58 	D. Shiel 35
+	J. Cameron 7
+ Sat 14 May 7:25pm 	Brisbane v Collingwood 	Gabba 	24552 	65-143 	A. Treloar 36
+	M. Cox 4
+D. Zorko 4
+ Sat 14 May 7:25pm 	Richmond v Sydney 	MCG 	36014 	101-100 	D. Hannebery 34
+B. Deledio 34
+	L. Franklin 5
+B. Griffiths 5
+ Sun 15 May 1:10pm 	Carlton v Port Adelaide 	Marvel Stadium 	26924 	93-91 	S. Docherty 33
+	A. Everitt 3
+ Sun 15 May 2:40pm 	West Coast v St Kilda 	Domain Stadium 	36140 	132-29 	A. Gaff 36
+	M. Lecras 6
+ Sun 15 May 3:20pm 	Melbourne v Western Bulldogs 	MCG 	39921 	82-114 	L. Hunter 34
+	J. Stringer 5
+Round 9
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 20 May 7:50pm 	Hawthorn v Sydney 	MCG 	61552 	55-69 	D. Hannebery 33
+	J. Gunston 4
+ Sat 21 May 1:45pm 	Collingwood v Geelong 	MCG 	59864 	104-80 	S. Sidebottom 31
+	T. Hawkins 4
+ Sat 21 May 2:10pm 	Gold Coast v Adelaide 	People First Stadium 	11692 	74-149 	D. Prestia 31
+	T. Walker 5
+ Sat 21 May 4:05pm 	Port Adelaide v West Coast 	Adelaide Oval 	38695 	86-94 	R. Gray 28
+	J. Kennedy 7
+ Sat 21 May 5:40pm 	Fremantle v Richmond 	Domain Stadium 	20184 	45-83 	T. Cotchin 39
+	H. Ballantyne 3
+ Sat 21 May 7:25pm 	North Melbourne v Carlton 	Marvel Stadium 	38419 	113-46 	B. Gibbs 29
+S. Docherty 29
+S. Kerridge 29
+	T. Goldstein 3
+L. Thomas 3
+ Sun 22 May 1:10pm 	Melbourne v Brisbane 	MCG 	26892 	131-68 	T. Bugg 31
+B. Stretch 31
+	J. Hogan 5
+ Sun 22 May 3:20pm 	GWS v Western Bulldogs 	ENGIE Stadium 	9612 	98-73 	H. Shaw 38
+	J. Cameron 5
+ Sun 22 May 4:40pm 	St Kilda v Essendon 	Marvel Stadium 	29026 	109-63 	J. Steven 40
+	J. Bruce 5
+Round 10
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 27 May 7:50pm 	Sydney v North Melbourne 	SCG 	38498 	91-65 	T. Mitchell 41
+	L. Thomas 3
+L. Franklin 3
+ Sat 28 May 1:40pm 	Melbourne v Port Adelaide 	TIO Traeger Park 	5146 	76-121 	N. Jones 28
+R. Gray 28
+	C. Dixon 5
+ Sat 28 May 1:45pm 	Brisbane v Hawthorn 	Gabba 	23691 	87-135 	J. Lewis 42
+	C. Rioli 5
+ Sat 28 May 4:35pm 	St Kilda v Fremantle 	Marvel Stadium 	17927 	101-67 	J. Steven 32
+	T. Membrey 3
+ Sat 28 May 7:10pm 	Adelaide v GWS 	Adelaide Oval 	46737 	107-85 	S. Coniglio 30
+	E. Betts 5
+T. Walker 5
+ Sat 28 May 7:25pm 	Essendon v Richmond 	MCG 	56948 	67-105 	D. Martin 38
+	B. Deledio 3
+T. Vickery 3
+ Sun 29 May 1:10pm 	Carlton v Geelong 	Marvel Stadium 	33535 	104-85 	B. Gibbs 34
+	A. Everitt 4
+ Sun 29 May 2:40pm 	West Coast v Gold Coast 	Domain Stadium 	34945 	132-55 	G. Ablett 32
+	J. Kennedy 5
+ Sun 29 May 3:20pm 	Collingwood v Western Bulldogs 	MCG 	45078 	53-74 	L. Dahlhaus 37
+	-
+Round 11
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 3 Jun 7:50pm 	North Melbourne v Richmond 	Ninja Stadium 	17844 	124-54 	S. Grigg 38
+	B. Harvey 4
+ Sat 4 Jun 1:45pm 	Hawthorn v Melbourne 	MCG 	41833 	82-64 	B. Vince 36
+	J. Gunston 3
+ Sat 4 Jun 2:10pm 	Carlton v Brisbane 	Marvel Stadium 	30722 	102-64 	T. Rockliff 48
+	D. Armfield 3
+J. Lamb 3
+ Sat 4 Jun 4:35pm 	Geelong v GWS 	GMHBA Stadium 	22007 	98-88 	P. Dangerfield 32
+D. Shiel 32
+	D. Menzel 3
+T. Greene 3
+L. Whitfield 3
+ Sat 4 Jun 5:40pm 	Fremantle v Essendon 	Domain Stadium 	31199 	126-47 	L. Neale 42
+	M. Pavlich 3
+C. Mayne 3
+M. Walters 3
+ Sat 4 Jun 7:25pm 	Gold Coast v Sydney 	People First Stadium 	4368 	41-79 	D. Prestia 39
+	G. Rohan 2
+L. Parker 2
+ Sun 5 Jun 1:10pm 	Collingwood v Port Adelaide 	MCG 	28567 	58-125 	S. Pendlebury 30
+	A. Young 4
+J. Neade 4
+ Sun 5 Jun 3:20pm 	Western Bulldogs v West Coast 	Marvel Stadium 	28769 	83-75 	L. Hunter 38
+	T. Liberatore 3
+ Sun 5 Jun 4:10pm 	Adelaide v St Kilda 	Adelaide Oval 	40896 	133-45 	M. Crouch 36
+	J. Jenkins 7
+Round 12
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 10 Jun 7:50pm 	Essendon v Hawthorn 	Marvel Stadium 	27567 	43-151 	J. Lewis 35
+	L. Breust 4
+J. Gunston 4
+P. Puopolo 4
+ Sat 11 Jun 1:10pm 	Port Adelaide v Western Bulldogs 	Adelaide Oval 	40096 	97-100 	R. Gray 32
+	J. Redpath 4
+ Sat 11 Jun 4:35pm 	Brisbane v Fremantle 	Gabba 	12899 	64-147 	T. Rockliff 34
+	M. Taberner 5
+ Sat 11 Jun 5:40pm 	West Coast v Adelaide 	Domain Stadium 	37591 	76-105 	M. Priddis 29
+R. Sloane 29
+	E. Betts 5
+ Sat 11 Jun 7:25pm 	Geelong v North Melbourne 	Marvel Stadium 	44025 	105-74 	P. Dangerfield 48
+	B. Harvey 4
+D. Menzel 4
+ Sun 12 Jun 1:10pm 	St Kilda v Carlton 	Marvel Stadium 	47945 	110-78 	S. Ross 33
+	T. Membrey 5
+ Sun 12 Jun 3:20pm 	Richmond v Gold Coast 	MCG 	30448 	114-97 	D. Martin 38
+	T. Lynch 4
+ Sun 12 Jun 4:40pm 	GWS v Sydney 	ENGIE Stadium 	21541 	105-63 	D. Hannebery 28
+	T. Greene 4
+ Mon 13 Jun 3:20pm 	Melbourne v Collingwood 	MCG 	60158 	104-58 	B. Vince 42
+	M. Gawn 3
+D. Kent 3
+J. Hogan 3
+Round 13
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 17 Jun 7:50pm 	North Melbourne v Hawthorn 	Marvel Stadium 	37073 	84-93 	J. Lewis 31
+	J. Sicily 5
+ Sat 18 Jun 1:40pm 	Brisbane v West Coast 	Gabba 	12777 	82-131 	M. Robinson 39
+	J. Kennedy 5
+ Sat 18 Jun 2:35pm 	Fremantle v Port Adelaide 	Domain Stadium 	32448 	86-69 	M. Barlow 43
+	M. Pavlich 4
+ Sat 18 Jun 7:25pm 	Western Bulldogs v Geelong 	Marvel Stadium 	41725 	43-100 	P. Dangerfield 37
+	T. Hawkins 4
+D. Menzel 4
+ Sun 19 Jun 1:10pm 	Sydney v Melbourne 	SCG 	19086 	86-31 	J. Kennedy 28
+D. Hannebery 28
+B. Vince 28
+	L. Franklin 4
+ Sun 19 Jun 4:40pm 	Essendon v GWS 	Marvel Stadium 	14463 	90-117 	H. Shaw 31
+	O. Fantasia 4
+T. Greene 4
+  	Adelaide 	BYE 			  	 
+  	Carlton 	BYE 			  	 
+  	Collingwood 	BYE 			  	 
+  	Richmond 	BYE 			  	 
+  	St Kilda 	BYE 			  	 
+  	Gold Coast 	BYE 			  	 
+Round 14
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Thu 23 Jun 7:20pm 	Adelaide v North Melbourne 	Adelaide Oval 	37890 	100-67 	M. Crouch 32
+	L. Thomas 3
+ Fri 24 Jun 7:50pm 	Collingwood v Fremantle 	MCG 	20320 	85-37 	A. Treloar 33
+	-
+ Sat 25 Jun 1:40pm 	Richmond v Brisbane 	MCG 	28883 	117-75 	D. Martin 35
+	J. Riewoldt 4
+ Sat 25 Jun 4:35pm 	GWS v Carlton 	ENGIE Stadium 	10355 	127-65 	D. Shiel 34
+	S. Johnson 4
+ Sat 25 Jun 7:25pm 	St Kilda v Geelong 	Marvel Stadium 	28745 	93-90 	S. Ross 33
+	D. Minchington 3
+T. Hawkins 3
+L. McCarthy 3
+ Sun 26 Jun 3:20pm 	Hawthorn v Gold Coast 	UTAS Stadium 	10121 	86-60 	G. Ablett 40
+	J. Sicily 3
+T. Lynch 3
+  	Essendon 	BYE 			  	 
+  	Western Bulldogs 	BYE 			  	 
+  	Melbourne 	BYE 			  	 
+  	Port Adelaide 	BYE 			  	 
+  	Sydney 	BYE 			  	 
+  	West Coast 	BYE 			  	 
+Round 15
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Thu 30 Jun 6:10pm 	West Coast v Essendon 	Domain Stadium 	33117 	130-52 	A. Gaff 35
+	P. McGinnity 4
+ Fri 1 Jul 7:20pm 	Port Adelaide v Richmond 	Adelaide Oval 	37848 	94-56 	B. Ellis 34
+	J. Riewoldt 4
+ Sat 2 Jul 1:40pm 	Gold Coast v St Kilda 	People First Stadium 	14071 	108-68 	M. Rischitelli 33
+	P. Wright 3
+ Sat 2 Jul 4:35pm 	Sydney v Western Bulldogs 	SCG 	33386 	79-83 	J. Kennedy 34
+L. Parker 34
+	L. Franklin 5
+ Sat 2 Jul 7:25pm 	Carlton v Collingwood 	MCG 	56157 	45-57 	S. Pendlebury 34
+	J. Blair 2
+B. Grundy 2
+B. Gibbs 2
+ Sun 3 Jul 3:20pm 	Melbourne v Adelaide 	MCG 	29133 	98-120 	N. Jones 33
+	J. Garlett 4
+  	Fremantle 	BYE 			  	 
+  	Geelong 	BYE 			  	 
+  	Hawthorn 	BYE 			  	 
+  	North Melbourne 	BYE 			  	 
+  	Brisbane 	BYE 			  	 
+  	GWS 	BYE 			  	 
+Round 16
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Thu 7 Jul 7:20pm 	Port Adelaide v Hawthorn 	Adelaide Oval 	43025 	79-101 	L. Hodge 29
+R. Gray 29
+	C. Rioli 3
+J. Gunston 3
+C. Wingard 3
+ Fri 8 Jul 7:50pm 	Geelong v Sydney 	GMHBA Stadium 	24339 	60-98 	P. Dangerfield 34
+	K. Jack 3
+ Sat 9 Jul 1:40pm 	GWS v Collingwood 	ENGIE Stadium 	13483 	93-125 	T. Adams 31
+	J. Cameron 5
+ Sat 9 Jul 4:35pm 	Gold Coast v Brisbane 	People First Stadium 	13528 	139-113 	D. Prestia 31
+	T. Lynch 5
+P. Wright 5
+ Sat 9 Jul 7:10pm 	Melbourne v Fremantle 	TIO Stadium 	8163 	87-55 	N. Jones 35
+	J. Hogan 4
+ Sat 9 Jul 7:25pm 	Western Bulldogs v Richmond 	Marvel Stadium 	39679 	85-75 	D. Martin 38
+	J. Stringer 4
+ Sun 10 Jul 1:10pm 	Carlton v Adelaide 	MCG 	32430 	47-107 	R. Laird 35
+	D. Armfield 4
+ Sun 10 Jul 1:20pm 	West Coast v North Melbourne 	Domain Stadium 	35168 	104-72 	S. Gibson 29
+L. Shuey 29
+	B. Brown 4
+J. Kennedy 4
+ Sun 10 Jul 4:40pm 	Essendon v St Kilda 	Marvel Stadium 	25204 	98-109 	J. Steven 41
+	T. Membrey 5
+Round 17
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Thu 14 Jul 7:20pm 	Sydney v Hawthorn 	SCG 	42314 	70-75 	S. Mitchell 37
+	G. Rohan 4
+ Fri 15 Jul 6:10pm 	Fremantle v Geelong 	Domain Stadium 	31042 	61-78 	S. Hill 37
+	P. Dangerfield 4
+ Sat 16 Jul 1:40pm 	Richmond v Essendon 	MCG 	44908 	102-83 	D. Martin 43
+	O. Fantasia 3
+B. Griffiths 3
+S. Lloyd 3
+ Sat 16 Jul 4:35pm 	North Melbourne v Port Adelaide 	Marvel Stadium 	27000 	77-105 	R. Gray 35
+	-
+ Sat 16 Jul 7:10pm 	Adelaide v Collingwood 	Adelaide Oval 	50012 	97-69 	A. Treloar 36
+	E. Betts 3
+ Sat 16 Jul 7:25pm 	Western Bulldogs v Gold Coast 	Cazaly's Stadium 	8509 	107-59 	K. Stevens 34
+	M. Wallis 3
+C. Smith 3
+T. Lynch 3
+ Sun 17 Jul 1:10pm 	Carlton v West Coast 	MCG 	26389 	75-82 	S. Docherty 32
+	J. Cripps 3
+ Sun 17 Jul 3:20pm 	St Kilda v Melbourne 	Marvel Stadium 	25322 	110-74 	B. Vince 34
+	T. Membrey 4
+ Sun 17 Jul 4:40pm 	Brisbane v GWS 	Gabba 	10195 	67-146 	D. Shiel 34
+T. Rockliff 34
+	C. Ward 3
+J. Cameron 3
+J. Kelly 3
+Round 18
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 22 Jul 7:50pm 	Collingwood v North Melbourne 	Marvel Stadium 	36041 	84-124 	S. Gibson 33
+	L. Thomas 5
+ Sat 23 Jul 1:45pm 	Sydney v Carlton 	SCG 	31765 	74-68 	J. Kennedy 35
+	L. Franklin 4
+ Sat 23 Jul 2:10pm 	Gold Coast v Fremantle 	People First Stadium 	8933 	105-81 	L. Neale 42
+	S. Day 4
+T. Lynch 4
+M. Walters 4
+ Sat 23 Jul 2:35pm 	West Coast v Melbourne 	Domain Stadium 	33908 	66-60 	N. Jones 34
+	J. Kennedy 3
+J. Garlett 3
+ Sat 23 Jul 7:25pm 	Geelong v Adelaide 	GMHBA Stadium 	21127 	85-55 	P. Dangerfield 36
+	T. Hawkins 4
+D. Menzel 4
+ Sat 23 Jul 7:25pm 	Western Bulldogs v St Kilda 	Marvel Stadium 	26532 	60-75 	J. Steven 39
+	N. Riewoldt 4
+ Sun 24 Jul 1:10pm 	Essendon v Brisbane 	Marvel Stadium 	34869 	91-128 	T. Rockliff 38
+	J. Daniher 4
+J. Walker 4
+ Sun 24 Jul 3:20pm 	Hawthorn v Richmond 	MCG 	51892 	114-44 	D. Martin 39
+	C. Rioli 3
+J. Gunston 3
+J. Sicily 3
+ Sun 24 Jul 4:10pm 	Port Adelaide v GWS 	Adelaide Oval 	27935 	60-79 	T. Boak 34
+	B. Ebert 4
+Round 19
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 29 Jul 7:50pm 	Geelong v Western Bulldogs 	GMHBA Stadium 	24331 	103-78 	P. Dangerfield 33
+	R. Stanley 5
+ Sat 30 Jul 1:45pm 	GWS v Richmond 	Manuka Oval 	14974 	111-23 	S. Coniglio 33
+	S. Johnson 3
+T. Greene 3
+S. Reid 3
+ Sat 30 Jul 2:10pm 	Hawthorn v Carlton 	UTAS Stadium 	18112 	74-55 	Z. Tuohy 35
+	L. Breust 2
+J. Ceglar 2
+ Sat 30 Jul 4:35pm 	Collingwood v West Coast 	MCG 	34929 	91-72 	T. Adams 36
+	J. Darling 4
+ Sat 30 Jul 7:25pm 	North Melbourne v St Kilda 	Marvel Stadium 	44287 	85-62 	J. MacMillan 31
+	B. Brown 3
+ Sat 30 Jul 7:25pm 	Brisbane v Port Adelaide 	Gabba 	13085 	79-173 	R. Gray 32
+O. Wines 32
+	C. Wingard 5
+ Sun 31 Jul 1:10pm 	Melbourne v Gold Coast 	MCG 	20627 	66-64 	D. Tyson 31
+	J. Watts 3
+A. Vandenberg 3
+ Sun 31 Jul 1:20pm 	Fremantle v Sydney 	Domain Stadium 	32401 	47-137 	J. Kennedy 45
+	I. Heeney 4
+ Sun 31 Jul 4:10pm 	Adelaide v Essendon 	Adelaide Oval 	44264 	143-61 	R. Laird 36
+	E. Betts 5
+Round 20
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 5 Aug 7:50pm 	Richmond v Collingwood 	MCG 	49122 	92-77 	D. Martin 34
+	J. Riewoldt 4
+ Sat 6 Aug 1:45pm 	Sydney v Port Adelaide 	SCG 	30204 	100-33 	L. Parker 39
+	-
+ Sat 6 Aug 2:10pm 	Melbourne v Hawthorn 	MCG 	38818 	110-81 	J. Viney 39
+	C. Rioli 4
+ Sat 6 Aug 4:35pm 	Gold Coast v GWS 	People First Stadium 	9108 	84-92 	S. Coniglio 33
+	J. Cameron 4
+T. Lynch 4
+ Sat 6 Aug 7:10pm 	Adelaide v Brisbane 	Adelaide Oval 	43549 	177-39 	R. Laird 36
+	E. Betts 4
+T. Walker 4
+T. Lynch 4
+ Sat 6 Aug 7:25pm 	Western Bulldogs v North Melbourne 	Marvel Stadium 	30740 	61-47 	J. MacMillan 30
+	-
+ Sun 7 Aug 1:10pm 	Carlton v St Kilda 	MCG 	37797 	51-122 	K. Simpson 39
+	T. Membrey 5
+ Sun 7 Aug 2:40pm 	Fremantle v West Coast 	Domain Stadium 	36215 	64-110 	M. Priddis 33
+C. Masten 33
+	J. Kennedy 7
+ Sun 7 Aug 3:20pm 	Geelong v Essendon 	Marvel Stadium 	29254 	100-34 	C. Enright 29
+P. Dangerfield 29
+C. Guthrie 29
+	T. Hawkins 3
+Round 21
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 12 Aug 7:50pm 	Western Bulldogs v Collingwood 	Marvel Stadium 	35010 	95-92 	A. Treloar 35
+	D. Moore 3
+ Sat 13 Aug 1:45pm 	Brisbane v Carlton 	Gabba 	17432 	99-95 	T. Rockliff 39
+	L. Casboult 4
+M. Close 4
+ Sat 13 Aug 2:10pm 	Hawthorn v North Melbourne 	MCG 	50657 	96-57 	S. Mitchell 37
+	D. Petrie 3
+C. Rioli 3
+ Sat 13 Aug 4:35pm 	GWS v West Coast 	ENGIE Stadium 	10385 	96-97 	L. Shuey 38
+	R. Lobb 4
+ Sat 13 Aug 7:10pm 	Port Adelaide v Melbourne 	Adelaide Oval 	33426 	54-94 	B. Vince 31
+	-
+ Sat 13 Aug 7:25pm 	St Kilda v Sydney 	Marvel Stadium 	33059 	76-146 	D. Hannebery 37
+	L. Franklin 6
+ Sun 14 Aug 1:10pm 	Essendon v Gold Coast 	Marvel Stadium 	16622 	75-69 	D. Zaharakis 40
+	O. Fantasia 3
+ Sun 14 Aug 2:40pm 	Fremantle v Adelaide 	Domain Stadium 	30116 	70-142 	R. Laird 33
+	E. Betts 6
+ Sun 14 Aug 3:20pm 	Richmond v Geelong 	MCG 	45667 	78-82 	D. Martin 36
+	S. Lloyd 3
+Round 22
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 19 Aug 6:10pm 	West Coast v Hawthorn 	Domain Stadium 	38581 	92-67 	A. Gaff 38
+	J. Kennedy 5
+ Sat 20 Aug 1:45pm 	North Melbourne v Sydney 	Ninja Stadium 	16495 	76-85 	D. Hannebery 33
+	B. Harvey 3
+ Sat 20 Aug 2:10pm 	Richmond v St Kilda 	MCG 	35255 	46-55 	S. Ross 34
+	T. Membrey 2
+P. McCartin 2
+D. Rioli 2
+ Sat 20 Aug 4:35pm 	GWS v Fremantle 	ENGIE Stadium 	9556 	129-37 	L. Neale 40
+	J. Patton 6
+ Sat 20 Aug 7:10pm 	Port Adelaide v Adelaide 	Adelaide Oval 	49541 	94-109 	M. Crouch 33
+	E. Betts 5
+ Sat 20 Aug 7:25pm 	Collingwood v Gold Coast 	Marvel Stadium 	17644 	118-47 	A. Treloar 38
+	J. White 3
+J. De Goey 3
+ Sun 21 Aug 1:10pm 	Carlton v Melbourne 	MCG 	40693 	78-58 	B. Gibbs 33
+	D. Buckley 3
+ Sun 21 Aug 3:20pm 	Brisbane v Geelong 	Gabba 	20477 	69-129 	S. Menegola 33
+	S. Motlop 5
+ Sun 21 Aug 4:40pm 	Essendon v Western Bulldogs 	Marvel Stadium 	25308 	53-93 	Z. Merrett 35
+	T. Dickson 3
+Round 23
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 26 Aug 7:40pm 	Adelaide v West Coast 	Adelaide Oval 	50785 	71-100 	A. Gaff 41
+	J. Kennedy 5
+ Sat 27 Aug 1:45pm 	Geelong v Melbourne 	GMHBA Stadium 	24413 	155-44 	J. Selwood 36
+	T. Hawkins 6
+ Sat 27 Aug 2:10pm 	Essendon v Carlton 	MCG 	46566 	103-79 	K. Simpson 35
+	J. Daniher 5
+ Sat 27 Aug 4:35pm 	Sydney v Richmond 	SCG 	36570 	164-51 	J. Kennedy 37
+	L. Franklin 7
+ Sat 27 Aug 7:25pm 	Gold Coast v Port Adelaide 	People First Stadium 	9213 	66-89 	R. Gray 34
+	R. Gray 4
+ Sat 27 Aug 7:25pm 	North Melbourne v GWS 	Marvel Stadium 	22295 	63-100 	S. Gibson 29
+T. Scully 29
+D. Shiel 29
+	J. Patton 5
+ Sun 28 Aug 1:10pm 	St Kilda v Brisbane 	Marvel Stadium 	19000 	161-103 	T. Rockliff 37
+	N. Riewoldt 9
+ Sun 28 Aug 2:40pm 	Fremantle v Western Bulldogs 	Domain Stadium 	34765 	69-49 	L. Neale 36
+	T. Dickson 3
+ Sun 28 Aug 3:20pm 	Hawthorn v Collingwood 	MCG 	52968 	112-111 	A. Treloar 36
+	B. Crocker 3
+C. Rioli 3
+L. Breust 3
+Elimination Final
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Thu 8 Sep 6:10pm 	West Coast v Western Bulldogs 	Domain Stadium 	42079 	52-99 	A. Gaff 35
+	-
+Qualifying Final
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 9 Sep 7:50pm 	Geelong v Hawthorn 	MCG 	87533 	85-83 	J. Lewis 36
+	L. Breust 3
+ Sat 10 Sep 3:20pm 	Sydney v GWS 	Accor Stadium 	60222 	55-91 	D. Hannebery 31
+	J. Cameron 4
+Elimination Final
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Sat 10 Sep 7:10pm 	Adelaide v North Melbourne 	Adelaide Oval 	49007 	141-79 	N. Dal Santo 29
+B. Smith 29
+M. Crouch 29
+	E. Betts 6
+Semi Final
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 16 Sep 7:50pm 	Hawthorn v Western Bulldogs 	MCG 	87823 	84-107 	J. Macrae 39
+	L. Picken 3
+J. Stringer 3
+ Sat 17 Sep 7:25pm 	Sydney v Adelaide 	SCG 	38136 	118-82 	J. Kennedy 42
+	L. Franklin 4
+T. Papley 4
+Preliminary Final
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Fri 23 Sep 7:50pm 	Geelong v Sydney 	MCG 	71772 	60-97 	J. Selwood 39
+P. Dangerfield 39
+	T. Papley 3
+ Sat 24 Sep 7:15pm 	GWS v Western Bulldogs 	ENGIE Stadium 	21790 	83-89 	L. Dahlhaus 32
+	C. Smith 4
+T. Dickson 4
+J. Patton 4
+Grand Final
+ Date 	Home v Away Teams 	Venue 	Crowd 	Result 	Disposals 	Goals
+ Sat 1 Oct 2:30pm 	Sydney v Western Bulldogs 	MCG 	99981 	67-89 	J. Kennedy 34
+	- 

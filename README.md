@@ -18,11 +18,13 @@ afl-football-analytics/
 │   ├── dbt_project.yml         # Main dbt config
 │   ├── models/
 │   │   ├── bronze/             # Raw → typed tables
-│   │   ├── silver/             # Cleaned & core entities (future)
+│   │   ├── silver/             # Cleaned & core entities (in development)
 │   │   └── gold/               # Analytics & aggregations (future)
-│   ├── tests/                  # Custom data tests
-│   ├── macros/                 # Reusable SQL functions
-│   └── docs/                   # Project documentation
+│   ├── scripts/                 # Run on databricks
+│   └── data/                   # data - not committed
+    └ seeds/                    #
+
+
 │
 ├── scripts/                    # Python preprocessing scripts
 │   └── stg_match_results.py  # Parse .txt files → raw table
@@ -126,7 +128,6 @@ bronze.stg_match_results (Typed, tested, documented)
 
 - [ ] Migrate existing notebooks to use Bronze tables
 - [ ] Add crowd data as separate source
-- [ ] Add ladder stats as separate source
 
 ## 🔧 Tech Stack
 
@@ -156,7 +157,6 @@ bronze.stg_match_results (Typed, tested, documented)
 ### Future Data Sources
 
 - Crowd analysis data
-- Ladder statistics (scraped)
 - Player statistics (if available)
 
 ## 🏃 Quick Start
@@ -227,23 +227,24 @@ bronze.stg_match_results (Typed, tested, documented)
 ### Daily Workflow
 
 ```bash
-# When you get new data (e.g., 2025 season)
+# When you get new data (e.g., 2025 season) or schema changes
 
-# 1. Upload new .txt file to Volume (via Databricks UI)
+# 1. Upload new .txt file to Volume (via Databricks UI) if applicable
 
-# 2. Update parser script
-# Edit scripts/stg_match_results.py:
-YEARS = [2020, 2021, 2022, 2023, 2024, 2025]  # Add 2025
+# 2. Update and Run parser script in Databricks
+# Edit scripts/stg_match_results.py if adding new years.
+# IMPORTANT: Run this in Databricks to update raw.match_results_parsed
+# especially if you've modified the parsing logic (e.g., adding match_datetime).
 
-# 3. Run parser in Databricks
-# Creates/updates raw.match_results_parsed
-
-# 4. Run dbt
+# 3. Run dbt locally
 cd afl_analytics
-uv run dbt run --select stg_match_results --full-refresh
-uv run dbt test --select stg_match_results
+uv run dbt seed                 # Update seeds (teams, venues)
+uv run dbt run                  # Run all models
+uv run dbt run --select bronze  # Run bronze layer only
+uv run dbt run --select silver  # Run silver layer only
+uv run dbt test                 # Verify data quality
 
-# 5. Use in notebooks!
+# 4. Use in notebooks!
 ```
 
 ## 📚 Documentation
@@ -379,11 +380,11 @@ SHOW TABLES IN afl_analytics_dev.raw;
 SELECT COUNT(*) FROM afl_analytics_dev.raw.match_results_parsed;
 ```
 
-**"Column not found" errors in dbt**
+**"Column not found" or "UNRESOLVED_COLUMN" errors in dbt**
 
-- Check `_sources.yml` matches actual table schema
-- Run: `DESCRIBE afl_analytics_dev.raw.match_results_parsed`
-- Update SQL to match actual columns
+- This usually means the Python parser hasn't been run on Databricks since a schema change (e.g., adding `match_datetime`).
+- Run the `scripts/stg_match_results.py` script in Databricks to refresh the raw table.
+- Check `_sources.yml` matches actual table schema: `DESCRIBE afl_analytics_dev.raw.match_results_parsed`
 
 **Tests failing**
 
@@ -408,10 +409,11 @@ WHERE home_score IS NULL;  -- Find the problem rows
 - [x] Bronze layer complete
 - [x] dbt tests passing
 - [x] Documentation generated
+- [x] Match datetime parsing implemented
 
 ### Next 2 Weeks 🔨
 
-- [ ] Build Silver layer (dim_teams, dim_venues, fct_matches)
+- [ ] Build Silver layer (dim_teams complete, dim_venues, fct_matches next)
 - [ ] Migrate one existing notebook to use Bronze tables
 - [ ] Start Elo rating calculation in Gold layer
 
@@ -461,8 +463,8 @@ WHERE home_score IS NULL;  -- Find the problem rows
 ## 📞 Contact / Questions
 
 - **Project Owner**: Alan (that's you!)
-- **Repository**: [Your GitHub URL]
-- **Databricks Workspace**: [Your workspace URL]
+- **Repository**: <https://github.com:spf3000/afl-football-analytics.git>
+- **Databricks Workspace**: <https://dbc-1a2d7fa9-029a.cloud.databricks.com/browse/folders/2908617711815098?o=157478337743706>
 
 ## 📝 Notes
 
@@ -474,6 +476,6 @@ WHERE home_score IS NULL;  -- Find the problem rows
 
 ---
 
-**Last Updated**: December 2024
-**Status**: Bronze layer complete, Silver layer next
+**Last Updated**: January 2026
+**Status**: Bronze layer complete, Silver layer (dim_teams) in progress
 **Learning Focus**: Databricks certification prep + FP principles

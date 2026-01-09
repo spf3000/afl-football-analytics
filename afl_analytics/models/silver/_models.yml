@@ -1,0 +1,65 @@
+version: 2
+
+models:
+  - name: dim_teams
+    description: >
+      Team dimension table containing AFL team metadata.
+      Source: seed_teams.csv
+    columns:
+      - name: team_id
+        description: "Short code identifier for the team (e.g., RIC, COL)"
+        tests:
+          - unique
+          - not_null
+      - name: team_name
+        description: "Full team name (e.g., Richmond, Collingwood)"
+        tests:
+          - not_null
+      - name: nick_name
+        description: "Team nickname (e.g., Tigers, Magpies)"
+      - name: mascot
+        description: "Team mascot name"
+      - name: primary_colour
+        description: "Primary team colour"
+      - name: secondary_colour
+        description: "Secondary team colour"
+      - name: home_state
+        description: "State where team is based"
+      - name: home_city
+        description: "City where team is based"
+      - name: founded_year
+        description: "Year the club was founded"
+
+  - name: dim_venues
+    description: >
+      Venue dimension table containing AFL ground metadata.
+      Includes historical and current sponsored names as aliases.
+      Source: seed_venues.csv
+    columns:
+      - name: venue_id
+        description: "Short code identifier for the venue (e.g., MCG, OPT)"
+        tests:
+          - unique
+          - not_null
+      - name: venue_name
+        description: "Canonical venue name (e.g., Melbourne Cricket Ground)"
+        tests:
+          - not_null
+      - name: current_sponsored_name
+        description: "Current naming rights sponsor name (e.g., Optus Stadium)"
+      - name: aliases
+        description: "Semicolon-separated list of historical/alternative names"
+      - name: city
+        description: "City where venue is located"
+        tests:
+          - not_null
+      - name: state
+        description: "State or country where venue is located"
+        tests:
+          - not_null
+      - name: capacity
+        description: "Venue seating capacity"
+      - name: first_afl_use
+        description: "Year venue was first used for AFL/VFL matches"
+      - name: current_tenants
+        description: "Semicolon-separated list of teams using this as home ground"
