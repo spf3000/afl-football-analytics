@@ -63,3 +63,72 @@ models:
         description: "Year venue was first used for AFL/VFL matches"
       - name: current_tenants
         description: "Semicolon-separated list of teams using this as home ground"
+
+  - name: fct_matches
+    description: >
+      Fact table containing AFL match results with foreign keys to dimension tables.
+      Joins stg_match_results with dim_teams (home/away) and dim_venues.
+    columns:
+      - name: match_id
+        description: "Surrogate key for the match"
+        tests:
+          - unique
+          - not_null
+      - name: home_team_id
+        description: "Foreign key to dim_teams for home team"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_teams')
+              field: team_id
+      - name: away_team_id
+        description: "Foreign key to dim_teams for away team"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_teams')
+              field: team_id
+      - name: venue_id
+        description: "Foreign key to dim_venues"
+        tests:
+          - relationships:
+              to: ref('dim_venues')
+              field: venue_id
+      - name: season
+        description: "AFL season year"
+        tests:
+          - not_null
+      - name: round
+        description: "Round of the season (e.g., Round 1, Qualifying Final)"
+        tests:
+          - not_null
+      - name: match_datetime
+        description: "Date and time of the match"
+        tests:
+          - not_null
+      - name: home_score
+        description: "Total points scored by home team"
+        tests:
+          - not_null
+      - name: away_score
+        description: "Total points scored by away team"
+        tests:
+          - not_null
+      - name: margin
+        description: "Home score minus away score (positive = home win)"
+        tests:
+          - not_null
+      - name: result
+        description: "Match outcome from home team perspective"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['home_win', 'away_win', 'draw']
+      - name: attendance
+        description: "Crowd size at the match"
+      - name: home_team_name
+        description: "Home team name (raw value for reference)"
+      - name: away_team_name
+        description: "Away team name (raw value for reference)"
+      - name: venue_name_raw
+        description: "Venue name as recorded in source data"
