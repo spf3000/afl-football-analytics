@@ -32,3 +32,6 @@ models:
     silver:
       +schema: silver
       +tags: ['silver','cleaned']
+    gold:
+      +schema: gold
+      +tags: ['gold', 'analytics']

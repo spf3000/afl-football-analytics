@@ -55,9 +55,14 @@ dbt Bronze Model (models/bronze/stg_match_results.sql)
     ↓
 bronze.stg_match_results (Typed, tested, documented)
     ↓
-[Future: Silver models - dim_teams, dim_venues, fct_matches]
+Silver Models:
+  - dim_teams (team dimension from seed)
+  - dim_venues (venue dimension from seed)
+  - fct_matches (fact table with FK joins)
     ↓
-[Future: Gold models - Elo, predictions, aggregations]
+Gold Models:
+  - crowd_analysis (match-level attendance analytics)
+  - [Future: Elo ratings, predictions]
 ```
 
 ### Functional Programming Principles
@@ -94,40 +99,45 @@ bronze.stg_match_results (Typed, tested, documented)
 
 - [x] Raw .txt files uploaded to Databricks Volume
 - [x] Python parser handles messy text format
-- [x] `raw.match_results_parsed` table created (2020-2024)
+- [x] `raw.match_results_parsed` table created (2016-2025)
 - [x] dbt Bronze model creates `bronze.stg_match_results`
 - [x] Data quality tests passing
 - [x] Documentation generated
 
+**Silver Layer:**
+
+- [x] `dim_teams` - Team dimension (18 AFL teams with metadata)
+- [x] `dim_venues` - Venue dimension (26 venues with capacity, aliases)
+- [x] `fct_matches` - Fact table with team/venue foreign keys
+- [x] Venue name matching via aliases (handles sponsored names)
+- [x] Team name matching (handles "GWS" → "Greater Western Sydney")
+
+**Gold Layer:**
+
+- [x] `crowd_analysis` - Match-level attendance analytics with:
+  - Venue utilization % (attendance/capacity)
+  - Finals flag and round ordering
+  - Team season averages (overall and venue-specific)
+  - Benchmark averages for deviation calculations
+
 **Data Available:**
 
-- Match results (2020-2024): ~1000+ matches
+- Match results (2016-2025): ~2000+ matches
 - Teams, venues, scores, crowds (NULL for 2020 COVID year)
-- Calculated fields: margin, result
+- Calculated fields: margin, result, utilization_pct, benchmark averages
 
 ### 🔨 In Progress / Next Steps
 
-**Silver Layer (Next):**
-
-- [ ] `dim_teams` - Team dimension table
-- [ ] `dim_venues` - Venue dimension table
-- [ ] `fct_matches` - Fact table (matches with all joins)
-- [ ] Standardize team/venue names
-- [ ] Add team metadata (colors, nicknames)
-
-**Gold Layer (Future):**
+**Gold Layer (Next):**
 
 - [ ] Elo rating system
 - [ ] Match prediction model
-- [ ] Brownlow predictor
-- [ ] Crowd analysis aggregations
-- [ ] Game style clustering ("game on our terms")
-- [ ] Turnover analysis by game time
+- [ ] Brownlow predictor (requires player data)
 
 **Other:**
 
-- [ ] Migrate existing notebooks to use Bronze tables
-- [ ] Add crowd data as separate source
+- [ ] Migrate existing notebooks to use Gold tables
+- [ ] Add player statistics data source
 
 ## 🔧 Tech Stack
 
@@ -242,6 +252,7 @@ uv run dbt seed                 # Update seeds (teams, venues)
 uv run dbt run                  # Run all models
 uv run dbt run --select bronze  # Run bronze layer only
 uv run dbt run --select silver  # Run silver layer only
+uv run dbt run --select gold    # Run gold layer only
 uv run dbt test                 # Verify data quality
 
 # 4. Use in notebooks!
@@ -297,20 +308,40 @@ uv run dbt test --select stg_match_results
 
 ## 🔍 Exploration & Analysis
 
-### Using Bronze Data in Notebooks
+### Using Gold Data in Notebooks
 
 ```python
 from pyspark.sql import SparkSession
 spark = SparkSession.builder.getOrCreate()
 
-# Read from Bronze
-matches = spark.table("afl_analytics_dev.bronze.stg_match_results")
+# Read from Gold layer (recommended for analysis)
+crowd = spark.table("afl_analytics_dev.gold.crowd_analysis")
 
-# Analyze
-matches.groupBy("season").count().show()
-matches.filter("season == 2024").show()
+# Spot attendance anomalies (games well above team's venue average)
+crowd.filter("attendance - home_team_venue_season_avg > 10000").show()
 
-# Your analysis here!
+# Compare team's drawing power at a specific venue
+crowd.filter("venue_id = 'MCG'") \
+    .groupBy("home_team_id", "season") \
+    .agg({"attendance": "avg"}) \
+    .orderBy("avg(attendance)", ascending=False).show()
+
+# Venue utilization trends
+crowd.groupBy("venue_id", "season") \
+    .agg({"utilization_pct": "avg"}) \
+    .orderBy("season").show()
+```
+
+### Using Silver/Bronze Data
+
+```python
+# Silver layer - for custom joins
+matches = spark.table("afl_analytics_dev.silver.fct_matches")
+teams = spark.table("afl_analytics_dev.silver.dim_teams")
+venues = spark.table("afl_analytics_dev.silver.dim_venues")
+
+# Bronze layer - raw typed data
+raw_matches = spark.table("afl_analytics_dev.bronze.stg_match_results")
 ```
 
 ### Query in Databricks SQL
@@ -404,30 +435,28 @@ WHERE home_score IS NULL;  -- Find the problem rows
 - [x] Project structure set up
 - [x] Git repository initialized
 - [x] Databricks connection configured
-- [x] Raw data uploaded to Volume
+- [x] Raw data uploaded to Volume (2016-2025)
 - [x] Python parser working
-- [x] Bronze layer complete
+- [x] Bronze layer complete (`stg_match_results`)
+- [x] Silver layer complete (`dim_teams`, `dim_venues`, `fct_matches`)
+- [x] Gold layer started (`crowd_analysis`)
 - [x] dbt tests passing
 - [x] Documentation generated
 - [x] Match datetime parsing implemented
+- [x] Venue alias matching (sponsored names)
+- [x] Team name matching (GWS edge case)
 
-### Next 2 Weeks 🔨
+### Next Steps 🔨
 
-- [ ] Build Silver layer (dim_teams complete, dim_venues, fct_matches next)
-- [ ] Migrate one existing notebook to use Bronze tables
-- [ ] Start Elo rating calculation in Gold layer
-
-### Next Month 📅
-
-- [ ] Complete Gold layer (Elo, predictions, aggregations)
-- [ ] All notebooks migrated to use dbt tables
+- [ ] Migrate notebooks to use Gold tables
+- [ ] Build Elo rating system in Gold layer
 - [ ] Start Databricks certification study
 
-### 3-4 Months 🎓
+### Future 📅
 
+- [ ] Match prediction model
+- [ ] Brownlow predictor (requires player data)
 - [ ] Pass Databricks Data Engineer Associate certification
-- [ ] Advanced analytics complete (Brownlow, game clustering)
-- [ ] Blog posts on FP + data engineering
 
 ## 🤝 Contributing / Development
 
@@ -477,5 +506,5 @@ WHERE home_score IS NULL;  -- Find the problem rows
 ---
 
 **Last Updated**: January 2026
-**Status**: Bronze layer complete, Silver layer (dim_teams) in progress
+**Status**: Bronze/Silver complete, Gold layer (crowd_analysis) complete
 **Learning Focus**: Databricks certification prep + FP principles

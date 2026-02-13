@@ -23,9 +23,11 @@ uv run dbt run                       # Run all models
 uv run dbt run --select bronze       # Run all bronze layer models
 uv run dbt run --select silver       # Run all silver layer models
 uv run dbt run --select stg_match_results  # Run specific model
+uv run dbt run --select gold         # Run all gold layer models
 uv run dbt test                      # Run all data quality tests
 uv run dbt test --select bronze      # Test bronze layer only
 uv run dbt test --select silver      # Test silver layer only
+uv run dbt test --select gold        # Test gold layer only
 uv run dbt docs generate && uv run dbt docs serve  # Generate and view docs
 ```
 
@@ -52,8 +54,15 @@ afl_analytics/                  # dbt project root
 │   ├── bronze/                # Raw → typed (stg_match_results.sql)
 │   │   ├── _sources.yml       # Source definitions (raw.match_results_parsed)
 │   │   └── _models.yml        # Column docs and tests
-│   └── silver/                # Dimension tables (dim_teams.sql)
-├── seeds/                     # Static reference data (seed_teams.csv)
+│   ├── silver/                # Dimension/fact tables
+│   │   ├── dim_teams.sql      # Team dimension
+│   │   ├── dim_venues.sql     # Venue dimension
+│   │   ├── fct_matches.sql    # Match fact table
+│   │   └── _models.yml        # Column docs and tests
+│   └── gold/                  # Analytics models
+│       ├── crowd_analysis.sql # Match-level attendance analytics
+│       └── _models.yml        # Column docs and tests
+├── seeds/                     # Static reference data (seed_teams.csv, seed_venues.csv)
 └── scripts/                   # Python scripts to run in Databricks
 ```
 
@@ -72,14 +81,15 @@ afl_analytics/                  # dbt project root
 ## Current State
 
 - **Bronze**: Complete (`stg_match_results` with 2016-2025 data)
-- **Silver**: In progress
-  - `dim_teams` - complete (from seed_teams.csv)
-  - `dim_venues` - complete (from seed_venues.csv with 26 venues)
-  - `fct_matches` - next step (join matches with teams/venues)
-- **Gold**: Planned (crowd analytics, Elo ratings, predictions, Brownlow predictor)
+- **Silver**: Complete
+  - `dim_teams` - team dimension (from seed_teams.csv)
+  - `dim_venues` - venue dimension (from seed_venues.csv with 26 venues)
+  - `fct_matches` - match fact table with team/venue foreign keys
+- **Gold**: In progress
+  - `crowd_analysis` - match-level attendance analytics with benchmark averages
 
 ## Next Steps
 
-1. **fct_matches** - Silver layer fact table joining `stg_match_results` with `dim_teams` and `dim_venues`
-2. **Crowd analytics** - Gold layer aggregations on attendance data
-3. **Elo ratings** - Gold layer match predictions
+1. **Elo ratings** - Gold layer running team ratings for match predictions
+2. **Match predictions** - Gold layer using Elo + other factors
+3. **Brownlow predictor** - Would need player-level data integration

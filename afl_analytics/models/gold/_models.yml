@@ -1,0 +1,57 @@
+version: 2
+
+models:
+  - name: crowd_analysis
+    description: >
+      Match-level enriched table for attendance analytics.
+      Includes venue details, benchmark averages, and calculated metrics
+      for flexible analysis in notebooks. Deviations from averages should
+      be calculated in the analysis layer.
+    columns:
+      - name: match_id
+        description: "Surrogate key for the match"
+        tests:
+          - unique
+          - not_null
+      - name: season
+        description: "AFL season year"
+        tests:
+          - not_null
+      - name: round
+        description: "Round name (e.g., Round 1, Qualifying Final)"
+        tests:
+          - not_null
+      - name: match_datetime
+        description: "Date and time of the match"
+        tests:
+          - not_null
+      - name: home_team_id
+        description: "Foreign key to dim_teams for home team"
+        tests:
+          - not_null
+      - name: away_team_id
+        description: "Foreign key to dim_teams for away team"
+        tests:
+          - not_null
+      - name: venue_id
+        description: "Foreign key to dim_venues"
+      - name: attendance
+        description: "Crowd size at the match"
+      - name: utilization_pct
+        description: "Attendance as percentage of venue capacity (0-100+)"
+      - name: is_finals
+        description: "TRUE if this is a finals match"
+        tests:
+          - not_null
+      - name: season_round_num
+        description: "Numeric round for ordering (1-24 for H&A, 25-28 for finals)"
+      - name: home_team_season_match_num
+        description: "This is the home team's Nth home game of the season"
+      - name: away_team_season_match_num
+        description: "This is the away team's Nth away game of the season"
+      - name: home_team_season_avg
+        description: "Home team's average attendance at all their home games this season"
+      - name: home_team_venue_season_avg
+        description: "Home team's average attendance at THIS venue this season (venue-adjusted benchmark)"
+      - name: away_team_home_season_avg
+        description: "Away team's average attendance when THEY host (for comparison)"
