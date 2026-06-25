@@ -83,3 +83,71 @@ models:
       
       - name: _python_scraped_at
         description: "Timestamp when Python parsing script ran"
+
+  - name: stg_squiggle_games
+    description: >
+      Bronze staging table for AFL match results from the Squiggle API
+      (source: raw.squiggle_games, loaded by scripts/fetch_squiggle_games.py).
+      Typed and cleaned; completed games only (complete = 100). Automated
+      replacement for the .txt-based stg_match_results for scores/results.
+      Does not carry crowd/attendance.
+    columns:
+      - name: game_id
+        description: "Squiggle's unique game id"
+        tests:
+          - unique
+          - not_null
+      - name: season
+        description: "Season year"
+        tests:
+          - not_null
+      - name: round_number
+        description: "Numeric round (0 = Opening Round; finals continue the sequence)"
+        tests:
+          - not_null
+      - name: round
+        description: "Round name (e.g., 'Round 1', 'Grand Final')"
+        tests:
+          - not_null
+      - name: match_datetime
+        description: "Local date and time of the match"
+        tests:
+          - not_null
+      - name: home_team
+        description: "Home team name (Squiggle naming)"
+        tests:
+          - not_null
+      - name: away_team
+        description: "Away team name (Squiggle naming)"
+        tests:
+          - not_null
+      - name: home_score
+        description: "Home team final score"
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 300
+              severity: warn
+      - name: away_score
+        description: "Away team final score"
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 300
+              severity: warn
+      - name: margin
+        description: "Score differential (home_score - away_score)"
+        tests:
+          - not_null
+      - name: result
+        description: "Match result: home_win, away_win, or draw"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['home_win', 'away_win', 'draw']
+      - name: _ingested_at
+        description: "Timestamp when the Squiggle fetch script loaded the raw row"
+        tests:
+          - not_null

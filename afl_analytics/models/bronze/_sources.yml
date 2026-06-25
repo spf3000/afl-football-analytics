@@ -11,4 +11,20 @@ sources:
     
     tables:
       - name: match_results_parsed
-        description: "Match results parsed from .txt files by Python script. Created by scripts/parse_all_match_results.py"    
+        description: "Match results parsed from .txt files by Python script. Created by scripts/parse_all_match_results.py"
+
+      - name: squiggle_games
+        description: >
+          AFL match results fetched from the Squiggle API by
+          scripts/fetch_squiggle_games.py. Automated replacement for the manual
+          .txt match-results ingestion (does NOT include crowd/attendance).
+        loaded_at_field: _ingested_at
+        freshness:
+          warn_after: {count: 14, period: day}
+          error_after: {count: 30, period: day}
+        columns:
+          - name: game_id
+            description: "Squiggle's unique game id"
+            tests:
+              - unique
+              - not_null
