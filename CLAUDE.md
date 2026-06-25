@@ -87,7 +87,7 @@ afl_analytics/                  # dbt project root
   - `fct_matches` - match fact table with team/venue foreign keys
 - **Gold**: In progress
   - `crowd_analysis` - match-level attendance analytics with benchmark averages
-  - `elo_ratings` - team Elo ratings (recursive CTE with MAP) tracking strength 2016-2025
+  - `elo_ratings` - team Elo ratings (Python dbt model, pandas) tracking strength 2016-2025. Rewritten from an earlier recursive-CTE SQL version (see git history) for readability; runs on Databricks serverless/cluster compute.
 
 ## Next Steps
 
