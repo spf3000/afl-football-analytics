@@ -87,9 +87,10 @@ afl_analytics/                  # dbt project root
   - `fct_matches` - match fact table with team/venue foreign keys
 - **Gold**: In progress
   - `crowd_analysis` - match-level attendance analytics with benchmark averages
+  - `elo_ratings` - team Elo ratings (recursive CTE with MAP) tracking strength 2016-2025
 
 ## Next Steps
 
-1. **Elo ratings** - Gold layer running team ratings for match predictions
+1. ~~**Elo ratings** - Gold layer running team ratings for match predictions~~ (Done)
 2. **Match predictions** - Gold layer using Elo + other factors
 3. **Brownlow predictor** - Would need player-level data integration
