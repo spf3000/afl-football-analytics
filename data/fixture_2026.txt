@@ -1,0 +1,332 @@
+Opening Round
+Fixture 	Venue 	Time 	TV
+Thursday, Mar 5
+Sydney Swans vs. Carlton 	SCG 	7:30pm 	Seven/Fox
+Friday, Mar 6
+Gold Coast Suns vs. Geelong Cats 	People First Stadium 	8:05pm 	Seven/Fox
+Saturday, Mar 7
+GWS Giants vs. Hawthorn 	ENGIE Stadium 	4:15pm 	Fox Footy
+Brisbane Lions vs. Western Bulldogs 	Gabba 	7:35pm 	Fox Footy
+Sunday, Mar 8
+St Kilda vs. Collingwood 	MCG 	7:20pm 	Seven/Fox
+Round 1
+Fixture 	Venue 	Time 	TV
+Thursday, Mar 12
+Carlton vs. Richmond 	MCG 	7:30pm 	Seven/Fox
+Friday, Mar 13
+Essendon vs. Hawthorn 	MCG 	7:40pm 	Seven/Fox
+Saturday, Mar 14
+Western Bulldogs vs. GWS Giants 	Marvel Stadium 	1:15pm 	Fox Footy
+Geelong Cats vs. Fremantle 	GMHBA Stadium 	4:15pm 	Fox Footy
+Sydney Swans vs. Brisbane Lions 	SCG 	7:10pm 	Fox Footy
+Collingwood vs. Adelaide Crows 	MCG 	7:35pm 	Fox Footy
+Sunday, Mar 15
+North Melbourne vs. Port Adelaide 	Marvel Stadium 	1:10pm 	Fox Footy
+Melbourne vs. St Kilda 	MCG 	3:15pm 	Seven/Fox
+Gold Coast Suns vs. West Coast Eagles 	People First Stadium 	6:10pm 	Fox Footy
+Round 2
+Fixture 	Venue 	Time 	TV
+Thursday, Mar 19
+Hawthorn vs. Sydney Swans 	MCG 	7:30pm 	Seven/Fox
+Friday, Mar 20
+Adelaide Crows vs. Western Bulldogs 	Adelaide Oval 	7:40pm 	Seven/Fox
+Saturday, Mar 21
+Richmond vs. Gold Coast Suns 	MCG 	1:15pm 	Fox Footy
+GWS Giants vs. St Kilda 	ENGIE Stadium 	4:15pm 	Fox Footy
+Fremantle vs. Melbourne 	Optus Stadium 	7:35pm 	Fox Footy
+Sunday, Mar 22
+Port Adelaide vs. Essendon 	Adelaide Oval 	3:15pm 	Seven/Fox
+West Coast Eagles vs. North Melbourne 	Optus Stadium 	6:10pm 	Fox Footy
+Round 3
+Fixture 	Venue 	Time 	TV
+Thursday, Mar 26
+Geelong Cats vs. Adelaide Crows 	GMHBA Stadium 	7:30pm 	Seven/Fox
+Friday, Mar 27
+Collingwood vs. GWS Giants 	Marvel Stadium 	7:40pm 	Seven/Fox
+Saturday, Mar 28
+St Kilda vs. Brisbane Lions 	Marvel Stadium 	12:35pm 	Fox Footy
+Fremantle vs. Richmond 	Optus Stadium 	4:15pm 	Fox Footy
+Essendon vs. North Melbourne 	Marvel Stadium 	7:35pm 	Fox Footy
+Sunday, Mar 29
+Port Adelaide vs. West Coast Eagles 	Adelaide Oval 	12:30pm 	Fox Footy
+Carlton vs. Melbourne 	MCG 	3:15pm 	Seven/Fox
+Round 4
+Fixture 	Venue 	Time 	TV
+Thursday, Apr 2
+Brisbane Lions vs. Collingwood 	Gabba 	7:30pm 	Seven/Fox
+Friday, Apr 3
+North Melbourne vs. Carlton 	Marvel Stadium 	3:15pm 	Seven/Fox
+Adelaide Crows vs. Fremantle 	Adelaide Oval 	7:15pm 	Seven/Fox
+Saturday, Apr 4
+Richmond vs. Port Adelaide 	MCG 	4:15pm 	Fox Footy
+West Coast Eagles vs. Sydney Swans 	OptusStadium 	7:35pm 	Fox Footy
+Sunday, Apr 5
+Melbourne vs. Gold Coast Suns 	MCG 	3:15pm 	Seven/Fox
+Western Bulldogs vs. Essendon 	Marvel Stadium 	7:20pm 	Seven/Fox
+Monday, Apr 6
+Hawthorn vs. Geelong Cats 	MCG 	3:15pm 	Seven/Fox
+Round 5 (Gather Round)
+Fixture 	Venue 	Time 	TV
+Thursday, Apr 9
+Adelaide Crows vs. Carlton 	Adelaide Oval 	7:40pm 	Seven/Fox
+Friday, Apr 10
+Collingwood vs. Fremantle 	Adelaide Oval 	7:40pm 	Seven/Fox
+Saturday, Apr 11
+North Melbourne vs. Brisbane Lions 	Barossa Park 	12:35pm 	Fox Footy
+Essendon vs. Melbourne 	Adelaide Oval 	1:15pm 	Fox Footy
+Sydney Swans vs. Gold Coast Suns 	Norwood Oval 	4:15pm 	Fox Footy
+Hawthorn vs. Western Bulldogs 	Adelaide Oval 	7:35pm 	Fox Footy
+Sunday, Apr 12
+Geelong Cats vs. West Coast Eagles 	Norwood Oval 	12:30pm 	Fox Footy
+GWS Giants vs. Richmond 	Barossa Park 	3:15pm 	Seven/Fox
+Port Adelaide vs. St Kilda 	Adelaide Oval 	7:15pm 	Seven/Fox
+Round 6
+Fixture 	Venue 	Time 	TV
+Thursday, Apr 16
+Carlton vs. Collingwood 	MCG 	7:30pm 	Seven/Fox
+Friday, Apr 17
+Geelong Cats vs. Western Bulldogs 	GMHBA Stadium 	7:20pm 	Seven/Fox
+Sydney Swans vs. GWS Giants 	SCG 	7:50pm 	Fox Footy
+Saturday, Apr 18
+Gold Coast Suns vs. Essendon 	People First Stadium 	1:15pm 	Fox Footy
+Hawthorn vs. Port Adelaide 	Marvel Stadium 	4:15pm 	Fox Footy
+Adelaide Crows vs. St Kilda 	Adelaide Oval 	7:35pm 	Fox Footy
+Sunday, Apr 19
+North Melbourne vs. Richmond 	Marvel Stadium 	1:10pm 	Fox Footy
+Melbourne vs. Brisbane Lions 	MCG 	3:15pm 	Seven/Fox
+West Coast Eagles vs. Fremantle 	Optus Stadium 	5:10pm 	Fox Footy
+Round 7 (Anzac Round)
+Fixture 	Venue 	Time 	TV
+Thursday, Apr 23
+Western Bulldogs vs. Sydney Swans 	Marvel Stadium 	7:30pm 	Seven/Fox
+Friday, Apr 24
+Richmond vs. Melbourne 	MCG 	7:40pm 	Seven/Fox
+Saturday, Apr 25
+Hawthorn vs. Gold Coast Suns 	UTAS Stadium 	12:15pm 	Fox Footy
+Essendon vs. Collingwood 	MCG 	3:15pm 	Seven/Fox
+Port Adelaide vs. Geelong Cats 	Adelaide Oval 	6:35pm 	Fox Footy
+Fremantle vs. Carlton 	Optus Stadium 	8:15pm 	Fox Footy
+Sunday, Apr 26
+St Kilda vs. West Coast Eagles 	Marvel Stadium 	1:10pm 	Fox Footy
+Brisbane Lions vs. Adelaide Crows 	Gabba 	3:15pm 	Seven/Fox
+GWS Giants vs. North Melbourne 	Manuka Oval 	4:40pm 	Fox Footy
+Round 8
+Fixture 	Venue 	Time 	TV
+Thursday, Apr 30
+Collingwood vs. Hawthorn 	MCG 	7:30pm 	Seven/Fox
+Friday, May 1
+Western Bulldogs vs. Fremantle 	Marvel Stadium 	7:30pm 	Seven/Fox
+Adelaide Crows vs. Port Adelaide 	Adelaide Oval 	8:10pm 	Fox Footy
+Saturday, May 2
+Essendon vs. Brisbane Lions 	Marvel Stadium 	12:35pm 	Fox Footy
+West Coast Eagles vs. Richmond 	Optus Stadium 	4:15pm 	Fox Footy
+Geelong Cats vs. North Melbourne 	GMHBA Stadium 	4:35pm 	Fox Footy
+Carlton vs. St Kilda 	Marvel Stadium 	7:35pm 	Fox Footy
+Sunday, May 3
+Sydney Swans vs. Melbourne 	SCG 	3:15pm 	Seven/Fox
+Gold Coast Suns vs. GWS Giants 	People First Stadium 	7:20pm 	Fox Footy
+Round 9
+Fixture 	Venue 	Time 	TV
+Thursday, May 7
+Fremantle vs. Hawthorn 	Optus Stadium 	8:10pm 	Seven/Fox
+Friday, May 8
+Brisbane Lions vs. Carlton 	Gabba 	7:30pm 	Seven/Fox
+Port Adelaide vs. Western Bulldogs 	Adelaide Oval 	8:10pm 	Fox Footy
+Saturday, May 9
+North Melbourne vs. Sydney Swans 	Marvel Stadium 	12:35pm 	Fox Footy
+GWS Giants vs. Essendon 	ENGIE Stadium 	4:15pm 	Fox Footy
+Gold Coast Suns vs. St Kilda 	TIO Stadium 	7:10pm 	Fox Footy
+Geelong Cats vs. Collingwood 	MCG 	7:35pm 	Fox Footy
+Sunday, May 10
+Melbourne vs. West Coast Eagles 	MCG 	1:10pm 	Fox Footy
+Richmond vs. Adelaide Crows 	MCG 	3:15pm 	Seven/Fox
+Round 10
+Fixture 	Venue 	Time 	TV
+Thursday, May 15
+Gold Coast Suns vs. Hawthorn 	TIO Stadium 	7:30pm 	Seven/Fox
+Friday, May 15
+Sydney Swans vs. Collingwood 	SCG 	7:30pm 	Seven/Fox
+Gold Coast Suns vs. Port Adelaide 	TIO Stadium 	8:10pm 	Fox Footy
+Saturday, May 16
+Adelaide Crows vs. North Melbourne 	Adelaide Oval 	1:15pm 	Fox Footy
+Melbourne vs. Hawthorn 	MCG 	4:15pm 	Fox Footy
+Carlton vs. Western Bulldogs 	Marvel Stadium 	7:35pm 	Fox Footy
+Sunday, May 17
+Essendon vs. Fremantle 	MCG 	1:10pm 	Fox Footy
+St Kilda vs. Richmond 	Marvel Stadium 	3:15pm 	Seven/Fox
+West Coast Eagles vs. GWS Giants 	Optus Stadium 	6:15pm 	Fox Footy
+Round 11 (Sir Doug Nicholls Indigenous Round)
+Fixture 	Venue 	Time 	TV
+Thursday, May 21
+Hawthorn vs. Adelaide Crows 	UTAS Stadium 	7:30pm 	Seven/Fox
+Friday, May 22
+Richmond vs. Essendon 	MCG 	7:40pm 	Seven/Fox
+Fremantle vs. St Kilda 	Optus Stadium 	8:30pm 	Fox Footy
+Saturday, May 23
+North Melbourne vs. Gold Coast Suns 	Marvel Stadium 	1:15pm 	Fox Footy
+Geelong Cats vs. Sydney Swans 	GMHBA Stadium 	4:15pm 	Fox Footy
+Collingwood vs. West Coast Eagles 	MCG 	4:35pm 	Fox Footy
+Port Adelaide vs. Carlton 	Adelaide Oval 	7:35pm 	Fox Footy
+Sunday, May 24
+GWS Giants vs. Brisbane Lions 	ENGIE Stadium 	12:30pm 	Fox Footy
+Western Bulldogs vs. Melbourne 	Marvel Stadium 	3:20pm 	Seven/Fox
+Round 12
+Fixture 	Venue 	Time 	TV
+Thursday, May 28
+St Kilda vs. Hawthorn 	Marvel Stadium 	7:30pm 	Seven/Fox
+Friday, May 29
+Carlton vs. Geelong Cats 	MCG 	7:40pm 	Seven/Fox
+Saturday, May 30
+Sydney Swans vs. Richmond 	SCG 	1:15pm 	Fox Footy
+Brisbane Lions vs. Fremantle 	Gabba 	4:15pm 	Fox Footy
+Western Bulldogs vs. Collingwood 	Marvel Stadium 	7:35pm 	Fox Footy
+Sunday, May 31
+Melbourne vs. GWS Giants 	TIO Traeger Park 	3:15pm 	Seven/Fox
+West Coast Eagles vs. Essendon 	Optus Stadium 	7:20pm 	Seven/Fox
+Round 13
+Fixture 	Venue 	Time 	TV
+Thursday, Jun 4
+Adelaide Crows vs. Geelong Cats 	Adelaide Oval 	7:30pm 	Seven/Fox
+Friday, Jun 5
+Hawthorn vs. Western Bulldogs 	MCG 	7:40pm 	Seven/Fox
+Saturday, Jun 6
+North Melbourne vs. Fremantle 	Hands Oval, Bunbury 	2:15pm 	Fox Footy
+Gold Coast Suns vs. Brisbane Lions 	People First Stadium 	5:15pm 	Fox Footy
+West Coast Eagles vs. Port Adelaide 	Optus Stadium 	8:15pm 	Fox Footy
+Sunday, Jun 7
+Sydney Swans vs. St Kilda 	SCG 	3:15pm 	Seven/Fox
+Essendon vs. Carlton 	MCG 	7:20pm 	Seven/Fox
+Monday, Jun 8
+Collingwood vs. Melbourne 	MCG 	3:15pm 	Seven/Fox
+Round 14
+Fixture 	Venue 	Time 	TV
+Thursday, Jun 11
+Western Bulldogs vs. Adelaide Crows 	Marvel Stadium 	7:30pm 	Seven/Fox
+Friday, Jun 12
+Geelong Cats vs. Gold Coast Suns 	GMHBA Stadium 	7:40pm 	Seven/Fox
+Saturday, Jun 13
+Melbourne vs. Essendon 	MCG 	1:15pm 	Fox Footy
+North Melbourne vs. West Coast Eagles 	Optus Stadium 	4:15pm 	Fox Footy
+Port Adelaide vs. Sydney Swans 	Adelaide Oval 	7:35pm 	Fox Footy
+Sunday, Jun 14
+Richmond vs. Brisbane Lions 	Ninja Stadium 	1:10pm 	Fox Footy
+St Kilda vs. GWS Giants 	Marvel Stadium 	3:15pm 	Seven/Fox
+Round 15
+Fixture 	Venue 	Time 	TV
+Thursday, Jun 18
+Fremantle vs. Geelong Cats 	Optus Stadium 	8:10pm 	Seven/Fox
+Friday, Jun 19
+Gold Coast Suns vs. Hawthorn 	People First Stadium 	7:40pm 	Seven/Fox
+Saturday, Jun 20
+Adelaide Crows vs. Melbourne 	Adelaide Oval 	1:15pm 	Fox Footy
+GWS Giants vs. Carlton 	ENGIE Stadium 	4:15pm 	Fox Footy
+Collingwood vs. Port Adelaide 	MCG 	7:35pm 	Fox Footy
+Sunday, Jun 21
+Richmond vs. North Melbourne 	MCG 	1:10pm 	Fox Footy
+St Kilda vs. Western Bulldogs 	Marvel Stadium 	3:15pm 	Seven/Fox
+Round 16
+Fixture 	Venue 	Time 	TV
+Thursday, Jun 25- Sunday, Jun 28
+Brisbane Lions vs. Sydney Swans 	Gabba 	TBD 	TBD
+Carlton vs. West Coast Eagles 	Marvel Stadium
+Collingwood vs. Richmond 	MCG
+Hawthorn vs. GWS Giants 	MCG
+North Melbourne vs. Essendon 	Marvel Stadium
+Port Adelaide vs. Adelaide Crows 	Adelaide Oval
+Fremantle vs. Gold Coast Suns 	Optus Stadium
+Round 17
+Fixture 	Venue 	Time 	TV
+Thursday, Jul 2 – Sunday, Jul 5
+Essendon vs. St Kilda 	Marvel Stadium 	TBD 	TBD
+Geelong Cats vs. Brisbane Lions 	GMHBA Stadium
+Gold Coast Suns vs. Collingwood 	People First Stadium
+GWS Giants vs. Fremantle 	Manuka Oval
+Hawthorn vs. Melbourne 	UTAS Stadium
+Richmond vs. Carlton 	MCG
+Sydney Swans vs. Western Bulldogs 	SCG
+Port Adelaide vs. North Melbourne 	Adelaide Oval
+West Coast Eagles vs. Adelaide Crows 	Optus Stadium
+Round 18
+Fixture 	Venue 	Time 	TV
+Thursday, Jul 9 – Sunday, Jul 12
+Brisbane Lions vs. Essendon 	Gabba 	TBD 	TBD
+Carlton vs. Hawthorn 	MCG
+Collingwood vs. North Melbourne 	Marvel Stadium
+GWS Giants vs. Geelong Cats 	ENGIE Stadium
+Melbourne vs. Richmond 	MCG
+St Kilda vs. Port Adelaide 	Marvel Stadium
+Western Bulldogs vs. West Coast Eagles 	Marvel Stadium
+Adelaide Crows vs. Gold Coast Suns 	Adelaide Oval
+Fremantle vs. Sydney Swans 	Optus Stadium
+Round 19
+Fixture 	Venue 	Time 	TV
+Thursday, Jul 16 – Sunday, Jul 19
+Collingwood vs. Carlton 	MCG 	TBD 	TBD
+Essendon vs. GWS Giants 	Marvel Stadium
+Geelong Cats vs. St Kilda 	GMHBA Stadium
+Gold Coast Suns vs. Western Bulldogs 	People First Stadium
+North Melbourne vs. Melbourne 	Marvel Stadium
+Richmond vs. Hawthorn 	MCG
+Sydney Swans vs. Adelaide Crows 	SCG
+Port Adelaide vs. Fremantle 	Adelaide Oval
+West Coast Eagles vs. Brisbane Lions 	Optus Stadium
+Fixture 	Venue 	Time 	TV
+Round 20
+Thursday, Jul 23 – Sunday, Jul 26
+Brisbane Lions vs. Port Adelaide 	Gabba 	TBD 	TBD
+Carlton vs. Gold Coast Suns 	Marvel Stadium
+GWS Giants vs. Sydney Swans 	ENGIE Stadium
+Hawthorn vs. Essendon 	MCG
+North Melbourne vs. St Kilda 	Marvel Stadium
+Melbourne vs. Geelong Cats 	MCG
+Western Bulldogs vs. Richmond 	Marvel Stadium
+Adelaide Crows vs. Collingwood 	Adelaide Oval
+Fremantle vs. West Coast Eagles 	Adelaide Oval
+Round 21
+Fixture 	Venue 	Time 	TV
+Thursday, Jul 30 – Sunday, Aug 2
+Carlton vs. Brisbane Lions 	Marvel Stadium 	TBD 	TBD
+Collingwood vs. Geelong Cats 	MCG
+Essendon vs. Adelaide Crows 	Marvel Stadium
+Gold Coast Suns vs. Melbourne 	People First Stadium
+Hawthorn vs. North Melbourne 	UTAS Stadium
+Richmond vs. West Coast Eagles 	MCG
+St Kilda vs. Sydney Swans 	Marvel Stadium
+Port Adelaide vs. GWS Giants 	Adelaide Oval
+Fremantle vs. Western Bulldogs 	Optus Stadium
+Round 22
+Fixture 	Venue 	Time 	TV
+Thursday, Aug 6 – Sunday, Aug 9
+Brisbane Lions vs. Hawthorn 	Gabba 	TBD 	TBD
+Geelong Cats vs. Essendon 	GMHBA Stadium
+GWS Giants vs. Gold Coast Suns 	Manuka Oval
+Melbourne vs. Fremantle 	MCG
+St Kilda vs. Carlton 	Marvel Stadium
+Sydney Swans vs. Port Adelaide 	SCG
+Western Bulldogs vs. North Melbourne 	Marvel Stadium
+Adelaide Crows vs. Richmond 	Adelaide Oval
+West Coast Eagles vs. Collingwood 	Optus Stadium
+Round 23
+Fixture 	Venue 	Time 	TV
+Thursday, Aug 13 – Sunday, Aug 16
+Brisbane Lions vs. Gold Coast Suns 	Gabba 	TBD 	TBD
+Essendon vs. Sydney Swans 	MCG
+GWS Giants vs. West Coast Eagles 	ENGIE Stadium
+Hawthorn vs. Collingwood 	MCG
+North Melbourne vs. Geelong Cats 	Marvel Stadium
+Richmond vs. St Kilda 	MCG
+Western Bulldogs vs. Carlton 	Marvel Stadium
+Port Adelaide vs. Melbourne 	Adelaide Oval
+Fremantle vs. Adelaide Crows 	Optus Stadium
+Round 24
+Fixture 	Venue 	Time 	TV
+Thursday, Aug 20 – Sunday, Aug 23
+Collingwood vs. Brisbane Lions 	MCG 	TBD 	TBD
+Carlton vs. Fremantle 	Marvel Stadium
+Essendon vs. Port Adelaide 	Marvel Stadium
+Geelong Cats vs. Richmond 	GMHBA Stadium
+Melbourne vs. Western Bulldogs 	MCG
+St Kilda vs. Gold Coast Suns 	Marvel Stadium
+Sydney Swans vs. North Melbourne 	SCG
+Adelaide Crows vs. GWS Giants 	Adelaide Oval
+West Coast Eagles vs. Hawthorn 	Optus Stadium

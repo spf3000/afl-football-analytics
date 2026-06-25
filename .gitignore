@@ -55,7 +55,7 @@ venv.bak/
 *.json
 *.xlsx
 *.xls
-data/
+#data/
 datasets/
 
 # Logs
