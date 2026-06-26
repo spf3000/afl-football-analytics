@@ -11,6 +11,11 @@ models:
         tests:
           - unique
           - not_null
+      - name: squiggle_id
+        description: "Numeric team id used by the Squiggle API (stable cross-source key)"
+        tests:
+          - unique
+          - not_null
       - name: team_name
         description: "Full team name (e.g., Richmond, Collingwood)"
         tests:
@@ -67,10 +72,17 @@ models:
   - name: fct_matches
     description: >
       Fact table containing AFL match results with foreign keys to dimension tables.
-      Joins stg_match_results with dim_teams (home/away) and dim_venues.
+      Spine is stg_squiggle_games (Squiggle API); teams mapped via dim_teams.squiggle_id,
+      venues via dim_venues. Crowd/attendance is joined from the legacy .txt path
+      (stg_match_results) on season + team ids + match date, since Squiggle has no crowd.
     columns:
       - name: match_id
-        description: "Surrogate key for the match"
+        description: "Surrogate key for the match (hash of the Squiggle game_id)"
+        tests:
+          - unique
+          - not_null
+      - name: game_id
+        description: "Squiggle's unique game id (natural key)"
         tests:
           - unique
           - not_null
@@ -99,9 +111,17 @@ models:
         tests:
           - not_null
       - name: round
-        description: "Round of the season (e.g., Round 1, Qualifying Final)"
+        description: "Round name of the season (e.g., Round 1, Grand Final)"
         tests:
           - not_null
+      - name: round_number
+        description: "Numeric round (0 = Opening Round; finals continue the sequence)"
+        tests:
+          - not_null
+      - name: is_final
+        description: "TRUE if the match is a finals game"
+      - name: is_grand_final
+        description: "TRUE if the match is a Grand Final"
       - name: match_datetime
         description: "Date and time of the match"
         tests:

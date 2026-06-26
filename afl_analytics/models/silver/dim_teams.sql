@@ -1,5 +1,6 @@
 SELECT
     team_id,
+    CAST(squiggle_id AS INT) AS squiggle_id,
     team_name,
     nick_name,
     mascot,

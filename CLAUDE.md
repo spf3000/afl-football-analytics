@@ -107,7 +107,7 @@ afl_analytics/                  # dbt project root
 - **Silver**: Complete
   - `dim_teams` - team dimension (from seed_teams.csv)
   - `dim_venues` - venue dimension (from seed_venues.csv with 26 venues)
-  - `fct_matches` - match fact table with team/venue foreign keys
+  - `fct_matches` - match fact table (Squiggle spine via `stg_squiggle_games`; teams mapped by `dim_teams.squiggle_id`, attendance joined from the `.txt` path; includes finals)
 - **Gold**: In progress
   - `crowd_analysis` - match-level attendance analytics with benchmark averages
   - `elo_ratings` - team Elo ratings (Python dbt model, pandas) tracking strength 2016-2025. Rewritten from an earlier recursive-CTE SQL version (see git history) for readability; runs on Databricks serverless/cluster compute.
