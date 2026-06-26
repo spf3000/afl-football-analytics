@@ -1,0 +1,208 @@
+round,home_team_id,home_team_name,away_team_id,away_team_name,venue
+Opening Round,SYD,Sydney Swans,CAR,Carlton,SCG
+Opening Round,GCS,Gold Coast Suns,GEE,Geelong Cats,People First Stadium
+Opening Round,GWS,GWS Giants,HAW,Hawthorn,ENGIE Stadium
+Opening Round,BRI,Brisbane Lions,WB,Western Bulldogs,Gabba
+Opening Round,STK,St Kilda,COL,Collingwood,MCG
+Round 1,CAR,Carlton,RIC,Richmond,MCG
+Round 1,ESS,Essendon,HAW,Hawthorn,MCG
+Round 1,WB,Western Bulldogs,GWS,GWS Giants,Marvel Stadium
+Round 1,GEE,Geelong Cats,FRE,Fremantle,GMHBA Stadium
+Round 1,SYD,Sydney Swans,BRI,Brisbane Lions,SCG
+Round 1,COL,Collingwood,ADE,Adelaide Crows,MCG
+Round 1,NM,North Melbourne,PA,Port Adelaide,Marvel Stadium
+Round 1,MEL,Melbourne,STK,St Kilda,MCG
+Round 1,GCS,Gold Coast Suns,WCE,West Coast Eagles,People First Stadium
+Round 2,HAW,Hawthorn,SYD,Sydney Swans,MCG
+Round 2,ADE,Adelaide Crows,WB,Western Bulldogs,Adelaide Oval
+Round 2,RIC,Richmond,GCS,Gold Coast Suns,MCG
+Round 2,GWS,GWS Giants,STK,St Kilda,ENGIE Stadium
+Round 2,FRE,Fremantle,MEL,Melbourne,Optus Stadium
+Round 2,PA,Port Adelaide,ESS,Essendon,Adelaide Oval
+Round 2,WCE,West Coast Eagles,NM,North Melbourne,Optus Stadium
+Round 3,GEE,Geelong Cats,ADE,Adelaide Crows,GMHBA Stadium
+Round 3,COL,Collingwood,GWS,GWS Giants,Marvel Stadium
+Round 3,STK,St Kilda,BRI,Brisbane Lions,Marvel Stadium
+Round 3,FRE,Fremantle,RIC,Richmond,Optus Stadium
+Round 3,ESS,Essendon,NM,North Melbourne,Marvel Stadium
+Round 3,PA,Port Adelaide,WCE,West Coast Eagles,Adelaide Oval
+Round 3,CAR,Carlton,MEL,Melbourne,MCG
+Round 4,BRI,Brisbane Lions,COL,Collingwood,Gabba
+Round 4,NM,North Melbourne,CAR,Carlton,Marvel Stadium
+Round 4,ADE,Adelaide Crows,FRE,Fremantle,Adelaide Oval
+Round 4,RIC,Richmond,PA,Port Adelaide,MCG
+Round 4,WCE,West Coast Eagles,SYD,Sydney Swans,OptusStadium
+Round 4,MEL,Melbourne,GCS,Gold Coast Suns,MCG
+Round 4,WB,Western Bulldogs,ESS,Essendon,Marvel Stadium
+Round 4,HAW,Hawthorn,GEE,Geelong Cats,MCG
+Round 5,ADE,Adelaide Crows,CAR,Carlton,Adelaide Oval
+Round 5,COL,Collingwood,FRE,Fremantle,Adelaide Oval
+Round 5,NM,North Melbourne,BRI,Brisbane Lions,Barossa Park
+Round 5,ESS,Essendon,MEL,Melbourne,Adelaide Oval
+Round 5,SYD,Sydney Swans,GCS,Gold Coast Suns,Norwood Oval
+Round 5,HAW,Hawthorn,WB,Western Bulldogs,Adelaide Oval
+Round 5,GEE,Geelong Cats,WCE,West Coast Eagles,Norwood Oval
+Round 5,GWS,GWS Giants,RIC,Richmond,Barossa Park
+Round 5,PA,Port Adelaide,STK,St Kilda,Adelaide Oval
+Round 6,CAR,Carlton,COL,Collingwood,MCG
+Round 6,GEE,Geelong Cats,WB,Western Bulldogs,GMHBA Stadium
+Round 6,SYD,Sydney Swans,GWS,GWS Giants,SCG
+Round 6,GCS,Gold Coast Suns,ESS,Essendon,People First Stadium
+Round 6,HAW,Hawthorn,PA,Port Adelaide,Marvel Stadium
+Round 6,ADE,Adelaide Crows,STK,St Kilda,Adelaide Oval
+Round 6,NM,North Melbourne,RIC,Richmond,Marvel Stadium
+Round 6,MEL,Melbourne,BRI,Brisbane Lions,MCG
+Round 6,WCE,West Coast Eagles,FRE,Fremantle,Optus Stadium
+Round 7,WB,Western Bulldogs,SYD,Sydney Swans,Marvel Stadium
+Round 7,RIC,Richmond,MEL,Melbourne,MCG
+Round 7,HAW,Hawthorn,GCS,Gold Coast Suns,UTAS Stadium
+Round 7,ESS,Essendon,COL,Collingwood,MCG
+Round 7,PA,Port Adelaide,GEE,Geelong Cats,Adelaide Oval
+Round 7,FRE,Fremantle,CAR,Carlton,Optus Stadium
+Round 7,STK,St Kilda,WCE,West Coast Eagles,Marvel Stadium
+Round 7,BRI,Brisbane Lions,ADE,Adelaide Crows,Gabba
+Round 7,GWS,GWS Giants,NM,North Melbourne,Manuka Oval
+Round 8,COL,Collingwood,HAW,Hawthorn,MCG
+Round 8,WB,Western Bulldogs,FRE,Fremantle,Marvel Stadium
+Round 8,ADE,Adelaide Crows,PA,Port Adelaide,Adelaide Oval
+Round 8,ESS,Essendon,BRI,Brisbane Lions,Marvel Stadium
+Round 8,WCE,West Coast Eagles,RIC,Richmond,Optus Stadium
+Round 8,GEE,Geelong Cats,NM,North Melbourne,GMHBA Stadium
+Round 8,CAR,Carlton,STK,St Kilda,Marvel Stadium
+Round 8,SYD,Sydney Swans,MEL,Melbourne,SCG
+Round 8,GCS,Gold Coast Suns,GWS,GWS Giants,People First Stadium
+Round 9,FRE,Fremantle,HAW,Hawthorn,Optus Stadium
+Round 9,BRI,Brisbane Lions,CAR,Carlton,Gabba
+Round 9,PA,Port Adelaide,WB,Western Bulldogs,Adelaide Oval
+Round 9,NM,North Melbourne,SYD,Sydney Swans,Marvel Stadium
+Round 9,GWS,GWS Giants,ESS,Essendon,ENGIE Stadium
+Round 9,GCS,Gold Coast Suns,STK,St Kilda,TIO Stadium
+Round 9,GEE,Geelong Cats,COL,Collingwood,MCG
+Round 9,MEL,Melbourne,WCE,West Coast Eagles,MCG
+Round 9,RIC,Richmond,ADE,Adelaide Crows,MCG
+Round 10,GCS,Gold Coast Suns,HAW,Hawthorn,TIO Stadium
+Round 10,SYD,Sydney Swans,COL,Collingwood,SCG
+Round 10,GCS,Gold Coast Suns,PA,Port Adelaide,TIO Stadium
+Round 10,ADE,Adelaide Crows,NM,North Melbourne,Adelaide Oval
+Round 10,MEL,Melbourne,HAW,Hawthorn,MCG
+Round 10,CAR,Carlton,WB,Western Bulldogs,Marvel Stadium
+Round 10,ESS,Essendon,FRE,Fremantle,MCG
+Round 10,STK,St Kilda,RIC,Richmond,Marvel Stadium
+Round 10,WCE,West Coast Eagles,GWS,GWS Giants,Optus Stadium
+Round 11,HAW,Hawthorn,ADE,Adelaide Crows,UTAS Stadium
+Round 11,RIC,Richmond,ESS,Essendon,MCG
+Round 11,FRE,Fremantle,STK,St Kilda,Optus Stadium
+Round 11,NM,North Melbourne,GCS,Gold Coast Suns,Marvel Stadium
+Round 11,GEE,Geelong Cats,SYD,Sydney Swans,GMHBA Stadium
+Round 11,COL,Collingwood,WCE,West Coast Eagles,MCG
+Round 11,PA,Port Adelaide,CAR,Carlton,Adelaide Oval
+Round 11,GWS,GWS Giants,BRI,Brisbane Lions,ENGIE Stadium
+Round 11,WB,Western Bulldogs,MEL,Melbourne,Marvel Stadium
+Round 12,STK,St Kilda,HAW,Hawthorn,Marvel Stadium
+Round 12,CAR,Carlton,GEE,Geelong Cats,MCG
+Round 12,SYD,Sydney Swans,RIC,Richmond,SCG
+Round 12,BRI,Brisbane Lions,FRE,Fremantle,Gabba
+Round 12,WB,Western Bulldogs,COL,Collingwood,Marvel Stadium
+Round 12,MEL,Melbourne,GWS,GWS Giants,TIO Traeger Park
+Round 12,WCE,West Coast Eagles,ESS,Essendon,Optus Stadium
+Round 13,ADE,Adelaide Crows,GEE,Geelong Cats,Adelaide Oval
+Round 13,HAW,Hawthorn,WB,Western Bulldogs,MCG
+Round 13,NM,North Melbourne,FRE,Fremantle,"Hands Oval, Bunbury"
+Round 13,GCS,Gold Coast Suns,BRI,Brisbane Lions,People First Stadium
+Round 13,WCE,West Coast Eagles,PA,Port Adelaide,Optus Stadium
+Round 13,SYD,Sydney Swans,STK,St Kilda,SCG
+Round 13,ESS,Essendon,CAR,Carlton,MCG
+Round 13,COL,Collingwood,MEL,Melbourne,MCG
+Round 14,WB,Western Bulldogs,ADE,Adelaide Crows,Marvel Stadium
+Round 14,GEE,Geelong Cats,GCS,Gold Coast Suns,GMHBA Stadium
+Round 14,MEL,Melbourne,ESS,Essendon,MCG
+Round 14,NM,North Melbourne,WCE,West Coast Eagles,Optus Stadium
+Round 14,PA,Port Adelaide,SYD,Sydney Swans,Adelaide Oval
+Round 14,RIC,Richmond,BRI,Brisbane Lions,Ninja Stadium
+Round 14,STK,St Kilda,GWS,GWS Giants,Marvel Stadium
+Round 15,FRE,Fremantle,GEE,Geelong Cats,Optus Stadium
+Round 15,GCS,Gold Coast Suns,HAW,Hawthorn,People First Stadium
+Round 15,ADE,Adelaide Crows,MEL,Melbourne,Adelaide Oval
+Round 15,GWS,GWS Giants,CAR,Carlton,ENGIE Stadium
+Round 15,COL,Collingwood,PA,Port Adelaide,MCG
+Round 15,RIC,Richmond,NM,North Melbourne,MCG
+Round 15,STK,St Kilda,WB,Western Bulldogs,Marvel Stadium
+Round 16,BRI,Brisbane Lions,SYD,Sydney Swans,Gabba
+Round 16,CAR,Carlton,WCE,West Coast Eagles,Marvel Stadium
+Round 16,COL,Collingwood,RIC,Richmond,MCG
+Round 16,HAW,Hawthorn,GWS,GWS Giants,MCG
+Round 16,NM,North Melbourne,ESS,Essendon,Marvel Stadium
+Round 16,PA,Port Adelaide,ADE,Adelaide Crows,Adelaide Oval
+Round 16,FRE,Fremantle,GCS,Gold Coast Suns,Optus Stadium
+Round 17,ESS,Essendon,STK,St Kilda,Marvel Stadium
+Round 17,GEE,Geelong Cats,BRI,Brisbane Lions,GMHBA Stadium
+Round 17,GCS,Gold Coast Suns,COL,Collingwood,People First Stadium
+Round 17,GWS,GWS Giants,FRE,Fremantle,Manuka Oval
+Round 17,HAW,Hawthorn,MEL,Melbourne,UTAS Stadium
+Round 17,RIC,Richmond,CAR,Carlton,MCG
+Round 17,SYD,Sydney Swans,WB,Western Bulldogs,SCG
+Round 17,PA,Port Adelaide,NM,North Melbourne,Adelaide Oval
+Round 17,WCE,West Coast Eagles,ADE,Adelaide Crows,Optus Stadium
+Round 18,BRI,Brisbane Lions,ESS,Essendon,Gabba
+Round 18,CAR,Carlton,HAW,Hawthorn,MCG
+Round 18,COL,Collingwood,NM,North Melbourne,Marvel Stadium
+Round 18,GWS,GWS Giants,GEE,Geelong Cats,ENGIE Stadium
+Round 18,MEL,Melbourne,RIC,Richmond,MCG
+Round 18,STK,St Kilda,PA,Port Adelaide,Marvel Stadium
+Round 18,WB,Western Bulldogs,WCE,West Coast Eagles,Marvel Stadium
+Round 18,ADE,Adelaide Crows,GCS,Gold Coast Suns,Adelaide Oval
+Round 18,FRE,Fremantle,SYD,Sydney Swans,Optus Stadium
+Round 19,COL,Collingwood,CAR,Carlton,MCG
+Round 19,ESS,Essendon,GWS,GWS Giants,Marvel Stadium
+Round 19,GEE,Geelong Cats,STK,St Kilda,GMHBA Stadium
+Round 19,GCS,Gold Coast Suns,WB,Western Bulldogs,People First Stadium
+Round 19,NM,North Melbourne,MEL,Melbourne,Marvel Stadium
+Round 19,RIC,Richmond,HAW,Hawthorn,MCG
+Round 19,SYD,Sydney Swans,ADE,Adelaide Crows,SCG
+Round 19,PA,Port Adelaide,FRE,Fremantle,Adelaide Oval
+Round 19,WCE,West Coast Eagles,BRI,Brisbane Lions,Optus Stadium
+Round 20,BRI,Brisbane Lions,PA,Port Adelaide,Gabba
+Round 20,CAR,Carlton,GCS,Gold Coast Suns,Marvel Stadium
+Round 20,GWS,GWS Giants,SYD,Sydney Swans,ENGIE Stadium
+Round 20,HAW,Hawthorn,ESS,Essendon,MCG
+Round 20,NM,North Melbourne,STK,St Kilda,Marvel Stadium
+Round 20,MEL,Melbourne,GEE,Geelong Cats,MCG
+Round 20,WB,Western Bulldogs,RIC,Richmond,Marvel Stadium
+Round 20,ADE,Adelaide Crows,COL,Collingwood,Adelaide Oval
+Round 20,FRE,Fremantle,WCE,West Coast Eagles,Adelaide Oval
+Round 21,CAR,Carlton,BRI,Brisbane Lions,Marvel Stadium
+Round 21,COL,Collingwood,GEE,Geelong Cats,MCG
+Round 21,ESS,Essendon,ADE,Adelaide Crows,Marvel Stadium
+Round 21,GCS,Gold Coast Suns,MEL,Melbourne,People First Stadium
+Round 21,HAW,Hawthorn,NM,North Melbourne,UTAS Stadium
+Round 21,RIC,Richmond,WCE,West Coast Eagles,MCG
+Round 21,STK,St Kilda,SYD,Sydney Swans,Marvel Stadium
+Round 21,PA,Port Adelaide,GWS,GWS Giants,Adelaide Oval
+Round 21,FRE,Fremantle,WB,Western Bulldogs,Optus Stadium
+Round 22,BRI,Brisbane Lions,HAW,Hawthorn,Gabba
+Round 22,GEE,Geelong Cats,ESS,Essendon,GMHBA Stadium
+Round 22,GWS,GWS Giants,GCS,Gold Coast Suns,Manuka Oval
+Round 22,MEL,Melbourne,FRE,Fremantle,MCG
+Round 22,STK,St Kilda,CAR,Carlton,Marvel Stadium
+Round 22,SYD,Sydney Swans,PA,Port Adelaide,SCG
+Round 22,WB,Western Bulldogs,NM,North Melbourne,Marvel Stadium
+Round 22,ADE,Adelaide Crows,RIC,Richmond,Adelaide Oval
+Round 22,WCE,West Coast Eagles,COL,Collingwood,Optus Stadium
+Round 23,BRI,Brisbane Lions,GCS,Gold Coast Suns,Gabba
+Round 23,ESS,Essendon,SYD,Sydney Swans,MCG
+Round 23,GWS,GWS Giants,WCE,West Coast Eagles,ENGIE Stadium
+Round 23,HAW,Hawthorn,COL,Collingwood,MCG
+Round 23,NM,North Melbourne,GEE,Geelong Cats,Marvel Stadium
+Round 23,RIC,Richmond,STK,St Kilda,MCG
+Round 23,WB,Western Bulldogs,CAR,Carlton,Marvel Stadium
+Round 23,PA,Port Adelaide,MEL,Melbourne,Adelaide Oval
+Round 23,FRE,Fremantle,ADE,Adelaide Crows,Optus Stadium
+Round 24,COL,Collingwood,BRI,Brisbane Lions,MCG
+Round 24,CAR,Carlton,FRE,Fremantle,Marvel Stadium
+Round 24,ESS,Essendon,PA,Port Adelaide,Marvel Stadium
+Round 24,GEE,Geelong Cats,RIC,Richmond,GMHBA Stadium
+Round 24,MEL,Melbourne,WB,Western Bulldogs,MCG
+Round 24,STK,St Kilda,GCS,Gold Coast Suns,Marvel Stadium
+Round 24,SYD,Sydney Swans,NM,North Melbourne,SCG
+Round 24,ADE,Adelaide Crows,GWS,GWS Giants,Adelaide Oval
+Round 24,WCE,West Coast Eagles,HAW,Hawthorn,Optus Stadium

@@ -1,0 +1,26 @@
+venue_id,venue_name,current_sponsored_name,aliases,city,state,capacity,first_afl_use,current_tenants
+MCG,Melbourne Cricket Ground,,"MCG;The G;M.C.G.",Melbourne,Victoria,100024,1897,"Collingwood;Hawthorn;Melbourne;Richmond;Essendon;Carlton"
+OPT,Perth Stadium,Optus Stadium,,Perth,Western Australia,61266,2018,"West Coast;Fremantle"
+DOC,Docklands Stadium,Marvel Stadium,"Colonial Stadium;Telstra Dome;Etihad Stadium;Docklands",Melbourne,Victoria,56347,2000,"Essendon;North Melbourne;St Kilda;Western Bulldogs;Carlton"
+ADE,Adelaide Oval,,,Adelaide,South Australia,53583,1877,"Adelaide;Port Adelaide"
+SCG,Sydney Cricket Ground,,"SCG;S.C.G.",Sydney,New South Wales,48000,1903,Sydney
+GAB,The Gabba,,"Brisbane Cricket Ground;Gabba",Brisbane,Queensland,42000,1991,Brisbane
+KAR,Kardinia Park,GMHBA Stadium,"Shell Stadium;Baytec Stadium;Skilled Stadium;Simonds Stadium",Geelong,Victoria,40000,1941,Geelong
+CAR,Carrara Stadium,People First Stadium,"Metricon Stadium;Heritage Bank Stadium;Carrara",Gold Coast,Queensland,25000,1987,Gold Coast
+SYS,Sydney Showground Stadium,ENGIE Stadium,"Skoda Stadium;Spotless Stadium;GIANTS Stadium;Sydney Showground",Sydney,New South Wales,23500,2012,Greater Western Sydney
+BEL,Bellerive Oval,Ninja Stadium,Blundstone Arena,Hobart,Tasmania,19500,2012,"Richmond;Tasmania"
+YOR,York Park,UTAS Stadium,"Aurora Stadium;University of Tasmania Stadium",Launceston,Tasmania,15615,2001,"Hawthorn;Tasmania"
+MAN,Manuka Oval,Corrobbee Group Oval,"StarTrack Oval Canberra;UNSW Canberra Oval",Canberra,ACT,15000,1998,Greater Western Sydney
+MAR,Marrara Oval,TIO Stadium,,Darwin,Northern Territory,12000,2004,Gold Coast
+EUR,Eureka Stadium,Mars Stadium,,Ballarat,Victoria,11000,2017,Western Bulldogs
+TRA,Traeger Park,TIO Traeger Park,,Alice Springs,Northern Territory,10000,2014,Melbourne
+HAN,Hands Oval,,"JE Hands Memorial Park",South Bunbury,Western Australia,8000,2025,North Melbourne
+CAZ,Cazalys Stadium,,"Cazaly's Stadium",Cairns,Queensland,13500,2011,
+JIA,Jiangwan Stadium,,"Adelaide Arena at Jiangwan Stadium",Shanghai,China,11000,2017,Port Adelaide
+NOR,Norwood Oval,,,Norwood,South Australia,10000,2023,
+RIV,Riverway Stadium,,,Townsville,Queensland,10000,2019,
+BAR,Barossa Park,,,Lyndoch,South Australia,10000,2024,
+SUM,Summit Sport and Recreation Park,,Adelaide Hills,Mount Barker,South Australia,7329,2023,
+WEL,Wellington Regional Stadium,,Westpac Stadium,Wellington,New Zealand,36000,2013,St Kilda
+SUB,Subiaco Oval,,"Patersons Stadium;Domain Stadium;Subiaco",Perth,Western Australia,42922,1987,
+STA,Stadium Australia,Accor Stadium,"Telstra Stadium;ANZ Stadium",Sydney Olympic Park,New South Wales,82500,2002,Sydney

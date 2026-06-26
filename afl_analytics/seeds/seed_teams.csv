@@ -1,0 +1,19 @@
+team_id,team_name,nick_name,mascot,primary_colour,secondary_colour,home_state,home_city,founded_year,squiggle_id
+ADE,Adelaide,Crows,Crow,Navy Blue,Red,South Australia,Adelaide,1990,1
+BRI,Brisbane,Lions,Lion,Maroon,Blue,Queensland,Brisbane,1996,2
+CAR,Carlton,Blues,Captain Carlton,Navy Blue,White,Victoria,Melbourne,1864,3
+COL,Collingwood,Magpies,Jock "One Eye" McPie,Black,White,Victoria,Melbourne,1892,4
+ESS,Essendon,Bombers,Skeeta,Red,Black,Victoria,Melbourne,1872,5
+FRE,Fremantle,Dockers,Johnny The Doc Docker,Purple,White,Western Australia,Fremantle,1994,6
+GEE,Geelong,Cats,Half-Cat,Navy Blue,White,Victoria,Geelong,1859,7
+GWS,Greater Western Sydney,Giants,G-Man,Orange,Charcoal,New South Wales,Sydney,2010,9
+GCS,Gold Coast,Suns,Borobi,Deep Red,Sunburnt Gold,Queensland,Gold Coast,2009,8
+HAW,Hawthorn,Hawks,Hawka,Brown,Gold,Victoria,Melbourne,1902,10
+MEL,Melbourne,Demons,Checker,Navy Blue,Red,Victoria,Melbourne,1858,11
+NM,North Melbourne,Kangaroos,Kangaroo,Royal Blue,White,Victoria,Melbourne,1869,12
+PA,Port Adelaide,Power,Tommy "Thunda" Power,Black,White,South Australia,Alberton,1870,13
+RIC,Richmond,Tigers,Tiger Stripes Dyer,Black,Yellow,Victoria,Melbourne,1885,14
+STK,St Kilda,Saints,Trevor "Saint" Kilda,Red,White,Victoria,Melbourne,1873,15
+SYD,Sydney,Swans,Cyggy,Red,White,New South Wales,Sydney,1874,16
+WB,Western Bulldogs,Bulldogs,Woofer,Royal Blue,Red,Victoria,Melbourne,1877,18
+WCE,West Coast,Eagles,Auzzie,Royal Blue,Gold,Western Australia,Perth,1986,17
