@@ -34,14 +34,29 @@ uv run dbt docs generate && uv run dbt docs serve  # Generate and view docs
 ## Architecture
 
 ### Data Flow
+
+Two ingestion paths feed the raw layer:
+
+**Match results (automated, preferred):**
+1. **Squiggle API** → `scripts/fetch_squiggle_games.py` (run locally) → `raw.squiggle_games`
+2. **Bronze** (dbt) → `bronze.stg_squiggle_games` - typed, tested, completed games only
+
+**Attendance / legacy (.txt path — still needed, Squiggle has no crowd field):**
 1. **Raw .txt files** → Uploaded to Databricks Volume (`/Volumes/afl_analytics_dev/raw/afl_raw_files/`)
 2. **Python parser** (`afl_analytics/scripts/stg_match_results.py`) → Run in Databricks to create `raw.match_results_parsed`
-3. **Bronze layer** (dbt) → `bronze.stg_match_results` - typed and tested
-4. **Silver layer** (dbt) → Dimension/fact tables (e.g., `dim_teams`)
-5. **Gold layer** (dbt) → Analytics models (planned: Elo ratings, predictions)
+3. **Bronze** (dbt) → `bronze.stg_match_results` - typed and tested (carries crowd/attendance)
+
+Both bronze models feed:
+- **Silver layer** (dbt) → Dimension/fact tables (e.g., `dim_teams`, `fct_matches`)
+- **Gold layer** (dbt) → Analytics models (`elo_ratings`, `crowd_analysis`)
 
 ### Critical Workflow
-If the raw data schema changes or new years are added:
+
+**Refresh match results (Squiggle, run locally):**
+1. `cd afl_analytics && uv run python scripts/fetch_squiggle_games.py` (use `--years` / `--no-cache` as needed)
+2. `uv run dbt run --select stg_squiggle_games` then `uv run dbt test --select stg_squiggle_games`
+
+**Update attendance / legacy .txt data:**
 1. Edit `afl_analytics/scripts/stg_match_results.py` (e.g., add year to `YEARS` list)
 2. Run the parser script **in Databricks** to update `raw.match_results_parsed`
 3. Then run `uv run dbt run` locally
@@ -51,8 +66,10 @@ If the raw data schema changes or new years are added:
 afl_analytics/                  # dbt project root
 ├── dbt_project.yml            # dbt config (profile: afl_analytics)
 ├── models/
-│   ├── bronze/                # Raw → typed (stg_match_results.sql)
-│   │   ├── _sources.yml       # Source definitions (raw.match_results_parsed)
+│   ├── bronze/                # Raw → typed
+│   │   ├── stg_match_results.sql   # From raw.match_results_parsed (.txt path, has crowd)
+│   │   ├── stg_squiggle_games.sql  # From raw.squiggle_games (Squiggle API, automated)
+│   │   ├── _sources.yml       # Source definitions (raw.match_results_parsed, raw.squiggle_games + freshness)
 │   │   └── _models.yml        # Column docs and tests
 │   ├── silver/                # Dimension/fact tables
 │   │   ├── dim_teams.sql      # Team dimension
@@ -63,13 +80,17 @@ afl_analytics/                  # dbt project root
 │       ├── crowd_analysis.sql # Match-level attendance analytics
 │       └── _models.yml        # Column docs and tests
 ├── seeds/                     # Static reference data (seed_teams.csv, seed_venues.csv)
-└── scripts/                   # Python scripts to run in Databricks
+└── scripts/                   # Python scripts
+    ├── fetch_squiggle_games.py # Local: fetch Squiggle API → raw.squiggle_games
+    ├── stg_match_results.py    # Databricks: parse .txt → raw.match_results_parsed
+    └── predict_ladder.py       # Local: Monte Carlo 2026 ladder from elo_ratings
 ```
 
 ### Databricks Configuration
 - Catalog: `afl_analytics_dev`
-- Schemas: `raw`, `bronze`, `silver`, `gold`
+- Schemas: `raw`, `bronze`, `silver`, `gold` (dbt prefixes with the profile's `default` schema, e.g. `default_gold.elo_ratings`)
 - Connection: Requires `DATABRICKS_TOKEN` env var and `~/.dbt/profiles.yml`
+- **Token scopes**: SQL models need only `sql`. The `elo_ratings` **Python model** runs on serverless jobs compute (`submission_method='serverless_cluster'`) and additionally needs `jobs`, `workspace`, and `access-management` scopes on the PAT.
 
 ## Conventions
 
@@ -80,7 +101,9 @@ afl_analytics/                  # dbt project root
 
 ## Current State
 
-- **Bronze**: Complete (`stg_match_results` with 2016-2025 data)
+- **Bronze**: Complete
+  - `stg_match_results` - from .txt parser (2016-2025), carries crowd/attendance
+  - `stg_squiggle_games` - automated match results from the Squiggle API (2016-2025, 2052 games)
 - **Silver**: Complete
   - `dim_teams` - team dimension (from seed_teams.csv)
   - `dim_venues` - venue dimension (from seed_venues.csv with 26 venues)

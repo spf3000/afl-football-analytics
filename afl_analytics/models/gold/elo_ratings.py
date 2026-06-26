@@ -7,10 +7,13 @@ def model(dbt, session):
         materialized="table",
         tags=["gold", "analytics"],
         schema="gold",
+        # Run on Databricks serverless jobs compute: a SQL warehouse can't
+        # execute PySpark Python models, and there's no interactive cluster.
+        submission_method="serverless_cluster",
     )
 
     # --- Parameters ---
-    STARTING_ELO = 1500
+    STARTING_ELO = 1500.0
     K_FACTOR = 40
     HOME_ADVANTAGE = 45
     REGRESSION_FRACTION = 1 / 3
