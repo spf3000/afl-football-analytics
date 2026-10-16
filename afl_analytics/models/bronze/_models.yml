@@ -50,8 +50,9 @@ models:
         tests:
           - not_null
           - dbt_utils.accepted_range:
-              min_value: 0
-              max_value: 300
+              arguments:
+                min_value: 0
+                max_value: 300
               severity: warn
       
       - name: away_score
@@ -59,8 +60,9 @@ models:
         tests:
           - not_null
           - dbt_utils.accepted_range:
-              min_value: 0
-              max_value: 300
+              arguments:
+                min_value: 0
+                max_value: 300
               severity: warn
       
       - name: margin
@@ -73,7 +75,8 @@ models:
         tests:
           - not_null
           - accepted_values:
-              values: ['home_win', 'away_win', 'draw']
+              arguments:
+                values: ['home_win', 'away_win', 'draw']
       
       - name: result_raw
         description: "Raw result string from source (e.g., '105-81')"
@@ -126,16 +129,18 @@ models:
         tests:
           - not_null
           - dbt_utils.accepted_range:
-              min_value: 0
-              max_value: 300
+              arguments:
+                min_value: 0
+                max_value: 300
               severity: warn
       - name: away_score
         description: "Away team final score"
         tests:
           - not_null
           - dbt_utils.accepted_range:
-              min_value: 0
-              max_value: 300
+              arguments:
+                min_value: 0
+                max_value: 300
               severity: warn
       - name: margin
         description: "Score differential (home_score - away_score)"
@@ -146,7 +151,8 @@ models:
         tests:
           - not_null
           - accepted_values:
-              values: ['home_win', 'away_win', 'draw']
+              arguments:
+                values: ['home_win', 'away_win', 'draw']
       - name: _ingested_at
         description: "Timestamp when the Squiggle fetch script loaded the raw row"
         tests:

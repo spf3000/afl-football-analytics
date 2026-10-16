@@ -77,8 +77,9 @@ models:
         tests:
           - not_null
           - relationships:
-              to: ref('dim_teams')
-              field: team_id
+              arguments:
+                to: ref('dim_teams')
+                field: team_id
       - name: team_name
         description: "Team name"
         tests:
@@ -88,8 +89,9 @@ models:
         tests:
           - not_null
           - relationships:
-              to: ref('dim_teams')
-              field: team_id
+              arguments:
+                to: ref('dim_teams')
+                field: team_id
       - name: opponent_team_name
         description: "Opponent team name"
         tests:
@@ -115,16 +117,18 @@ models:
         tests:
           - not_null
           - dbt_utils.accepted_range:
-              min_value: 1000
-              max_value: 2000
+              arguments:
+                min_value: 1000
+                max_value: 2000
               severity: warn
       - name: opponent_pre_match_elo
         description: "Opponent Elo rating before this match"
         tests:
           - not_null
           - dbt_utils.accepted_range:
-              min_value: 1000
-              max_value: 2000
+              arguments:
+                min_value: 1000
+                max_value: 2000
               severity: warn
       - name: home_advantage_applied
         description: "Elo points of home advantage applied (45 for home team, 0 for away)"
@@ -135,14 +139,16 @@ models:
         tests:
           - not_null
           - dbt_utils.accepted_range:
-              min_value: 0.0
-              max_value: 1.0
+              arguments:
+                min_value: 0.0
+                max_value: 1.0
       - name: actual_result
         description: "Match result: 1.0 = win, 0.5 = draw, 0.0 = loss"
         tests:
           - not_null
           - accepted_values:
-              values: [1.0, 0.5, 0.0]
+              arguments:
+                values: [1.0, 0.5, 0.0]
       - name: elo_change
         description: "Elo points gained or lost from this match"
         tests:
@@ -152,8 +158,9 @@ models:
         tests:
           - not_null
           - dbt_utils.accepted_range:
-              min_value: 1000
-              max_value: 2000
+              arguments:
+                min_value: 1000
+                max_value: 2000
               severity: warn
       - name: team_match_number
         description: "Cumulative match number for this team across all seasons"

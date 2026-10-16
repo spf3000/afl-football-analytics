@@ -91,21 +91,24 @@ models:
         tests:
           - not_null
           - relationships:
-              to: ref('dim_teams')
-              field: team_id
+              arguments:
+                to: ref('dim_teams')
+                field: team_id
       - name: away_team_id
         description: "Foreign key to dim_teams for away team"
         tests:
           - not_null
           - relationships:
-              to: ref('dim_teams')
-              field: team_id
+              arguments:
+                to: ref('dim_teams')
+                field: team_id
       - name: venue_id
         description: "Foreign key to dim_venues"
         tests:
           - relationships:
-              to: ref('dim_venues')
-              field: venue_id
+              arguments:
+                to: ref('dim_venues')
+                field: venue_id
       - name: season
         description: "AFL season year"
         tests:
@@ -143,7 +146,8 @@ models:
         tests:
           - not_null
           - accepted_values:
-              values: ['home_win', 'away_win', 'draw']
+              arguments:
+                values: ['home_win', 'away_win', 'draw']
       - name: attendance
         description: "Crowd size at the match"
       - name: home_team_name
