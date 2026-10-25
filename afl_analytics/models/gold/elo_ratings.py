@@ -17,15 +17,16 @@ def model(dbt, session):
     K_FACTOR = 40
     HOME_ADVANTAGE = 45
     REGRESSION_FRACTION = 1 / 3
+    SCALE = 30
 
     # --- Load upstream models ---
     fct_matches = dbt.ref("fct_matches").toPandas()
     dim_teams = dbt.ref("dim_teams").toPandas()
 
     # Sort matches chronologically with match_id as tiebreaker
-    fct_matches = fct_matches.sort_values(
-        ["match_datetime", "match_id"]
-    ).reset_index(drop=True)
+    fct_matches = fct_matches.sort_values(["match_datetime", "match_id"]).reset_index(
+        drop=True
+    )
 
     # --- Initialise ratings ---
     team_ids = dim_teams["team_id"].tolist()
@@ -35,8 +36,8 @@ def model(dbt, session):
     def expected_win_prob(rating, opponent_rating, home_adv):
         return 1.0 / (1.0 + 10 ** (-(rating - opponent_rating + home_adv) / 400))
 
-    def margin_multiplier(margin):
-        return np.log(abs(margin) + 1) * 2.2
+    def outcome_score(margin):
+        return 1.0 / (1.0 + np.exp(-margin / SCALE))
 
     # --- Process matches ---
     records = []
@@ -79,9 +80,10 @@ def model(dbt, session):
             away_actual = 0.5
 
         # Margin-adjusted elo change
-        mov = margin_multiplier(margin)
-        home_change = K_FACTOR * mov * (home_actual - home_exp)
-        away_change = K_FACTOR * mov * (away_actual - away_exp)
+        home_outcome = outcome_score(margin)
+        away_outcome = 1.0 - home_outcome
+        home_change = K_FACTOR * (home_outcome - home_exp)
+        away_change = K_FACTOR * (away_outcome - away_exp)
 
         # Update counters
         team_match_counter[home_id] = team_match_counter.get(home_id, 0) + 1
@@ -110,6 +112,7 @@ def model(dbt, session):
                 "post_match_elo": round(home_elo + home_change, 2),
                 "team_match_number": team_match_counter[home_id],
                 "season_match_number": season_match_counter[home_id],
+                "outcome_score": round(home_outcome, 4),
             }
         )
 
@@ -134,6 +137,7 @@ def model(dbt, session):
                 "post_match_elo": round(away_elo + away_change, 2),
                 "team_match_number": team_match_counter[away_id],
                 "season_match_number": season_match_counter[away_id],
+                "outcome_score": round(away_outcome, 4),
             }
         )
 
@@ -168,6 +172,7 @@ def model(dbt, session):
             "home_advantage_applied",
             "expected_win_prob",
             "actual_result",
+            "outcome_score",
             "elo_change",
             "post_match_elo",
             "team_match_number",

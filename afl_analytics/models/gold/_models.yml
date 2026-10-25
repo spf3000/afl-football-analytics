@@ -59,9 +59,13 @@ models:
   - name: elo_ratings
     description: >
       Team-level Elo ratings computed chronologically across all AFL matches
-      (2016-2025). One row per team per match (2 rows per game). Ratings start
-      at 1500, use a margin-adjusted K-factor of 40, 45-point home advantage,
-      and regress 1/3 toward 1500 between seasons.
+      in fct_matches. One row per team per match (2 rows per game). Ratings
+      start at 1500. Each match is scored as a margin-based outcome,
+      1 / (1 + exp(-margin / 30)), so a draw = 0.5 and a big win approaches 1.
+      Ratings update by K × (outcome − expected), with K = 40, so no single
+      match can move a rating more than K points. The home team gets a
+      45-point Elo advantage, and ratings regress 1/3 toward 1500 between
+      seasons. Changes are zero-sum within each match.
     columns:
       - name: elo_record_id
         description: "Surrogate key (match_id + team_id)"
@@ -135,7 +139,10 @@ models:
         tests:
           - not_null
       - name: expected_win_prob
-        description: "Pre-match expected win probability based on Elo ratings"
+        description: >
+          Pre-match expected outcome score from the Elo ratings (incl. home
+          advantage). Used as the win probability in elo_evaluation; how well
+          it is calibrated to actual win/loss is checked there.
         tests:
           - not_null
           - dbt_utils.accepted_range:
@@ -149,6 +156,16 @@ models:
           - accepted_values:
               arguments:
                 values: [1.0, 0.5, 0.0]
+      - name: outcome_score
+        description: >
+          Margin-based match outcome, 1 / (1 + exp(-margin / 30)): 0.5 = draw,
+          ~0.73 = 30-point win, ~0.88 = 60-point win. The value Elo updates
+          against. actual_result (1 / 0.5 / 0) is kept for evaluation.
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0.0
+                max_value: 1.0
       - name: elo_change
         description: "Elo points gained or lost from this match"
         tests:
@@ -170,3 +187,19 @@ models:
         description: "Match number for this team within the current season"
         tests:
           - not_null
+  - name: elo_evaluation
+    description: "Evaluation based on results of the calculated elos, using Brier score"
+    columns:
+      - name: season
+        description: "year of play"
+        tests:
+          - not_null
+      - name: games
+        description: "number of games played"
+      - name: brier
+        description: "Brier score - averaged over the year"
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0.0
+                max_value: 1.0

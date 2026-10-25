@@ -16,8 +16,9 @@ Already done (don't redo): sources declared in `models/bronze/_sources.yml` (bot
 - [x] `uv run dbt parse --no-partial-parse --show-all-deprecations` — fixed 17× `MissingArgumentsPropertyInGenericTestDeprecation` (generic-test args now under `arguments:`). Partial parsing hides deprecations, hence the flags
 - [x] Load the 2026 season — fetched with `--years 2016 ... 2026` (the script does `CREATE OR REPLACE`, so `--years 2026` alone would wipe 2016–2025), then `uv run dbt build`: PASS=101 WARN=3. `DEFAULT_YEARS` in the script still stops at 2025
 - [ ] **Next up → [elo-plan.md](elo-plan.md):** fix Elo scaling and home advantage, measured by a new `elo_evaluation` gold model (Brier / log loss / tip accuracy per season). Currently 448 rows outside 1000–2000
-  - [ ] 1. Baseline `elo_evaluation` model and record the numbers
-  - [ ] 2. Margin-as-outcome instead of the MOV multiplier (fixes draws too)
+  - [x] 1. Baseline `elo_evaluation` model and record the numbers (Brier 0.2534, log loss 0.7775, tips 63.1%: overconfident)
+  - [x] 2. Margin-as-outcome instead of the MOV multiplier (fixes draws too): Brier 0.2104, log loss 0.6149, tips 67.9%
+  - [ ] 3a. Measure home advantage by team × venue (`home_advantage` gold model; 2020 crowd-free comparison)
   - [ ] 3. Home advantage from travel + venue familiarity (not a flat 45)
   - [ ] 4. Tune locally (`scripts/tune_elo.py`), bake the parameters into the dbt model
   - [ ] 5. Tighten Elo tests (1200–1800, error) + zero-sum singular test
